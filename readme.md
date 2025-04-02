@@ -14,10 +14,6 @@ TitanJS sits at the foundation of the **[Titan JavaScript Stack](https://cyberk.
 
 - **[TitanJS](https://cyberk.io/stack/titanjs)** → Powers signing across Cosmos, Ethereum (EIP-712), and beyond.
 - **[Titan Kit](https://cyberk.io/stack/titan-kit)** → Wallet adapters that connect dApps to multiple blockchain networks.
-- **[Titan UI](https://cyberk.io/stack/titan-ui)** → A flexible UI component library for seamless app design.
-- **[Create Titan App](https://cyberk.io/stack/create-titan-app)** → A developer-friendly starter kit for cross-chain applications. 
-
-This modular architecture ensures **compatibility, extensibility, and ease of use**, allowing developers to compose powerful blockchain applications without deep protocol-specific knowledge.
 
 ### Visualizing TitanJS Components
 

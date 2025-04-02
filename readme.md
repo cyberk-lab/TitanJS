@@ -26,7 +26,7 @@ The diagram below illustrates how TitanJS connects different signer types to var
 ```mermaid
 graph LR
     signers --> cosmos_signer["Cosmos Network"]
-    signers --> injective_signer["Injective Network"]
+    signers --> Titan_signer["Titan Network"]
     signers --> ethereum_signer["Ethereum Network"]
     signers --> implement_signer["ANY Network"]
 
@@ -35,8 +35,8 @@ graph LR
 
     ethereum_signer --> ethereum_eip712["EIP712 Signer"]
 
-    injective_signer --> injective_amino["Amino Signer"]
-    injective_signer --> injective_direct["Direct Signer"]
+    Titan_signer --> Titan_amino["Amino Signer"]
+    Titan_signer --> Titan_direct["Direct Signer"]
 
     implement_signer --> any_signer["Any Signer"]
 

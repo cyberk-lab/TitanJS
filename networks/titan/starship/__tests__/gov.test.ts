@@ -6,7 +6,7 @@ import { Asset } from '@chain-registry/types';
 import { EthSecp256k1Auth } from '@interchainjs/auth/ethSecp256k1';
 import { AminoSigner } from '@interchainjs/cosmos/signers/amino';
 import { DirectSigner } from '@interchainjs/cosmos/signers/direct';
-import { EthSecp256k1HDWallet } from '@interchainjs/injective/wallets/ethSecp256k1hd';
+import { EthSecp256k1HDWallet } from '@interchainjs/titan/wallets/ethSecp256k1hd';
 import { SigningClient } from '@interchainjs/cosmos/signing-client';
 import {
   assertIsDeliverTxSuccess,
@@ -42,7 +42,7 @@ import { getValidators } from "@interchainjs/cosmos-types/cosmos/staking/v1beta1
 import { QueryBalanceRequest, QueryBalanceResponse } from '@interchainjs/cosmos-types/cosmos/bank/v1beta1/query';
 import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@interchainjs/cosmos-types/cosmos/gov/v1beta1/query';
 import { QueryValidatorsRequest, QueryValidatorsResponse } from '@interchainjs/cosmos-types/cosmos/staking/v1beta1/query';
-import { defaultSignerOptions } from '@interchainjs/injective/defaults';
+import { defaultSignerOptions } from '@interchainjs/titan/defaults';
 
 
 const hdPath = "m/44'/60'/0'/0/0";

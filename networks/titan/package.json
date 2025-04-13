@@ -1,5 +1,5 @@
 {
-  "name": "@interchainjs/injective",
+  "name": "@interchainjs/titan",
   "version": "1.11.0",
   "main": "index.js",
   "module": "esm/index.js",

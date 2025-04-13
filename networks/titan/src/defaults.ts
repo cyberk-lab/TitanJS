@@ -10,7 +10,7 @@ import {
 import { toDecoder } from '@interchainjs/cosmos/utils';
 import { BaseAccount } from '@interchainjs/cosmos-types/cosmos/auth/v1beta1/auth';
 import { PubKey as Secp256k1PubKey } from '@interchainjs/cosmos-types/cosmos/crypto/secp256k1/keys';
-import { EthAccount } from '@interchainjs/cosmos-types/injective/types/v1beta1/account';
+import { EthAccount } from '@interchainjs/cosmos-types/ethermint/types/v1beta1/account';
 import { Eip712Doc } from '@interchainjs/ethereum/types';
 import { IKey, SignerConfig } from '@interchainjs/types';
 

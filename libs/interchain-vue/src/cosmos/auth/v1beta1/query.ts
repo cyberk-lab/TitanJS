@@ -1,7 +1,6 @@
 import { PageRequest, PageRequestAmino, PageResponse, PageResponseAmino } from "../../base/query/v1beta1/pagination";
 import { Any, AnyProtoMsg, AnyAmino } from "../../../google/protobuf/any";
 import { Params, ParamsAmino, BaseAccount, BaseAccountProtoMsg, BaseAccountAmino, ModuleAccount, ModuleAccountProtoMsg } from "./auth";
-import { EthAccount, EthAccountProtoMsg } from "../../../ethermint/types/v1/account";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { GlobalDecoderRegistry } from "../../../registry";
 import { DeepPartial, bytesFromBase64, base64FromBytes } from "../../../helpers";
@@ -38,7 +37,7 @@ export interface QueryAccountsRequestAminoMsg {
  */
 export interface QueryAccountsResponse {
   /** accounts are the existing accounts */
-  accounts: (BaseAccount | EthAccount | Any)[] | Any[];
+  accounts: (BaseAccount | Any)[] | Any[];
   /** pagination defines the pagination in the response. */
   pagination?: PageResponse;
 }
@@ -47,7 +46,7 @@ export interface QueryAccountsResponseProtoMsg {
   value: Uint8Array;
 }
 export type QueryAccountsResponseEncoded = Omit<QueryAccountsResponse, "accounts"> & {
-  /** accounts are the existing accounts */accounts: (BaseAccountProtoMsg | EthAccountProtoMsg | AnyProtoMsg)[];
+  /** accounts are the existing accounts */accounts: (BaseAccountProtoMsg | AnyProtoMsg)[];
 };
 /**
  * QueryAccountsResponse is the response type for the Query/Accounts RPC method.
@@ -85,14 +84,14 @@ export interface QueryAccountRequestAminoMsg {
 /** QueryAccountResponse is the response type for the Query/Account RPC method. */
 export interface QueryAccountResponse {
   /** account defines the account of the corresponding address. */
-  account?: BaseAccount | EthAccount | Any | undefined;
+  account?: BaseAccount | Any | undefined;
 }
 export interface QueryAccountResponseProtoMsg {
   typeUrl: "/cosmos.auth.v1beta1.QueryAccountResponse";
   value: Uint8Array;
 }
 export type QueryAccountResponseEncoded = Omit<QueryAccountResponse, "account"> & {
-  /** account defines the account of the corresponding address. */account?: BaseAccountProtoMsg | EthAccountProtoMsg | AnyProtoMsg | undefined;
+  /** account defines the account of the corresponding address. */account?: BaseAccountProtoMsg | AnyProtoMsg | undefined;
 };
 /** QueryAccountResponse is the response type for the Query/Account RPC method. */
 export interface QueryAccountResponseAmino {
@@ -104,13 +103,13 @@ export interface QueryAccountResponseAminoMsg {
   value: QueryAccountResponseAmino;
 }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
-export interface QueryParamsRequest { }
+export interface QueryParamsRequest {}
 export interface QueryParamsRequestProtoMsg {
   typeUrl: "/cosmos.auth.v1beta1.QueryParamsRequest";
   value: Uint8Array;
 }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
-export interface QueryParamsRequestAmino { }
+export interface QueryParamsRequestAmino {}
 export interface QueryParamsRequestAminoMsg {
   type: "cosmos-sdk/QueryParamsRequest";
   value: QueryParamsRequestAmino;
@@ -138,7 +137,7 @@ export interface QueryParamsResponseAminoMsg {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface QueryModuleAccountsRequest { }
+export interface QueryModuleAccountsRequest {}
 export interface QueryModuleAccountsRequestProtoMsg {
   typeUrl: "/cosmos.auth.v1beta1.QueryModuleAccountsRequest";
   value: Uint8Array;
@@ -148,7 +147,7 @@ export interface QueryModuleAccountsRequestProtoMsg {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface QueryModuleAccountsRequestAmino { }
+export interface QueryModuleAccountsRequestAmino {}
 export interface QueryModuleAccountsRequestAminoMsg {
   type: "cosmos-sdk/QueryModuleAccountsRequest";
   value: QueryModuleAccountsRequestAmino;
@@ -220,7 +219,7 @@ export interface QueryModuleAccountByNameResponseAminoMsg {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface Bech32PrefixRequest { }
+export interface Bech32PrefixRequest {}
 export interface Bech32PrefixRequestProtoMsg {
   typeUrl: "/cosmos.auth.v1beta1.Bech32PrefixRequest";
   value: Uint8Array;
@@ -230,7 +229,7 @@ export interface Bech32PrefixRequestProtoMsg {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface Bech32PrefixRequestAmino { }
+export interface Bech32PrefixRequestAmino {}
 export interface Bech32PrefixRequestAminoMsg {
   type: "cosmos-sdk/Bech32PrefixRequest";
   value: Bech32PrefixRequestAmino;
@@ -572,10 +571,10 @@ export const QueryAccountsResponse = {
   typeUrl: "/cosmos.auth.v1beta1.QueryAccountsResponse",
   aminoType: "cosmos-sdk/QueryAccountsResponse",
   is(o: any): o is QueryAccountsResponse {
-    return o && (o.$typeUrl === QueryAccountsResponse.typeUrl || Array.isArray(o.accounts) && (!o.accounts.length || BaseAccount.is(o.accounts[0]) || EthAccount.is(o.accounts[0]) || Any.is(o.accounts[0])));
+    return o && (o.$typeUrl === QueryAccountsResponse.typeUrl || Array.isArray(o.accounts) && (!o.accounts.length || BaseAccount.is(o.accounts[0]) || Any.is(o.accounts[0])));
   },
   isAmino(o: any): o is QueryAccountsResponseAmino {
-    return o && (o.$typeUrl === QueryAccountsResponse.typeUrl || Array.isArray(o.accounts) && (!o.accounts.length || BaseAccount.isAmino(o.accounts[0]) || EthAccount.isAmino(o.accounts[0]) || Any.isAmino(o.accounts[0])));
+    return o && (o.$typeUrl === QueryAccountsResponse.typeUrl || Array.isArray(o.accounts) && (!o.accounts.length || BaseAccount.isAmino(o.accounts[0]) || Any.isAmino(o.accounts[0])));
   },
   encode(message: QueryAccountsResponse, writer: BinaryWriter = BinaryWriter.create()): BinaryWriter {
     for (const v of message.accounts) {
@@ -653,7 +652,6 @@ export const QueryAccountsResponse = {
   },
   registerTypeUrl() {
     BaseAccount.registerTypeUrl();
-    EthAccount.registerTypeUrl();
     PageResponse.registerTypeUrl();
   }
 };
@@ -732,7 +730,7 @@ export const QueryAccountRequest = {
       value: QueryAccountRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryAccountResponse(): QueryAccountResponse {
   return {
@@ -811,7 +809,6 @@ export const QueryAccountResponse = {
   },
   registerTypeUrl() {
     BaseAccount.registerTypeUrl();
-    EthAccount.registerTypeUrl();
   }
 };
 function createBaseQueryParamsRequest(): QueryParamsRequest {
@@ -876,7 +873,7 @@ export const QueryParamsRequest = {
       value: QueryParamsRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryParamsResponse(): QueryParamsResponse {
   return {
@@ -1019,7 +1016,7 @@ export const QueryModuleAccountsRequest = {
       value: QueryModuleAccountsRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryModuleAccountsResponse(): QueryModuleAccountsResponse {
   return {
@@ -1177,7 +1174,7 @@ export const QueryModuleAccountByNameRequest = {
       value: QueryModuleAccountByNameRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryModuleAccountByNameResponse(): QueryModuleAccountByNameResponse {
   return {
@@ -1320,7 +1317,7 @@ export const Bech32PrefixRequest = {
       value: Bech32PrefixRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseBech32PrefixResponse(): Bech32PrefixResponse {
   return {
@@ -1397,7 +1394,7 @@ export const Bech32PrefixResponse = {
       value: Bech32PrefixResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseAddressBytesToStringRequest(): AddressBytesToStringRequest {
   return {
@@ -1474,7 +1471,7 @@ export const AddressBytesToStringRequest = {
       value: AddressBytesToStringRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseAddressBytesToStringResponse(): AddressBytesToStringResponse {
   return {
@@ -1551,7 +1548,7 @@ export const AddressBytesToStringResponse = {
       value: AddressBytesToStringResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseAddressStringToBytesRequest(): AddressStringToBytesRequest {
   return {
@@ -1628,7 +1625,7 @@ export const AddressStringToBytesRequest = {
       value: AddressStringToBytesRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseAddressStringToBytesResponse(): AddressStringToBytesResponse {
   return {
@@ -1705,7 +1702,7 @@ export const AddressStringToBytesResponse = {
       value: AddressStringToBytesResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryAccountAddressByIDRequest(): QueryAccountAddressByIDRequest {
   return {
@@ -1794,7 +1791,7 @@ export const QueryAccountAddressByIDRequest = {
       value: QueryAccountAddressByIDRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryAccountAddressByIDResponse(): QueryAccountAddressByIDResponse {
   return {
@@ -1871,7 +1868,7 @@ export const QueryAccountAddressByIDResponse = {
       value: QueryAccountAddressByIDResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryAccountInfoRequest(): QueryAccountInfoRequest {
   return {
@@ -1948,7 +1945,7 @@ export const QueryAccountInfoRequest = {
       value: QueryAccountInfoRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() { }
+  registerTypeUrl() {}
 };
 function createBaseQueryAccountInfoResponse(): QueryAccountInfoResponse {
   return {

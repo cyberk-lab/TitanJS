@@ -6,13 +6,15 @@ import { DeepPartial } from "../../../helpers";
  * authtypes.BaseAccount type. It is compatible with the auth AccountKeeper.
  */
 export interface EthAccount {
+  /** base_account is an authtypes.BaseAccount */
   baseAccount?: BaseAccount;
-  codeHash: Uint8Array;
+  /** code_hash is the hash calculated from the code contents */
+  codeHash: string;
 }
 function createBaseEthAccount(): EthAccount {
   return {
     baseAccount: undefined,
-    codeHash: new Uint8Array()
+    codeHash: ""
   };
 }
 export const EthAccount = {
@@ -21,8 +23,8 @@ export const EthAccount = {
     if (message.baseAccount !== undefined) {
       BaseAccount.encode(message.baseAccount, writer.uint32(10).fork()).ldelim();
     }
-    if (message.codeHash.length !== 0) {
-      writer.uint32(18).bytes(message.codeHash);
+    if (message.codeHash !== "") {
+      writer.uint32(18).string(message.codeHash);
     }
     return writer;
   },
@@ -37,7 +39,7 @@ export const EthAccount = {
           message.baseAccount = BaseAccount.decode(reader, reader.uint32());
           break;
         case 2:
-          message.codeHash = reader.bytes();
+          message.codeHash = reader.string();
           break;
         default:
           reader.skipType(tag & 7);
@@ -49,7 +51,7 @@ export const EthAccount = {
   fromPartial(object: DeepPartial<EthAccount>): EthAccount {
     const message = createBaseEthAccount();
     message.baseAccount = object.baseAccount !== undefined && object.baseAccount !== null ? BaseAccount.fromPartial(object.baseAccount) : undefined;
-    message.codeHash = object.codeHash ?? new Uint8Array();
+    message.codeHash = object.codeHash ?? "";
     return message;
   }
 };

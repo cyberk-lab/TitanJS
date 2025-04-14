@@ -89,9 +89,9 @@ rimraf(join(__dirname, '../libs/cosmos-types/src'));
 rimraf(join(__dirname, '../libs/interchainjs/src'));
 rimraf(join(__dirname, '../libs/interchain-vue/src'));
 rimraf(join(__dirname, '../libs/interchain-react/src'));
-rimraf(join(__dirname, '../libs/injectivejs/src'));
-rimraf(join(__dirname, '../libs/injective-vue/src'));
-rimraf(join(__dirname, '../libs/injective-react/src'));
+rimraf(join(__dirname, '../libs/titan-types/src'));
+rimraf(join(__dirname, '../libs/titan-vue/src'));
+rimraf(join(__dirname, '../libs/titan-react/src'));
 
 // cosmos-types
 telescope({
@@ -108,7 +108,7 @@ telescope({
           "cosmos/tx/signing/v1beta1/signing.proto",
           "cosmos/tx/v1beta1/tx.proto",
           "cosmos/tx/v1beta1/service.proto",
-          "injective/types/v1beta1/account.proto",
+          "ethermint/types/v1/account.proto",
           "cosmos/auth/v1beta1/auth.proto",
           "cosmos/auth/v1beta1/query.proto",
           "cosmos/bank/v1beta1/bank.proto",
@@ -215,8 +215,8 @@ telescope({
 
 // injectivejs
 telescope({
-  protoDirs: [join(__dirname, '../protos/injectivejs')],
-  outPath: join(__dirname, '../libs/injectivejs/src'),
+  protoDirs: [join(__dirname, '../protos/titanjs')],
+  outPath: join(__dirname, '../libs/titan-types/src'),
   options: options.options
 })
   .then(() => {
@@ -229,8 +229,8 @@ telescope({
 
 // injective-vue
 telescope({
-  protoDirs: [join(__dirname, '../protos/injectivejs')],
-  outPath: join(__dirname, '../libs/injective-vue/src'),
+  protoDirs: [join(__dirname, '../protos/titanjs')],
+  outPath: join(__dirname, '../libs/titan-vue/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
       "hooks": {
@@ -249,8 +249,8 @@ telescope({
 
 // injective-react
 telescope({
-  protoDirs: [join(__dirname, '../protos/injectivejs')],
-  outPath: join(__dirname, '../libs/injective-react/src'),
+  protoDirs: [join(__dirname, '../protos/titanjs')],
+  outPath: join(__dirname, '../libs/titan-react/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
       "hooks": {

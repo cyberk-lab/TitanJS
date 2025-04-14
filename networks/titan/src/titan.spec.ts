@@ -21,15 +21,8 @@ const hdPath = "m/44'/60'/0'/0/0";
 const titan = allChains.find((chain) => chain.chainName === 'titantestnet');
 jest.setTimeout(70_000)
 describe('Titan', () => {
-    beforeAll(async () => {
-        const configFile = path.join(__dirname, 'starship', 'configs', 'config.yaml');
-        ConfigContext.setConfigFile(configFile);
-        ConfigContext.setRegistry(await useRegistry(configFile));
-    })
     it('should be defined', async () => {
         // const { chainInfo, getCoin, getRpcEndpoint, creditFromFaucet } = useChain('titantestnet');
-        console.log(titan)
-
         const denom = titan?.fees?.feeTokens?.[0]?.denom;
 
         const commonPrefix = titan?.bech32Prefix;

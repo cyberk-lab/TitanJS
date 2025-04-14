@@ -9,7 +9,7 @@ import {
   DelayedVestingAccount,
   PeriodicVestingAccount,
 } from '@interchainjs/cosmos-types/cosmos/vesting/v1beta1/vesting';
-import { EthAccount } from '@interchainjs/cosmos-types/injective/types/v1beta1/account';
+import { EthAccount } from '@interchainjs/cosmos-types/ethermint/types/v1/account';
 import { BroadcastOptions, IKey, SignerConfig } from '@interchainjs/types';
 import { Key } from '@interchainjs/utils';
 import { bytesToHex as assertBytes } from '@noble/hashes/utils';
@@ -24,8 +24,8 @@ import { WalletOptions } from './types/wallet';
 export const defaultBroadcastOptions: BroadcastOptions = {
   checkTx: true,
   deliverTx: false,
-  timeoutMs :60_000,
-  pollIntervalMs :3_000
+  timeoutMs: 60_000,
+  pollIntervalMs: 3_000
 };
 
 export const defaultFeeOptions: FeeOptions = {

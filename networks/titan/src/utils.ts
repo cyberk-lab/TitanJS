@@ -17,7 +17,7 @@ export function getAccountFromAuth(
   return {
     algo: auth.algo,
     publicKey,
-    cosmosAddress: pubKeyHash.toBech32('inj'),
+    cosmosAddress: pubKeyHash.toBech32('titan'),
     ethereumAddress: pubKeyHash.toPrefixedHex(),
   };
 }

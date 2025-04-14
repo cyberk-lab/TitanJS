@@ -41,7 +41,7 @@ describe('Staking tokens testing', () => {
 
   beforeAll(async () => {
     ({ getCoin, getRpcEndpoint, creditFromFaucet } =
-      useChain('injective'));
+      useChain('titan'));
     denom = (await getCoin()).base;
 
     const mnemonic = generateMnemonic();

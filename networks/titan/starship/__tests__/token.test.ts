@@ -21,7 +21,7 @@ import { useChain } from 'starshipjs';
 import { generateMnemonic } from '../src';
 import { getAllBalances, getBalance } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
 import { QueryBalanceRequest, QueryBalanceResponse } from '@interchainjs/cosmos-types/cosmos/bank/v1beta1/query';
-import { defaultSignerOptions } from '@interchainjs/titan/defaults';
+// import { defaultSignerOptions } from '@interchainjs/titan/defaults';
 
 const hdPath = "m/44'/60'/0'/0/0";
 
@@ -38,7 +38,7 @@ describe('Token transfers', () => {
 
   beforeAll(async () => {
     ({ chainInfo, getCoin, getRpcEndpoint, creditFromFaucet } =
-      useChain('injective'));
+      useChain('titan'));
     denom = (await getCoin()).base;
 
     injRpcEndpoint = await getRpcEndpoint();
@@ -141,7 +141,7 @@ describe('Token transfers', () => {
     // const { chainInfo: cosmosChainInfo, getRpcEndpoint: cosmosRpcEndpoint } =
     //   useChain('cosmoshub');
 
-    // const { getRpcEndpoint: osmosisRpcEndpoint } = useChain('injective');
+    // const { getRpcEndpoint: osmosisRpcEndpoint } = useChain('titan');
 
     // // Initialize wallet address for cosmos chain
     // const [auth3] = EthSecp256k1Auth.fromMnemonic(generateMnemonic(), [hdPath]);

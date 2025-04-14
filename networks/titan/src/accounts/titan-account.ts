@@ -5,7 +5,7 @@ import { keccak_256 } from '@noble/hashes/sha3';
 /**
  * Account for Injective chain.
  */
-export class InjAccount extends AccountBase {
+export class TitanAccount extends AccountBase {
   /**
    * Create inj address by pubkey.
    */

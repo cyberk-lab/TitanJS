@@ -16,7 +16,7 @@ function createBaseEthAccount(): EthAccount {
   };
 }
 export const EthAccount = {
-  typeUrl: "/ethermint.types.v1beta1.EthAccount",
+  typeUrl: "/ethermint.types.v1.EthAccount",
   encode(message: EthAccount, writer: BinaryWriter = BinaryWriter.create()): BinaryWriter {
     if (message.baseAccount !== undefined) {
       BaseAccount.encode(message.baseAccount, writer.uint32(10).fork()).ldelim();

@@ -10,7 +10,7 @@ import {
 import { toDecoder } from '@interchainjs/cosmos/utils';
 import { BaseAccount } from '@interchainjs/cosmos-types/cosmos/auth/v1beta1/auth';
 import { PubKey as Secp256k1PubKey } from '@interchainjs/cosmos-types/cosmos/crypto/secp256k1/keys';
-import { EthAccount } from '@interchainjs/cosmos-types/ethermint/types/v1beta1/account';
+import { EthAccount } from '@interchainjs/cosmos-types/ethermint/types/v1/account';
 import { Eip712Doc } from '@interchainjs/ethereum/types';
 import { IKey, SignerConfig } from '@interchainjs/types';
 
@@ -19,7 +19,7 @@ import { bytesToHex as assertBytes } from '@noble/hashes/utils';
 import { keccak_256 } from '@noble/hashes/sha3';
 import { computeAddress } from '@ethersproject/transactions';
 import { Key } from '@interchainjs/utils';
-import { InjAccount } from './accounts/inj-account';
+import { TitanAccount } from './accounts/titan-account';
 import { WalletOptions } from '@interchainjs/cosmos/types/wallet';
 import { EthSecp256k1Auth } from '@interchainjs/auth/ethSecp256k1';
 
@@ -30,7 +30,7 @@ export const defaultPublicKeyConfig: SignerConfig['publicKey'] = {
 
 export const defaultEncodePublicKey = (key: IKey): EncodedMessage => {
   return {
-    typeUrl: '/injective.crypto.v1beta1.ethsecp256k1.PubKey',
+    typeUrl: '/ethermint.crypto.v1.ethsecp256k1.PubKey',
     value: Secp256k1PubKey.encode(
       Secp256k1PubKey.fromPartial({ key: key.value })
     ).finish(),
@@ -65,8 +65,8 @@ export const defaultSignerOptions: Record<string, Required<SignerOptions>> = {
     publicKey: defaultPublicKeyConfig,
     encodePublicKey: defaultEncodePublicKey,
     parseAccount: defaultAccountParser,
-    createAccount: InjAccount,
-    prefix: 'inj',
+    createAccount: TitanAccount,
+    prefix: 'titan',
   },
 };
 

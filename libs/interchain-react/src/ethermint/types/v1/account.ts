@@ -11,7 +11,7 @@ export interface EthAccount {
   codeHash: Uint8Array;
 }
 export interface EthAccountProtoMsg {
-  typeUrl: "/injective.types.v1beta1.EthAccount";
+  typeUrl: "/ethermint.types.v1.EthAccount";
   value: Uint8Array;
 }
 /**
@@ -23,7 +23,7 @@ export interface EthAccountAmino {
   code_hash: string;
 }
 export interface EthAccountAminoMsg {
-  type: "/injective.types.v1beta1.EthAccount";
+  type: "/ethermint.types.v1.EthAccount";
   value: EthAccountAmino;
 }
 function createBaseEthAccount(): EthAccount {
@@ -33,7 +33,7 @@ function createBaseEthAccount(): EthAccount {
   };
 }
 export const EthAccount = {
-  typeUrl: "/injective.types.v1beta1.EthAccount",
+  typeUrl: "/ethermint.types.v1.EthAccount",
   is(o: any): o is EthAccount {
     return o && (o.$typeUrl === EthAccount.typeUrl || o.codeHash instanceof Uint8Array || typeof o.codeHash === "string");
   },
@@ -102,7 +102,7 @@ export const EthAccount = {
   },
   toProtoMsg(message: EthAccount): EthAccountProtoMsg {
     return {
-      typeUrl: "/injective.types.v1beta1.EthAccount",
+      typeUrl: "/ethermint.types.v1.EthAccount",
       value: EthAccount.encode(message).finish()
     };
   },

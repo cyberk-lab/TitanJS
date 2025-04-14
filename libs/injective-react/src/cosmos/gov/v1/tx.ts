@@ -6,11 +6,11 @@ import { CommunityPoolSpendProposal, CommunityPoolSpendProposalProtoMsg, Communi
 import { TextProposal, TextProposalProtoMsg } from "../v1beta1/gov";
 import { SoftwareUpgradeProposal, SoftwareUpgradeProposalProtoMsg, CancelSoftwareUpgradeProposal, CancelSoftwareUpgradeProposalProtoMsg } from "../../upgrade/v1beta1/upgrade";
 import { StoreCodeProposal, StoreCodeProposalProtoMsg, InstantiateContractProposal, InstantiateContractProposalProtoMsg, InstantiateContract2Proposal, InstantiateContract2ProposalProtoMsg, MigrateContractProposal, MigrateContractProposalProtoMsg, SudoContractProposal, SudoContractProposalProtoMsg, ExecuteContractProposal, ExecuteContractProposalProtoMsg, UpdateAdminProposal, UpdateAdminProposalProtoMsg, ClearAdminProposal, ClearAdminProposalProtoMsg, PinCodesProposal, PinCodesProposalProtoMsg, UnpinCodesProposal, UnpinCodesProposalProtoMsg, UpdateInstantiateConfigProposal, UpdateInstantiateConfigProposalProtoMsg, StoreAndInstantiateContractProposal, StoreAndInstantiateContractProposalProtoMsg } from "../../../cosmwasm/wasm/v1/proposal_legacy";
-import { SpotMarketParamUpdateProposal, SpotMarketParamUpdateProposalProtoMsg, BatchExchangeModificationProposal, BatchExchangeModificationProposalProtoMsg, SpotMarketLaunchProposal, SpotMarketLaunchProposalProtoMsg, PerpetualMarketLaunchProposal, PerpetualMarketLaunchProposalProtoMsg, BinaryOptionsMarketLaunchProposal, BinaryOptionsMarketLaunchProposalProtoMsg, ExpiryFuturesMarketLaunchProposal, ExpiryFuturesMarketLaunchProposalProtoMsg, DerivativeMarketParamUpdateProposal, DerivativeMarketParamUpdateProposalProtoMsg, MarketForcedSettlementProposal, MarketForcedSettlementProposalProtoMsg, UpdateDenomDecimalsProposal, UpdateDenomDecimalsProposalProtoMsg, BinaryOptionsMarketParamUpdateProposal, BinaryOptionsMarketParamUpdateProposalProtoMsg, TradingRewardCampaignLaunchProposal, TradingRewardCampaignLaunchProposalProtoMsg, TradingRewardCampaignUpdateProposal, TradingRewardCampaignUpdateProposalProtoMsg, TradingRewardPendingPointsUpdateProposal, TradingRewardPendingPointsUpdateProposalProtoMsg, FeeDiscountProposal, FeeDiscountProposalProtoMsg, BatchCommunityPoolSpendProposal, BatchCommunityPoolSpendProposalProtoMsg, AtomicMarketOrderFeeMultiplierScheduleProposal, AtomicMarketOrderFeeMultiplierScheduleProposalProtoMsg } from "../../../injective/exchange/v1beta1/proposal";
-import { SetConfigProposal, SetConfigProposalProtoMsg, SetBatchConfigProposal, SetBatchConfigProposalProtoMsg } from "../../../injective/ocr/v1beta1/ocr";
-import { GrantBandOraclePrivilegeProposal, GrantBandOraclePrivilegeProposalProtoMsg, RevokeBandOraclePrivilegeProposal, RevokeBandOraclePrivilegeProposalProtoMsg, GrantPriceFeederPrivilegeProposal, GrantPriceFeederPrivilegeProposalProtoMsg, GrantProviderPrivilegeProposal, GrantProviderPrivilegeProposalProtoMsg, RevokeProviderPrivilegeProposal, RevokeProviderPrivilegeProposalProtoMsg, RevokePriceFeederPrivilegeProposal, RevokePriceFeederPrivilegeProposalProtoMsg, AuthorizeBandOracleRequestProposal, AuthorizeBandOracleRequestProposalProtoMsg, UpdateBandOracleRequestProposal, UpdateBandOracleRequestProposalProtoMsg, EnableBandIBCProposal, EnableBandIBCProposalProtoMsg, GrantStorkPublisherPrivilegeProposal, GrantStorkPublisherPrivilegeProposalProtoMsg, RevokeStorkPublisherPrivilegeProposal, RevokeStorkPublisherPrivilegeProposalProtoMsg } from "../../../injective/oracle/v1beta1/proposal";
-import { BlacklistEthereumAddressesProposal, BlacklistEthereumAddressesProposalProtoMsg, RevokeEthereumBlacklistProposal, RevokeEthereumBlacklistProposalProtoMsg } from "../../../injective/peggy/v1/proposal";
-import { ContractRegistrationRequestProposal, ContractRegistrationRequestProposalProtoMsg, BatchContractRegistrationRequestProposal, BatchContractRegistrationRequestProposalProtoMsg, BatchContractDeregistrationProposal, BatchContractDeregistrationProposalProtoMsg, ContractRegistrationRequest, ContractRegistrationRequestProtoMsg, BatchStoreCodeProposal, BatchStoreCodeProposalProtoMsg } from "../../../injective/wasmx/v1/proposal";
+import { SpotMarketParamUpdateProposal, SpotMarketParamUpdateProposalProtoMsg, BatchExchangeModificationProposal, BatchExchangeModificationProposalProtoMsg, SpotMarketLaunchProposal, SpotMarketLaunchProposalProtoMsg, PerpetualMarketLaunchProposal, PerpetualMarketLaunchProposalProtoMsg, BinaryOptionsMarketLaunchProposal, BinaryOptionsMarketLaunchProposalProtoMsg, ExpiryFuturesMarketLaunchProposal, ExpiryFuturesMarketLaunchProposalProtoMsg, DerivativeMarketParamUpdateProposal, DerivativeMarketParamUpdateProposalProtoMsg, MarketForcedSettlementProposal, MarketForcedSettlementProposalProtoMsg, UpdateDenomDecimalsProposal, UpdateDenomDecimalsProposalProtoMsg, BinaryOptionsMarketParamUpdateProposal, BinaryOptionsMarketParamUpdateProposalProtoMsg, TradingRewardCampaignLaunchProposal, TradingRewardCampaignLaunchProposalProtoMsg, TradingRewardCampaignUpdateProposal, TradingRewardCampaignUpdateProposalProtoMsg, TradingRewardPendingPointsUpdateProposal, TradingRewardPendingPointsUpdateProposalProtoMsg, FeeDiscountProposal, FeeDiscountProposalProtoMsg, BatchCommunityPoolSpendProposal, BatchCommunityPoolSpendProposalProtoMsg, AtomicMarketOrderFeeMultiplierScheduleProposal, AtomicMarketOrderFeeMultiplierScheduleProposalProtoMsg } from "../../../titan/exchange/v1beta1/proposal";
+import { SetConfigProposal, SetConfigProposalProtoMsg, SetBatchConfigProposal, SetBatchConfigProposalProtoMsg } from "../../../titan/ocr/v1beta1/ocr";
+import { GrantBandOraclePrivilegeProposal, GrantBandOraclePrivilegeProposalProtoMsg, RevokeBandOraclePrivilegeProposal, RevokeBandOraclePrivilegeProposalProtoMsg, GrantPriceFeederPrivilegeProposal, GrantPriceFeederPrivilegeProposalProtoMsg, GrantProviderPrivilegeProposal, GrantProviderPrivilegeProposalProtoMsg, RevokeProviderPrivilegeProposal, RevokeProviderPrivilegeProposalProtoMsg, RevokePriceFeederPrivilegeProposal, RevokePriceFeederPrivilegeProposalProtoMsg, AuthorizeBandOracleRequestProposal, AuthorizeBandOracleRequestProposalProtoMsg, UpdateBandOracleRequestProposal, UpdateBandOracleRequestProposalProtoMsg, EnableBandIBCProposal, EnableBandIBCProposalProtoMsg, GrantStorkPublisherPrivilegeProposal, GrantStorkPublisherPrivilegeProposalProtoMsg, RevokeStorkPublisherPrivilegeProposal, RevokeStorkPublisherPrivilegeProposalProtoMsg } from "../../../titan/oracle/v1beta1/proposal";
+import { BlacklistEthereumAddressesProposal, BlacklistEthereumAddressesProposalProtoMsg, RevokeEthereumBlacklistProposal, RevokeEthereumBlacklistProposalProtoMsg } from "../../../titan/peggy/v1/proposal";
+import { ContractRegistrationRequestProposal, ContractRegistrationRequestProposalProtoMsg, BatchContractRegistrationRequestProposal, BatchContractRegistrationRequestProposalProtoMsg, BatchContractDeregistrationProposal, BatchContractDeregistrationProposalProtoMsg, ContractRegistrationRequest, ContractRegistrationRequestProtoMsg, BatchStoreCodeProposal, BatchStoreCodeProposalProtoMsg } from "../../../titan/wasmx/v1/proposal";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial, isSet, toTimestamp, fromTimestamp } from "../../../helpers";
 import { GlobalDecoderRegistry } from "../../../registry";
@@ -136,13 +136,13 @@ export interface MsgExecLegacyContentAminoMsg {
   value: MsgExecLegacyContentAmino;
 }
 /** MsgExecLegacyContentResponse defines the Msg/ExecLegacyContent response type. */
-export interface MsgExecLegacyContentResponse {}
+export interface MsgExecLegacyContentResponse { }
 export interface MsgExecLegacyContentResponseProtoMsg {
   typeUrl: "/cosmos.gov.v1.MsgExecLegacyContentResponse";
   value: Uint8Array;
 }
 /** MsgExecLegacyContentResponse defines the Msg/ExecLegacyContent response type. */
-export interface MsgExecLegacyContentResponseAmino {}
+export interface MsgExecLegacyContentResponseAmino { }
 export interface MsgExecLegacyContentResponseAminoMsg {
   type: "cosmos-sdk/v1/MsgExecLegacyContentResponse";
   value: MsgExecLegacyContentResponseAmino;
@@ -178,13 +178,13 @@ export interface MsgVoteAminoMsg {
   value: MsgVoteAmino;
 }
 /** MsgVoteResponse defines the Msg/Vote response type. */
-export interface MsgVoteResponse {}
+export interface MsgVoteResponse { }
 export interface MsgVoteResponseProtoMsg {
   typeUrl: "/cosmos.gov.v1.MsgVoteResponse";
   value: Uint8Array;
 }
 /** MsgVoteResponse defines the Msg/Vote response type. */
-export interface MsgVoteResponseAmino {}
+export interface MsgVoteResponseAmino { }
 export interface MsgVoteResponseAminoMsg {
   type: "cosmos-sdk/v1/MsgVoteResponse";
   value: MsgVoteResponseAmino;
@@ -220,13 +220,13 @@ export interface MsgVoteWeightedAminoMsg {
   value: MsgVoteWeightedAmino;
 }
 /** MsgVoteWeightedResponse defines the Msg/VoteWeighted response type. */
-export interface MsgVoteWeightedResponse {}
+export interface MsgVoteWeightedResponse { }
 export interface MsgVoteWeightedResponseProtoMsg {
   typeUrl: "/cosmos.gov.v1.MsgVoteWeightedResponse";
   value: Uint8Array;
 }
 /** MsgVoteWeightedResponse defines the Msg/VoteWeighted response type. */
-export interface MsgVoteWeightedResponseAmino {}
+export interface MsgVoteWeightedResponseAmino { }
 export interface MsgVoteWeightedResponseAminoMsg {
   type: "cosmos-sdk/v1/MsgVoteWeightedResponse";
   value: MsgVoteWeightedResponseAmino;
@@ -258,13 +258,13 @@ export interface MsgDepositAminoMsg {
   value: MsgDepositAmino;
 }
 /** MsgDepositResponse defines the Msg/Deposit response type. */
-export interface MsgDepositResponse {}
+export interface MsgDepositResponse { }
 export interface MsgDepositResponseProtoMsg {
   typeUrl: "/cosmos.gov.v1.MsgDepositResponse";
   value: Uint8Array;
 }
 /** MsgDepositResponse defines the Msg/Deposit response type. */
-export interface MsgDepositResponseAmino {}
+export interface MsgDepositResponseAmino { }
 export interface MsgDepositResponseAminoMsg {
   type: "cosmos-sdk/v1/MsgDepositResponse";
   value: MsgDepositResponseAmino;
@@ -313,7 +313,7 @@ export interface MsgUpdateParamsAminoMsg {
  * 
  * Since: cosmos-sdk 0.47
  */
-export interface MsgUpdateParamsResponse {}
+export interface MsgUpdateParamsResponse { }
 export interface MsgUpdateParamsResponseProtoMsg {
   typeUrl: "/cosmos.gov.v1.MsgUpdateParamsResponse";
   value: Uint8Array;
@@ -324,7 +324,7 @@ export interface MsgUpdateParamsResponseProtoMsg {
  * 
  * Since: cosmos-sdk 0.47
  */
-export interface MsgUpdateParamsResponseAmino {}
+export interface MsgUpdateParamsResponseAmino { }
 export interface MsgUpdateParamsResponseAminoMsg {
   type: "cosmos-sdk/v1/MsgUpdateParamsResponse";
   value: MsgUpdateParamsResponseAmino;
@@ -625,7 +625,7 @@ export const MsgSubmitProposalResponse = {
       value: MsgSubmitProposalResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgExecLegacyContent(): MsgExecLegacyContent {
   return {
@@ -832,7 +832,7 @@ export const MsgExecLegacyContentResponse = {
       value: MsgExecLegacyContentResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgVote(): MsgVote {
   return {
@@ -945,7 +945,7 @@ export const MsgVote = {
       value: MsgVote.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgVoteResponse(): MsgVoteResponse {
   return {};
@@ -1009,7 +1009,7 @@ export const MsgVoteResponse = {
       value: MsgVoteResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgVoteWeighted(): MsgVoteWeighted {
   return {
@@ -1190,7 +1190,7 @@ export const MsgVoteWeightedResponse = {
       value: MsgVoteWeightedResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgDeposit(): MsgDeposit {
   return {
@@ -1359,7 +1359,7 @@ export const MsgDepositResponse = {
       value: MsgDepositResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateParams(): MsgUpdateParams {
   return {
@@ -1514,7 +1514,7 @@ export const MsgUpdateParamsResponse = {
       value: MsgUpdateParamsResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgCancelProposal(): MsgCancelProposal {
   return {
@@ -1603,7 +1603,7 @@ export const MsgCancelProposal = {
       value: MsgCancelProposal.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgCancelProposalResponse(): MsgCancelProposalResponse {
   return {
@@ -1704,5 +1704,5 @@ export const MsgCancelProposalResponse = {
       value: MsgCancelProposalResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

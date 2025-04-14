@@ -5,11 +5,11 @@ import { Duration, DurationAmino } from "../../../google/protobuf/duration";
 import { CommunityPoolSpendProposal, CommunityPoolSpendProposalProtoMsg, CommunityPoolSpendProposalWithDeposit, CommunityPoolSpendProposalWithDepositProtoMsg } from "../../distribution/v1beta1/distribution";
 import { SoftwareUpgradeProposal, SoftwareUpgradeProposalProtoMsg, CancelSoftwareUpgradeProposal, CancelSoftwareUpgradeProposalProtoMsg } from "../../upgrade/v1beta1/upgrade";
 import { StoreCodeProposal, StoreCodeProposalProtoMsg, InstantiateContractProposal, InstantiateContractProposalProtoMsg, InstantiateContract2Proposal, InstantiateContract2ProposalProtoMsg, MigrateContractProposal, MigrateContractProposalProtoMsg, SudoContractProposal, SudoContractProposalProtoMsg, ExecuteContractProposal, ExecuteContractProposalProtoMsg, UpdateAdminProposal, UpdateAdminProposalProtoMsg, ClearAdminProposal, ClearAdminProposalProtoMsg, PinCodesProposal, PinCodesProposalProtoMsg, UnpinCodesProposal, UnpinCodesProposalProtoMsg, UpdateInstantiateConfigProposal, UpdateInstantiateConfigProposalProtoMsg, StoreAndInstantiateContractProposal, StoreAndInstantiateContractProposalProtoMsg } from "../../../cosmwasm/wasm/v1/proposal_legacy";
-import { SpotMarketParamUpdateProposal, SpotMarketParamUpdateProposalProtoMsg, BatchExchangeModificationProposal, BatchExchangeModificationProposalProtoMsg, SpotMarketLaunchProposal, SpotMarketLaunchProposalProtoMsg, PerpetualMarketLaunchProposal, PerpetualMarketLaunchProposalProtoMsg, BinaryOptionsMarketLaunchProposal, BinaryOptionsMarketLaunchProposalProtoMsg, ExpiryFuturesMarketLaunchProposal, ExpiryFuturesMarketLaunchProposalProtoMsg, DerivativeMarketParamUpdateProposal, DerivativeMarketParamUpdateProposalProtoMsg, MarketForcedSettlementProposal, MarketForcedSettlementProposalProtoMsg, UpdateDenomDecimalsProposal, UpdateDenomDecimalsProposalProtoMsg, BinaryOptionsMarketParamUpdateProposal, BinaryOptionsMarketParamUpdateProposalProtoMsg, TradingRewardCampaignLaunchProposal, TradingRewardCampaignLaunchProposalProtoMsg, TradingRewardCampaignUpdateProposal, TradingRewardCampaignUpdateProposalProtoMsg, TradingRewardPendingPointsUpdateProposal, TradingRewardPendingPointsUpdateProposalProtoMsg, FeeDiscountProposal, FeeDiscountProposalProtoMsg, BatchCommunityPoolSpendProposal, BatchCommunityPoolSpendProposalProtoMsg, AtomicMarketOrderFeeMultiplierScheduleProposal, AtomicMarketOrderFeeMultiplierScheduleProposalProtoMsg } from "../../../injective/exchange/v1beta1/proposal";
-import { SetConfigProposal, SetConfigProposalProtoMsg, SetBatchConfigProposal, SetBatchConfigProposalProtoMsg } from "../../../injective/ocr/v1beta1/ocr";
-import { GrantBandOraclePrivilegeProposal, GrantBandOraclePrivilegeProposalProtoMsg, RevokeBandOraclePrivilegeProposal, RevokeBandOraclePrivilegeProposalProtoMsg, GrantPriceFeederPrivilegeProposal, GrantPriceFeederPrivilegeProposalProtoMsg, GrantProviderPrivilegeProposal, GrantProviderPrivilegeProposalProtoMsg, RevokeProviderPrivilegeProposal, RevokeProviderPrivilegeProposalProtoMsg, RevokePriceFeederPrivilegeProposal, RevokePriceFeederPrivilegeProposalProtoMsg, AuthorizeBandOracleRequestProposal, AuthorizeBandOracleRequestProposalProtoMsg, UpdateBandOracleRequestProposal, UpdateBandOracleRequestProposalProtoMsg, EnableBandIBCProposal, EnableBandIBCProposalProtoMsg, GrantStorkPublisherPrivilegeProposal, GrantStorkPublisherPrivilegeProposalProtoMsg, RevokeStorkPublisherPrivilegeProposal, RevokeStorkPublisherPrivilegeProposalProtoMsg } from "../../../injective/oracle/v1beta1/proposal";
-import { BlacklistEthereumAddressesProposal, BlacklistEthereumAddressesProposalProtoMsg, RevokeEthereumBlacklistProposal, RevokeEthereumBlacklistProposalProtoMsg } from "../../../injective/peggy/v1/proposal";
-import { ContractRegistrationRequestProposal, ContractRegistrationRequestProposalProtoMsg, BatchContractRegistrationRequestProposal, BatchContractRegistrationRequestProposalProtoMsg, BatchContractDeregistrationProposal, BatchContractDeregistrationProposalProtoMsg, ContractRegistrationRequest, ContractRegistrationRequestProtoMsg, BatchStoreCodeProposal, BatchStoreCodeProposalProtoMsg } from "../../../injective/wasmx/v1/proposal";
+import { SpotMarketParamUpdateProposal, SpotMarketParamUpdateProposalProtoMsg, BatchExchangeModificationProposal, BatchExchangeModificationProposalProtoMsg, SpotMarketLaunchProposal, SpotMarketLaunchProposalProtoMsg, PerpetualMarketLaunchProposal, PerpetualMarketLaunchProposalProtoMsg, BinaryOptionsMarketLaunchProposal, BinaryOptionsMarketLaunchProposalProtoMsg, ExpiryFuturesMarketLaunchProposal, ExpiryFuturesMarketLaunchProposalProtoMsg, DerivativeMarketParamUpdateProposal, DerivativeMarketParamUpdateProposalProtoMsg, MarketForcedSettlementProposal, MarketForcedSettlementProposalProtoMsg, UpdateDenomDecimalsProposal, UpdateDenomDecimalsProposalProtoMsg, BinaryOptionsMarketParamUpdateProposal, BinaryOptionsMarketParamUpdateProposalProtoMsg, TradingRewardCampaignLaunchProposal, TradingRewardCampaignLaunchProposalProtoMsg, TradingRewardCampaignUpdateProposal, TradingRewardCampaignUpdateProposalProtoMsg, TradingRewardPendingPointsUpdateProposal, TradingRewardPendingPointsUpdateProposalProtoMsg, FeeDiscountProposal, FeeDiscountProposalProtoMsg, BatchCommunityPoolSpendProposal, BatchCommunityPoolSpendProposalProtoMsg, AtomicMarketOrderFeeMultiplierScheduleProposal, AtomicMarketOrderFeeMultiplierScheduleProposalProtoMsg } from "../../../titan/exchange/v1beta1/proposal";
+import { SetConfigProposal, SetConfigProposalProtoMsg, SetBatchConfigProposal, SetBatchConfigProposalProtoMsg } from "../../../titan/ocr/v1beta1/ocr";
+import { GrantBandOraclePrivilegeProposal, GrantBandOraclePrivilegeProposalProtoMsg, RevokeBandOraclePrivilegeProposal, RevokeBandOraclePrivilegeProposalProtoMsg, GrantPriceFeederPrivilegeProposal, GrantPriceFeederPrivilegeProposalProtoMsg, GrantProviderPrivilegeProposal, GrantProviderPrivilegeProposalProtoMsg, RevokeProviderPrivilegeProposal, RevokeProviderPrivilegeProposalProtoMsg, RevokePriceFeederPrivilegeProposal, RevokePriceFeederPrivilegeProposalProtoMsg, AuthorizeBandOracleRequestProposal, AuthorizeBandOracleRequestProposalProtoMsg, UpdateBandOracleRequestProposal, UpdateBandOracleRequestProposalProtoMsg, EnableBandIBCProposal, EnableBandIBCProposalProtoMsg, GrantStorkPublisherPrivilegeProposal, GrantStorkPublisherPrivilegeProposalProtoMsg, RevokeStorkPublisherPrivilegeProposal, RevokeStorkPublisherPrivilegeProposalProtoMsg } from "../../../titan/oracle/v1beta1/proposal";
+import { BlacklistEthereumAddressesProposal, BlacklistEthereumAddressesProposalProtoMsg, RevokeEthereumBlacklistProposal, RevokeEthereumBlacklistProposalProtoMsg } from "../../../titan/peggy/v1/proposal";
+import { ContractRegistrationRequestProposal, ContractRegistrationRequestProposalProtoMsg, BatchContractRegistrationRequestProposal, BatchContractRegistrationRequestProposalProtoMsg, BatchContractDeregistrationProposal, BatchContractDeregistrationProposalProtoMsg, ContractRegistrationRequest, ContractRegistrationRequestProtoMsg, BatchStoreCodeProposal, BatchStoreCodeProposalProtoMsg } from "../../../titan/wasmx/v1/proposal";
 import { isSet, DeepPartial, toTimestamp, fromTimestamp, bytesFromBase64, base64FromBytes } from "../../../helpers";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { Decimal } from "@interchainjs/math";
@@ -552,7 +552,7 @@ export const WeightedVoteOption = {
       value: WeightedVoteOption.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseTextProposal(): TextProposal {
   return {
@@ -1093,7 +1093,7 @@ export const TallyResult = {
       value: TallyResult.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseVote(): Vote {
   return {
@@ -1380,7 +1380,7 @@ export const VotingParams = {
       value: VotingParams.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseTallyParams(): TallyParams {
   return {
@@ -1481,5 +1481,5 @@ export const TallyParams = {
       value: TallyParams.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

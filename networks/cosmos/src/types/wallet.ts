@@ -1,4 +1,4 @@
-import { AccountData, Auth, AuthOptions, IGenericOfflineSignArgs, IGenericOfflineSigner, SIGN_MODE, SignerConfig } from '@interchainjs/types';
+import { AccountData, Auth, AuthOptions, IGenericOfflineSignArgs, IGenericOfflineSigner, SIGN_MODE, SignerConfig } from '@titanjs/types';
 
 import { CosmosAminoDoc, CosmosDirectDoc } from './signer';
 

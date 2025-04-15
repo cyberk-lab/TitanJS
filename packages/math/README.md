@@ -1,4 +1,4 @@
-# @interchainjs/math
+# @titanjs/math
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hyperweb-io/interchainjs/refs/heads/main/assets/logo.svg" width="280">

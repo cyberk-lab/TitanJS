@@ -1,9 +1,9 @@
-import { SignMode } from '@interchainjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
 import {
   SignDoc,
   TxRaw,
-} from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { SignDocResponse } from '@interchainjs/types';
+} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { SignDocResponse } from '@titanjs/types';
 
 import {
   BaseCosmosSigBuilder,

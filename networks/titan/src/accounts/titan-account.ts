@@ -1,5 +1,5 @@
-import { AccountBase } from '@interchainjs/types/account';
-import { Key } from '@interchainjs/utils';
+import { AccountBase } from '@titanjs/types/account';
+import { Key } from '@titanjs/utils';
 import { keccak_256 } from '@noble/hashes/sha3';
 
 /**

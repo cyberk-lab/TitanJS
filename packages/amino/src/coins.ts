@@ -1,4 +1,4 @@
-import { Decimal, Uint53 } from "@interchainjs/math";
+import { Decimal, Uint53 } from "@titanjs/math";
 
 export interface Coin {
   readonly denom: string;
@@ -52,7 +52,7 @@ export function coins(amount: number | string, denom: string): Coin[] {
  * separately in the caller.
  *
  * ```
- * import { parseCoins } from "@interchainjs/amino";
+ * import { parseCoins } from "@titanjs/amino";
  * ```
  *
  * This function is not made for supporting decimal amounts and does not support

@@ -1,24 +1,24 @@
 import {
   BaseAccount,
   ModuleAccount,
-} from '@interchainjs/cosmos-types/cosmos/auth/v1beta1/auth';
-import { PubKey as Secp256k1PubKey } from '@interchainjs/cosmos-types/cosmos/crypto/secp256k1/keys';
+} from '@titanjs/cosmos-types/cosmos/auth/v1beta1/auth';
+import { PubKey as Secp256k1PubKey } from '@titanjs/cosmos-types/cosmos/crypto/secp256k1/keys';
 import {
   BaseVestingAccount,
   ContinuousVestingAccount,
   DelayedVestingAccount,
   PeriodicVestingAccount,
-} from '@interchainjs/cosmos-types/cosmos/vesting/v1beta1/vesting';
-import { EthAccount } from '@interchainjs/cosmos-types/ethermint/types/v1/account';
-import { BroadcastOptions, IKey, SignerConfig } from '@interchainjs/types';
-import { Key } from '@interchainjs/utils';
+} from '@titanjs/cosmos-types/cosmos/vesting/v1beta1/vesting';
+import { EthAccount } from '@titanjs/cosmos-types/ethermint/types/v1/account';
+import { BroadcastOptions, IKey, SignerConfig } from '@titanjs/types';
+import { Key } from '@titanjs/utils';
 import { bytesToHex as assertBytes } from '@noble/hashes/utils';
 import { ripemd160 } from '@noble/hashes/ripemd160';
 import { sha256 } from '@noble/hashes/sha256';
 
 import { CosmosAccount, EncodedMessage, FeeOptions, SignerOptions } from './types';
 import { toDecoder } from './utils';
-import { Secp256k1Auth } from '@interchainjs/auth/secp256k1';
+import { Secp256k1Auth } from '@titanjs/auth/secp256k1';
 import { WalletOptions } from './types/wallet';
 
 export const defaultBroadcastOptions: BroadcastOptions = {

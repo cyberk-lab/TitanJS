@@ -1,5 +1,5 @@
-import { AuthOptions, ByteAuth, ISignatureWraper } from '@interchainjs/types';
-import { Key } from '@interchainjs/utils';
+import { AuthOptions, ByteAuth, ISignatureWraper } from '@titanjs/types';
+import { Key } from '@titanjs/utils';
 import { RecoveredSignatureType } from '@noble/curves/abstract/weierstrass';
 import { secp256k1 } from '@noble/curves/secp256k1';
 import { HDKey } from '@scure/bip32';
@@ -69,9 +69,8 @@ export class Secp256k1Auth implements ByteAuth<RecoveredSignatureType> {
  * secp256k1 Signature wrapper
  */
 export class Secp256k1Signature
-implements ISignatureWraper<RecoveredSignatureType>
-{
-  constructor(public readonly signature: RecoveredSignatureType) {}
+  implements ISignatureWraper<RecoveredSignatureType> {
+  constructor(public readonly signature: RecoveredSignatureType) { }
 
   /**
    * Convert signature to compact form

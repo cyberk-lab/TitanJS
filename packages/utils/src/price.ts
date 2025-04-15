@@ -1,4 +1,4 @@
-import { Price } from '@interchainjs/types';
+import { Price } from '@titanjs/types';
 import Decimal from 'decimal.js';
 
 /**

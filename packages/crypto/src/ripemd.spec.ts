@@ -1,4 +1,4 @@
-import { fromHex } from "@interchainjs/encoding";
+import { fromHex } from "@titanjs/encoding";
 
 import { Ripemd160, ripemd160 } from "./ripemd";
 import ripemdVectors from "./testdata/ripemd.json";

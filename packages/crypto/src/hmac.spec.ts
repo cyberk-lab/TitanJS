@@ -1,4 +1,4 @@
-import { fromHex } from "@interchainjs/encoding";
+import { fromHex } from "@titanjs/encoding";
 
 import { Hmac } from "./hmac";
 import { Sha256, Sha512 } from "./sha";

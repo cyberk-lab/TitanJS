@@ -1,4 +1,4 @@
-import { Event, DeliverTxResponse, Any } from '@interchainjs/types';
+import { Event, DeliverTxResponse, Any } from '@titanjs/types';
 
 import { CheckTxResponse } from './signer';
 

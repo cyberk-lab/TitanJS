@@ -3,18 +3,18 @@
 import './setup.test';
 
 import { Asset } from '@chain-registry/types';
-import { EthSecp256k1Auth } from '@interchainjs/auth/ethSecp256k1';
-import { AminoSigner } from '@interchainjs/cosmos/signers/amino';
-import { DirectSigner } from '@interchainjs/cosmos/signers/direct';
-import { SigningClient } from '@interchainjs/cosmos/signing-client';
+import { EthSecp256k1Auth } from '@titanjs/auth/ethSecp256k1';
+import { AminoSigner } from '@titanjs/cosmos/signers/amino';
+import { DirectSigner } from '@titanjs/cosmos/signers/direct';
+import { SigningClient } from '@titanjs/cosmos/signing-client';
 import {
   assertIsDeliverTxSuccess,
   toConverters,
   toEncoders,
-} from '@interchainjs/cosmos/utils';
+} from '@titanjs/cosmos/utils';
 import {
   sleep,
-} from '@interchainjs/utils';
+} from '@titanjs/utils';
 import {
   ProposalStatus,
   TextProposal,
@@ -33,14 +33,14 @@ import { BigNumber } from 'bignumber.js';
 import { useChain } from 'starshipjs';
 
 import { generateMnemonic } from '../src';
-import { AminoGenericOfflineSigner, OfflineAminoSigner, OfflineDirectSigner } from '@interchainjs/cosmos/types/wallet';
-import { SIGN_MODE } from '@interchainjs/types';
-import { getBalance } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
-import { getProposal, getVote } from "@interchainjs/cosmos-types/cosmos/gov/v1beta1/query.rpc.func";
-import { getValidators } from "@interchainjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
-import { QueryBalanceRequest, QueryBalanceResponse } from '@interchainjs/cosmos-types/cosmos/bank/v1beta1/query';
-import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@interchainjs/cosmos-types/cosmos/gov/v1beta1/query';
-import { QueryValidatorsRequest, QueryValidatorsResponse } from '@interchainjs/cosmos-types/cosmos/staking/v1beta1/query';
+import { AminoGenericOfflineSigner, OfflineAminoSigner, OfflineDirectSigner } from '@titanjs/cosmos/types/wallet';
+import { SIGN_MODE } from '@titanjs/types';
+import { getBalance } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
+import { getProposal, getVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/query.rpc.func";
+import { getValidators } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
+import { QueryBalanceRequest, QueryBalanceResponse } from '@titanjs/cosmos-types/cosmos/bank/v1beta1/query';
+import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@titanjs/cosmos-types/cosmos/gov/v1beta1/query';
+import { QueryValidatorsRequest, QueryValidatorsResponse } from '@titanjs/cosmos-types/cosmos/staking/v1beta1/query';
 import { defaultSignerOptions } from '../../src/defaults';
 import { EthSecp256k1HDWallet } from '../../src/wallets/ethSecp256k1hd';
 

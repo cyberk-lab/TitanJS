@@ -1,4 +1,4 @@
-import { fromHex, toAscii, toUtf8 } from "@interchainjs/encoding";
+import { fromHex, toAscii, toUtf8 } from "@titanjs/encoding";
 
 import {
   getNodeCrypto,

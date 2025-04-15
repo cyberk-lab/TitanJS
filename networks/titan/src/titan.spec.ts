@@ -1,12 +1,12 @@
-import { EthSecp256k1Auth } from "@interchainjs/auth/ethSecp256k1";
-import { AminoSigner } from "@interchainjs/cosmos/signers/amino";
-import { DirectSigner } from "@interchainjs/cosmos/signers/direct";
-import { SigningClient } from "@interchainjs/cosmos/signing-client";
-import { AminoGenericOfflineSigner } from "@interchainjs/cosmos/types/wallet";
-import { toConverters, toEncoders } from "@interchainjs/cosmos/utils";
-import { MsgSubmitProposal, MsgVote } from "interchainjs/cosmos/gov/v1/tx";
-import { TextProposal } from "interchainjs/cosmos/gov/v1beta1/gov";
-import { MsgDelegate } from "interchainjs/cosmos/staking/v1beta1/tx";
+import { EthSecp256k1Auth } from "@titanjs/auth/ethSecp256k1";
+import { AminoSigner } from "@titanjs/cosmos/signers/amino";
+import { DirectSigner } from "@titanjs/cosmos/signers/direct";
+import { SigningClient } from "@titanjs/cosmos/signing-client";
+import { AminoGenericOfflineSigner } from "@titanjs/cosmos/types/wallet";
+import { toConverters, toEncoders } from "@titanjs/cosmos/utils";
+// import { MsgSubmitProposal, MsgVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/tx";
+import { TextProposal } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/gov";
+import { MsgDelegate } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/tx";
 import { ConfigContext, generateMnemonic, useChain, useRegistry } from "starshipjs";
 import { defaultSignerOptions } from "./defaults";
 import { EthSecp256k1HDWallet } from "./wallets/ethSecp256k1hd";
@@ -19,7 +19,7 @@ import path from "path";
 const hdPath = "m/44'/60'/0'/0/0";
 
 const titan = allChains.find((chain) => chain.chainName === 'titantestnet');
-jest.setTimeout(70_000)
+
 describe('Titan', () => {
     it('should be defined', async () => {
         // const { chainInfo, getCoin, getRpcEndpoint, creditFromFaucet } = useChain('titantestnet');
@@ -36,14 +36,14 @@ describe('Titan', () => {
         ]);
         const directSigner = new DirectSigner(
             directAuth,
-            toEncoders(MsgDelegate, TextProposal, MsgSubmitProposal, MsgVote),
+            toEncoders(MsgDelegate, TextProposal),
             rpcEndpoint,
             defaultSignerOptions.Cosmos
         );
         const aminoSigner = new AminoSigner(
             aminoAuth,
-            toEncoders(MsgDelegate, TextProposal, MsgSubmitProposal, MsgVote),
-            toConverters(MsgDelegate, TextProposal, MsgSubmitProposal, MsgVote),
+            toEncoders(MsgDelegate, TextProposal),
+            toConverters(MsgDelegate, TextProposal),
             rpcEndpoint,
             defaultSignerOptions.Cosmos
         );

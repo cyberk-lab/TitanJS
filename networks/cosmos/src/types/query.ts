@@ -1,4 +1,4 @@
-import { Event } from '@interchainjs/types';
+import { Event } from '@titanjs/types';
 
 /** A transaction that is indexed as part of the transaction history */
 export interface IndexedTx {
@@ -62,9 +62,9 @@ export interface TxResponse {
 export type SearchTxQuery =
   | string
   | ReadonlyArray<{
-      readonly key: string;
-      readonly value: string;
-    }>;
+    readonly key: string;
+    readonly value: string;
+  }>;
 
 interface EventAttribute {
   key: string;

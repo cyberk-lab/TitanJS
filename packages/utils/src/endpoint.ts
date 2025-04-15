@@ -1,4 +1,4 @@
-import { HttpEndpoint } from '@interchainjs/types';
+import { HttpEndpoint } from '@titanjs/types';
 
 export function toHttpEndpoint(endpoint: string | HttpEndpoint): HttpEndpoint {
   if (typeof endpoint === 'string') {

@@ -4,13 +4,13 @@ import './setup.test';
 
 import { ChainInfo } from '@chain-registry/client';
 import { Asset } from '@chain-registry/types';
-import { DirectSigner } from '@interchainjs/cosmos/signers/direct';
-import { OfflineDirectSigner } from '@interchainjs/cosmos/types/wallet';
+import { DirectSigner } from '@titanjs/cosmos/signers/direct';
+import { OfflineDirectSigner } from '@titanjs/cosmos/types/wallet';
 import {
   assertIsDeliverTxSuccess,
   toEncoders,
-} from '@interchainjs/cosmos/utils';
-import { Secp256k1HDWallet } from '@interchainjs/cosmos/wallets/secp256k1hd';
+} from '@titanjs/cosmos/utils';
+import { Secp256k1HDWallet } from '@titanjs/cosmos/wallets/secp256k1hd';
 import {
   BondStatus,
   bondStatusToJSON,
@@ -20,11 +20,11 @@ import { BigNumber } from 'bignumber.js'; // Using `fromWallet` to construct Sig
 import { useChain } from 'starshipjs';
 
 import { generateMnemonic } from '../src';
-import { getBalance } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
-import { getValidators, getDelegation } from "@interchainjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
+import { getBalance } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
+import { getValidators, getDelegation } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
 
-import { QueryBalanceRequest, QueryBalanceResponse } from '@interchainjs/cosmos-types/cosmos/bank/v1beta1/query';
-import { QueryDelegationRequest, QueryDelegationResponse, QueryValidatorsRequest, QueryValidatorsResponse } from '@interchainjs/cosmos-types/cosmos/staking/v1beta1/query';
+import { QueryBalanceRequest, QueryBalanceResponse } from '@titanjs/cosmos-types/cosmos/bank/v1beta1/query';
+import { QueryDelegationRequest, QueryDelegationResponse, QueryValidatorsRequest, QueryValidatorsResponse } from '@titanjs/cosmos-types/cosmos/staking/v1beta1/query';
 
 const cosmosHdPath = "m/44'/118'/0'/0/0";
 

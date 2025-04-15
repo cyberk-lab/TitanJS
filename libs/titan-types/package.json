@@ -25,8 +25,8 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@interchainjs/types": "1.11.0",
-    "@interchainjs/utils": "1.11.0"
+    "@titanjs/types": "1.11.0",
+    "@titanjs/utils": "1.11.0"
   },
   "keywords": [
     "cosmos",

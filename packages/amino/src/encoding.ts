@@ -1,6 +1,6 @@
-import { fromBase64, fromBech32, fromHex, toBase64, toBech32, toHex } from "@interchainjs/encoding";
-import { Uint53 } from "@interchainjs/math";
-import { startsWithArray } from "@interchainjs/utils";
+import { fromBase64, fromBech32, fromHex, toBase64, toBech32, toHex } from "@titanjs/encoding";
+import { Uint53 } from "@titanjs/math";
+import { startsWithArray } from "@titanjs/utils";
 
 import {
   Ed25519Pubkey,

@@ -1,5 +1,5 @@
 {
-  "name": "@interchainjs/crypto",
+  "name": "@titanjs/crypto",
   "version": "1.11.0",
   "description": "Cryptography resources for blockchain projects",
   "contributors": [
@@ -28,9 +28,9 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@interchainjs/encoding": "1.11.0",
-    "@interchainjs/math": "1.11.0",
-    "@interchainjs/utils": "1.11.0",
+    "@titanjs/encoding": "1.11.0",
+    "@titanjs/math": "1.11.0",
+    "@titanjs/utils": "1.11.0",
     "@noble/hashes": "^1",
     "bn.js": "^5.2.0",
     "elliptic": "^6.5.4",

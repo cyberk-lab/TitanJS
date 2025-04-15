@@ -1,3 +1,3 @@
 throw new Error(
-  '@interchainjs/cosmos have no entry-point: consult README for usage'
+  '@titanjs/cosmos have no entry-point: consult README for usage'
 );

@@ -1,3 +1,3 @@
 throw new Error(
-  '@interchainjs/titan have no entry-point: consult README for usage'
+  '@titanjs/titan have no entry-point: consult README for usage'
 );

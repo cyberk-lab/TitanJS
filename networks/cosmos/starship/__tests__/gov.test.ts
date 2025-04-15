@@ -1,14 +1,14 @@
 import './setup.test';
 
 import { Asset } from '@chain-registry/types';
-import { Secp256k1Auth } from '@interchainjs/auth/secp256k1';
-import { AminoSigner } from '@interchainjs/cosmos/signers/amino';
-import { DirectSigner } from '@interchainjs/cosmos/signers/direct';
+import { Secp256k1Auth } from '@titanjs/auth/secp256k1';
+import { AminoSigner } from '@titanjs/cosmos/signers/amino';
+import { DirectSigner } from '@titanjs/cosmos/signers/direct';
 import {
   assertIsDeliverTxSuccess,
   toConverters,
   toEncoders,
-} from '@interchainjs/cosmos/utils';
+} from '@titanjs/cosmos/utils';
 import {
   ProposalStatus,
   TextProposal,
@@ -25,18 +25,18 @@ import {
 import { MsgDelegate } from 'interchainjs/cosmos/staking/v1beta1/tx';
 import {
   HDPath
-} from '@interchainjs/types';
-import { fromBase64, toUtf8 } from '@interchainjs/utils';
+} from '@titanjs/types';
+import { fromBase64, toUtf8 } from '@titanjs/utils';
 import { BigNumber } from 'bignumber.js';
-import { getBalance } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
-import { getProposal, getVote } from "@interchainjs/cosmos-types/cosmos/gov/v1beta1/query.rpc.func";
-import { getValidators } from "@interchainjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
+import { getBalance } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
+import { getProposal, getVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/query.rpc.func";
+import { getValidators } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
 import { useChain } from 'starshipjs';
 
 import { generateMnemonic, waitUntil } from '../src';
-import { QueryBalanceRequest, QueryBalanceResponse } from '@interchainjs/cosmos-types/cosmos/bank/v1beta1/query';
-import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@interchainjs/cosmos-types/cosmos/gov/v1beta1/query';
-import { QueryValidatorsRequest, QueryValidatorsResponse } from '@interchainjs/cosmos-types/cosmos/staking/v1beta1/query';
+import { QueryBalanceRequest, QueryBalanceResponse } from '@titanjs/cosmos-types/cosmos/bank/v1beta1/query';
+import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@titanjs/cosmos-types/cosmos/gov/v1beta1/query';
+import { QueryValidatorsRequest, QueryValidatorsResponse } from '@titanjs/cosmos-types/cosmos/staking/v1beta1/query';
 
 const cosmosHdPath = "m/44'/118'/0'/0/0";
 

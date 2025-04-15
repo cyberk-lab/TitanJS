@@ -8,13 +8,13 @@ import {
   MultisigThresholdPubkey,
   Pubkey,
   SinglePubkey,
-} from "@interchainjs/amino";
-import { fromBase64 } from "@interchainjs/encoding";
-import { Uint53 } from "@interchainjs/math";
-import { PubKey as CosmosCryptoEd25519Pubkey } from "@interchainjs/cosmos-types/cosmos/crypto/ed25519/keys";
-import { LegacyAminoPubKey } from "@interchainjs/cosmos-types/cosmos/crypto/multisig/keys";
-import { PubKey as CosmosCryptoSecp256k1Pubkey } from "@interchainjs/cosmos-types/cosmos/crypto/secp256k1/keys";
-import { Any } from "@interchainjs/cosmos-types/google/protobuf/any";
+} from "@titanjs/amino";
+import { fromBase64 } from "@titanjs/encoding";
+import { Uint53 } from "@titanjs/math";
+import { PubKey as CosmosCryptoEd25519Pubkey } from "@titanjs/cosmos-types/cosmos/crypto/ed25519/keys";
+import { LegacyAminoPubKey } from "@titanjs/cosmos-types/cosmos/crypto/multisig/keys";
+import { PubKey as CosmosCryptoSecp256k1Pubkey } from "@titanjs/cosmos-types/cosmos/crypto/secp256k1/keys";
+import { Any } from "@titanjs/cosmos-types/google/protobuf/any";
 
 /**
  * Takes a pubkey in the Amino JSON object style (type/value wrapper)

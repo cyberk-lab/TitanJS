@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { fromBase64 } from "@interchainjs/encoding";
+import { fromBase64 } from "@titanjs/encoding";
 
 import { decodeSignature, encodeSecp256k1Signature, StdSignature } from "./signature";
 

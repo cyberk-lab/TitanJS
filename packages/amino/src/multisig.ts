@@ -1,5 +1,5 @@
-import { toHex } from "@interchainjs/encoding";
-import { Uint53 } from "@interchainjs/math";
+import { toHex } from "@titanjs/encoding";
+import { Uint53 } from "@titanjs/math";
 
 import { pubkeyToRawAddress } from "./addresses";
 import { MultisigThresholdPubkey, SinglePubkey } from "./pubkeys";
@@ -30,11 +30,11 @@ export function createMultisigThresholdPubkey(
   const outPubkeys = nosort
     ? pubkeys
     : Array.from(pubkeys).sort((lhs, rhs) => {
-        // https://github.com/cosmos/cosmos-sdk/blob/v0.42.2/client/keys/add.go#L172-L174
-        const addressLhs = pubkeyToRawAddress(lhs);
-        const addressRhs = pubkeyToRawAddress(rhs);
-        return compareArrays(addressLhs, addressRhs);
-      });
+      // https://github.com/cosmos/cosmos-sdk/blob/v0.42.2/client/keys/add.go#L172-L174
+      const addressLhs = pubkeyToRawAddress(lhs);
+      const addressRhs = pubkeyToRawAddress(rhs);
+      return compareArrays(addressLhs, addressRhs);
+    });
   return {
     type: "tendermint/PubKeyMultisigThreshold",
     value: {

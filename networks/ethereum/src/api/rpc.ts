@@ -1,4 +1,4 @@
-import { IApiClient } from "@interchainjs/types";
+import { IApiClient } from "@titanjs/types";
 import { JsonRpcProvider, Provider, TransactionResponse } from "ethers";
 
 export interface IEthereumApiClient extends IApiClient<string, TransactionResponse, unknown> {

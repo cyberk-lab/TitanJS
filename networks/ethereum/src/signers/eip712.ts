@@ -1,4 +1,4 @@
-import { IKey, SignDocResponse, SignResponse, BroadcastOptions, Auth, isDocAuth, HttpEndpoint } from "@interchainjs/types";
+import { IKey, SignDocResponse, SignResponse, BroadcastOptions, Auth, isDocAuth, HttpEndpoint } from "@titanjs/types";
 import { JsonRpcProvider, Provider, TransactionRequest, TransactionResponse } from "ethers";
 import { UniEip712Signer } from "../types";
 import { Eip712DocAuth } from "../types/docAuth";

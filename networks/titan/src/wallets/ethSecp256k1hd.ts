@@ -1,15 +1,15 @@
-import { AddrDerivation, SignerConfig } from '@interchainjs/types';
+import { AddrDerivation, SignerConfig } from '@titanjs/types';
 
 import { defaultSignerOptions, defaultWalletOptions } from '../defaults';
 import {
   ICosmosAccount,
-} from '@interchainjs/cosmos/types';
+} from '@titanjs/cosmos/types';
 import {
   HDWallet,
-} from '@interchainjs/cosmos/wallets/secp256k1hd';
+} from '@titanjs/cosmos/wallets/secp256k1hd';
 import {
   WalletOptions,
-} from '@interchainjs/cosmos/types/wallet';
+} from '@titanjs/cosmos/types/wallet';
 
 /**
  * Cosmos HD Wallet for secp256k1

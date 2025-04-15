@@ -1,9 +1,9 @@
 import {
   InjectiveDomain,
   SignerConfig,
-} from '@interchainjs/types';
-import { Auth } from '@interchainjs/types';
-import { fromNumber, toPrefixedHex } from '@interchainjs/utils';
+} from '@titanjs/types';
+import { Auth } from '@titanjs/types';
+import { fromNumber, toPrefixedHex } from '@titanjs/utils';
 
 import { defaultPublicKeyConfig } from './defaults';
 import { DomainOptions, InjectiveAccount } from './types';

@@ -1,13 +1,13 @@
-import { BaseAccount } from '@interchainjs/cosmos-types/cosmos/auth/v1beta1/auth';
-import { SignMode } from '@interchainjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
-import { SimulateResponse } from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/service';
+import { BaseAccount } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/auth';
+import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { SimulateResponse } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/service';
 import {
   SignDoc,
   SignerInfo,
   TxBody,
   TxRaw,
-} from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { Any } from '@interchainjs/cosmos-types/google/protobuf/any';
+} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { Any } from '@titanjs/cosmos-types/google/protobuf/any';
 import {
   AccountData,
   BroadcastOptions,
@@ -23,10 +23,10 @@ import {
   IApiClient,
   Auth,
   DeliverTxResponse
-} from '@interchainjs/types';
-import { Event } from '@interchainjs/types';
-import { AccountBase } from '@interchainjs/types/account';
-import { Key } from '@interchainjs/utils';
+} from '@titanjs/types';
+import { Event } from '@titanjs/types';
+import { AccountBase } from '@titanjs/types/account';
+import { Key } from '@titanjs/utils';
 import { ripemd160 } from '@noble/hashes/ripemd160';
 import { sha256 } from '@noble/hashes/sha256';
 import { AminoSignResponse, DirectSignResponse } from './wallet';

@@ -1,11 +1,11 @@
-import { Coin } from '@interchainjs/cosmos-types/cosmos/base/v1beta1/coin';
-import { Fee } from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { Coin } from '@titanjs/cosmos-types/cosmos/base/v1beta1/coin';
+import { Fee } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
 import {
   StdFee,
   StdSignDoc,
   TelescopeGeneratedType,
-} from '@interchainjs/types';
-import { assertEmpty, fromUtf8 } from '@interchainjs/utils';
+} from '@titanjs/types';
+import { assertEmpty, fromUtf8 } from '@titanjs/utils';
 
 import { AminoConverter, AminoMessage, Message } from '../types';
 

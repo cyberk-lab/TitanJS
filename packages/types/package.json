@@ -1,5 +1,5 @@
 {
-  "name": "@interchainjs/types",
+  "name": "@titanjs/types",
   "version": "1.11.0",
   "main": "index.js",
   "module": "esm/index.js",

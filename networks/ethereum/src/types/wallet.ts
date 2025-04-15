@@ -1,4 +1,4 @@
-import { IGenericOfflineSigner, SIGN_MODE } from "@interchainjs/types";
+import { IGenericOfflineSigner, SIGN_MODE } from "@titanjs/types";
 import { Transaction, TransactionRequest, Signer as ethersOfflineSigner } from "ethers";
 
 export interface IEthereumGenericOfflineSigner extends IGenericOfflineSigner<string, unknown, string, TransactionRequest, string> {
@@ -10,7 +10,7 @@ export class EthereumGenericOfflineSigner implements IEthereumGenericOfflineSign
 
   readonly signMode: string = SIGN_MODE.ETHEREUM_TX;
 
-  getAccounts():  Promise<readonly string[]> {
+  getAccounts(): Promise<readonly string[]> {
     return this.offlineSigner.getAddress().then((address) => [address]);
   }
 

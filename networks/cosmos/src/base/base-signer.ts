@@ -1,10 +1,10 @@
-import { BaseAccount } from '@interchainjs/cosmos-types/cosmos/auth/v1beta1/auth';
-import { SignMode } from '@interchainjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { BaseAccount } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/auth';
+import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
 import {
   SignerInfo,
   TxBody,
   TxRaw,
-} from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
+} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
 import {
   Auth,
   BaseSigner,
@@ -20,8 +20,8 @@ import {
   SignResponse,
   DeliverTxResponse,
   TelescopeGeneratedCodec
-} from '@interchainjs/types';
-import { assertEmpty, isEmpty } from '@interchainjs/utils';
+} from '@titanjs/types';
+import { assertEmpty, isEmpty } from '@titanjs/utils';
 
 import { defaultSignerOptions } from '../defaults';
 import { RpcClient } from '../query/rpc';

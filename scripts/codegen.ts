@@ -86,9 +86,8 @@ export const options: TelescopeInput = {
 };
 
 rimraf(join(__dirname, '../libs/cosmos-types/src'));
-rimraf(join(__dirname, '../libs/interchainjs/src'));
-rimraf(join(__dirname, '../libs/interchain-vue/src'));
-rimraf(join(__dirname, '../libs/interchain-react/src'));
+rimraf(join(__dirname, '../libs/cosmos-vue/src'));
+rimraf(join(__dirname, '../libs/cosmos-react/src'));
 rimraf(join(__dirname, '../libs/titan-types/src'));
 rimraf(join(__dirname, '../libs/titan-vue/src'));
 rimraf(join(__dirname, '../libs/titan-react/src'));
@@ -160,23 +159,23 @@ telescope({
   });
 
 // interchainjs
-telescope({
-  protoDirs: [join(__dirname, '../protos/interchainjs')],
-  outPath: join(__dirname, '../libs/interchainjs/src'),
-  options: options.options
-})
-  .then(() => {
-    console.log('✨ all done!');
-  })
-  .catch((e) => {
-    console.error(e);
-    process.exit(1);
-  });
+// telescope({
+//   protoDirs: [join(__dirname, '../protos/interchainjs')],
+//   outPath: join(__dirname, '../libs/cosmos-types/src'),
+//   options: options.options
+// })
+//   .then(() => {
+//     console.log('✨ all done!');
+//   })
+//   .catch((e) => {
+//     console.error(e);
+//     process.exit(1);
+//   });
 
 // interchain-vue
 telescope({
   protoDirs: [join(__dirname, '../protos/interchainjs')],
-  outPath: join(__dirname, '../libs/interchain-vue/src'),
+  outPath: join(__dirname, '../libs/cosmos-vue/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
       "hooks": {
@@ -196,7 +195,7 @@ telescope({
 // interchain-react
 telescope({
   protoDirs: [join(__dirname, '../protos/interchainjs')],
-  outPath: join(__dirname, '../libs/interchain-react/src'),
+  outPath: join(__dirname, '../libs/cosmos-react/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
       "hooks": {

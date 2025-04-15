@@ -1,4 +1,4 @@
-import { fromHex, toHex } from "@interchainjs/encoding";
+import { fromHex, toHex } from "@titanjs/encoding";
 import BN from "bn.js";
 import elliptic from "elliptic";
 

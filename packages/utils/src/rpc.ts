@@ -1,4 +1,4 @@
-import { HttpEndpoint, TxRpc, BroadcastMode } from '@interchainjs/types';
+import { HttpEndpoint, TxRpc, BroadcastMode } from '@titanjs/types';
 import { toHttpEndpoint } from './endpoint';
 import { fromBase64, toBase64, toHex } from './encoding';
 import { randomId } from './random';

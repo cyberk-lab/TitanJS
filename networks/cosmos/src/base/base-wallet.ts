@@ -1,5 +1,5 @@
-import { Secp256k1Auth } from '@interchainjs/auth/secp256k1';
-import { AccountData, AddrDerivation, Auth, SignerConfig, SIGN_MODE, IGenericOfflineSignArgs, IDocSigner } from '@interchainjs/types';
+import { Secp256k1Auth } from '@titanjs/auth/secp256k1';
+import { AccountData, AddrDerivation, Auth, SignerConfig, SIGN_MODE, IGenericOfflineSignArgs, IDocSigner } from '@titanjs/types';
 
 import { AminoDocSigner } from '../signers/amino';
 import { defaultSignerConfig } from '../defaults';
@@ -25,8 +25,7 @@ import { CosmosDocSigner } from './base-signer';
  * Cosmos HD Wallet for secp256k1
  */
 export abstract class BaseCosmosWallet<TDirectDocSigner extends CosmosDocSigner<CosmosDirectDoc>, TAminoDocSigner extends CosmosDocSigner<CosmosAminoDoc>>
-implements ICosmosWallet, OfflineAminoSigner, OfflineDirectSigner
-{
+  implements ICosmosWallet, OfflineAminoSigner, OfflineDirectSigner {
   public accounts: ICosmosAccount[];
   public options: SignerConfig;
 

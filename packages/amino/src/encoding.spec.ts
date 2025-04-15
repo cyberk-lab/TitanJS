@@ -1,5 +1,5 @@
-import { Random } from "@interchainjs/crypto";
-import { fromBase64, fromBech32, fromHex } from "@interchainjs/encoding";
+import { Random } from "@titanjs/crypto";
+import { fromBase64, fromBech32, fromHex } from "@titanjs/encoding";
 
 import {
   decodeAminoPubkey,

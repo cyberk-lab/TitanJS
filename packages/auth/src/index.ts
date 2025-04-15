@@ -1,1 +1,1 @@
-throw new Error('@interchainjs/auth has no entry-point: consult README for usage');
+throw new Error('@titanjs/auth has no entry-point: consult README for usage');

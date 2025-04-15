@@ -1,4 +1,4 @@
-import { Auth, HttpEndpoint, TelescopeGeneratedCodec } from '@interchainjs/types';
+import { Auth, HttpEndpoint, TelescopeGeneratedCodec } from '@titanjs/types';
 
 import { BaseCosmosTxBuilder, CosmosBaseSigner, CosmosDocSigner } from '../base';
 import { BaseCosmosTxBuilderContext } from '../base/builder-context';

@@ -1,5 +1,5 @@
 {
-  "name": "@interchainjs/pubkey",
+  "name": "@titanjs/pubkey",
   "version": "1.11.0",
   "description": "Pubkey helpers for blockchain projects",
   "contributors": [
@@ -27,10 +27,10 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@interchainjs/amino": "1.11.0",
-    "@interchainjs/cosmos-types": "1.11.0",
-    "@interchainjs/encoding": "1.11.0",
-    "@interchainjs/math": "1.11.0",
-    "@interchainjs/types": "1.11.0"
+    "@titanjs/amino": "1.11.0",
+    "@titanjs/cosmos-types": "1.11.0",
+    "@titanjs/encoding": "1.11.0",
+    "@titanjs/math": "1.11.0",
+    "@titanjs/types": "1.11.0"
   }
 }

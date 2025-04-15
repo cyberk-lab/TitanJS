@@ -1,11 +1,11 @@
-import { SignMode } from '@interchainjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
 import {
   AuthInfo,
   Fee,
   SignerInfo,
   TxBody,
   TxRaw,
-} from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
+} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
 import {
   BaseSigner,
   IKey,
@@ -13,7 +13,7 @@ import {
   ITxBuilder,
   SignDocResponse,
   StdFee,
-} from '@interchainjs/types';
+} from '@titanjs/types';
 
 import {
   CosmosCreateDocResponse,
@@ -31,9 +31,8 @@ export const STAGING_AUTH_INFO = 'staging_auth_info';
  * BaseCosmosSigBuilder is a helper class to build the signature from the document
  */
 export abstract class BaseCosmosSigBuilder<SignDoc>
-implements ISigBuilder<SignDoc, IKey>
-{
-  constructor(protected ctx: BaseCosmosTxBuilderContext<BaseSigner>) {}
+  implements ISigBuilder<SignDoc, IKey> {
+  constructor(protected ctx: BaseCosmosTxBuilderContext<BaseSigner>) { }
 
   /**
    * abstract method to build the document bytes
@@ -60,9 +59,8 @@ implements ISigBuilder<SignDoc, IKey>
 export abstract class BaseCosmosTxBuilder<SignDoc>
   extends BaseCosmosSigBuilder<SignDoc>
   implements
-    ITxBuilder<CosmosSignArgs, CosmosCreateDocResponse<SignDoc>>,
-    ISigBuilder<SignDoc, IKey>
-{
+  ITxBuilder<CosmosSignArgs, CosmosCreateDocResponse<SignDoc>>,
+  ISigBuilder<SignDoc, IKey> {
   constructor(
     public signMode: SignMode,
     protected ctx: BaseCosmosTxBuilderContext<CosmosBaseSigner<SignDoc>>
@@ -105,15 +103,15 @@ export abstract class BaseCosmosTxBuilder<SignDoc>
     const { signerInfo } = await this.buildSignerInfo(
       this.ctx.signer.encodedPublicKey,
       options?.sequence ??
-        (await this.ctx.signer.queryClient.getSequence(
-          await this.ctx.signer.getAddress()
-        )),
+      (await this.ctx.signer.queryClient.getSequence(
+        await this.ctx.signer.getAddress()
+      )),
       this.signMode
     );
 
     const stdFee = await this.getFee(fee, txBody, [signerInfo], options);
 
-    const { authInfo, encode: authEncode} = await this.buildAuthInfo([signerInfo], toFee(stdFee));
+    const { authInfo, encode: authEncode } = await this.buildAuthInfo([signerInfo], toFee(stdFee));
 
     this.ctx.setStagingData(STAGING_AUTH_INFO, authInfo);
 

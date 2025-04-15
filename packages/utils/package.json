@@ -1,5 +1,5 @@
 {
-  "name": "@interchainjs/utils",
+  "name": "@titanjs/utils",
   "version": "1.11.0",
   "author": "Hyperweb <developers@hyperweb.io>",
   "main": "index.js",
@@ -25,7 +25,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@interchainjs/types": "1.11.0",
+    "@titanjs/types": "1.11.0",
     "bech32": "^2.0.0",
     "decimal.js": "^10.4.3"
   },

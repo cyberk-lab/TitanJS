@@ -1,5 +1,5 @@
-import { Price } from '@interchainjs/types';
-import { getChainById, toPrice } from '@interchainjs/utils';
+import { Price } from '@titanjs/types';
+import { getChainById, toPrice } from '@titanjs/utils';
 import Decimal from 'decimal.js';
 
 import { defaultFeeOptions } from '../defaults';
@@ -55,18 +55,18 @@ export async function calculateFee(
 
   let price: Price;
   switch (options?.gasPrice ?? defaultFeeOptions.gasPrice) {
-  case 'average':
-    price = getAvgGasPrice(await getChainId());
-    break;
-  case 'high':
-    price = getHighGasPrice(await getChainId());
-    break;
-  case 'low':
-    price = getLowGasPrice(await getChainId());
-    break;
-  default:
-    price = toPrice(options?.gasPrice);
-    break;
+    case 'average':
+      price = getAvgGasPrice(await getChainId());
+      break;
+    case 'high':
+      price = getHighGasPrice(await getChainId());
+      break;
+    case 'low':
+      price = getLowGasPrice(await getChainId());
+      break;
+    default:
+      price = toPrice(options?.gasPrice);
+      break;
   }
 
   if (price.denom.length < 3 || price.denom.length > 128) {

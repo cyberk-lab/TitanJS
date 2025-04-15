@@ -1,4 +1,4 @@
-import { IKey } from '@interchainjs/types';
+import { IKey } from '@titanjs/types';
 import { bech32 } from 'bech32';
 
 import {
@@ -13,7 +13,7 @@ import {
 } from './encoding';
 
 export class Key implements IKey {
-  constructor(public readonly value: Uint8Array) {}
+  constructor(public readonly value: Uint8Array) { }
 
   static from(value: Uint8Array) {
     return new Key(value);

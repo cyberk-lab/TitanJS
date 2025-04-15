@@ -1,7 +1,7 @@
-import { SignMode } from '@interchainjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
-import { AuthInfo } from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { TxRaw } from '@interchainjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { SignDocResponse } from '@interchainjs/types';
+import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { AuthInfo } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { TxRaw } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { SignDocResponse } from '@titanjs/types';
 
 import { type AminoSignerBase } from '../signers/amino';
 import { BaseCosmosSigBuilder, BaseCosmosTxBuilder, STAGING_AUTH_INFO } from '../base';
@@ -70,7 +70,7 @@ export class AminoTxBuilder extends BaseCosmosTxBuilder<CosmosAminoDoc> {
     return {
       bodyBytes: txRaw.bodyBytes,
       authInfoBytes: authInfoBytes,
-      signatures: [ signResp.signature.value ]
+      signatures: [signResp.signature.value]
     };
   }
 }

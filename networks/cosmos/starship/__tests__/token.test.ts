@@ -2,25 +2,25 @@ import './setup.test';
 
 import { ChainInfo } from '@chain-registry/client';
 import { Asset } from '@chain-registry/types';
-import { Secp256k1Auth } from '@interchainjs/auth/secp256k1';
-import { defaultSignerOptions } from '@interchainjs/cosmos/defaults';
-import { DirectSigner } from '@interchainjs/cosmos/signers/direct';
+import { Secp256k1Auth } from '@titanjs/auth/secp256k1';
+import { defaultSignerOptions } from '@titanjs/cosmos/defaults';
+import { DirectSigner } from '@titanjs/cosmos/signers/direct';
 import {
   assertIsDeliverTxSuccess,
   toEncoders,
-} from '@interchainjs/cosmos/utils';
+} from '@titanjs/cosmos/utils';
 import {
   createQueryRpc,
-} from '@interchainjs/utils';
+} from '@titanjs/utils';
 import { MsgSend } from 'interchainjs/cosmos/bank/v1beta1/tx';
 import { MessageComposer } from 'interchainjs/cosmos/bank/v1beta1/tx.registry';
 import { MsgTransfer } from 'interchainjs/ibc/applications/transfer/v1/tx';
-import { HDPath } from '@interchainjs/types';
+import { HDPath } from '@titanjs/types';
 import { useChain } from 'starshipjs';
 
 import { generateMnemonic } from '../src';
-import { getAllBalances, getBalance } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
-import { QueryBalanceRequest, QueryBalanceResponse } from '@interchainjs/cosmos-types/cosmos/bank/v1beta1/query';
+import { getAllBalances, getBalance } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
+import { QueryBalanceRequest, QueryBalanceResponse } from '@titanjs/cosmos-types/cosmos/bank/v1beta1/query';
 
 const cosmosHdPath = "m/44'/118'/0'/0/0";
 

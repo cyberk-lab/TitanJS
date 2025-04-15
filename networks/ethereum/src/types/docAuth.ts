@@ -2,7 +2,7 @@ import {
   BaseDocAuth,
   IKey,
   SignDocResponse,
-} from '@interchainjs/types';
+} from '@titanjs/types';
 import { IEthereumGenericOfflineSigner } from './wallet';
 import { TransactionRequest } from 'ethers';
 

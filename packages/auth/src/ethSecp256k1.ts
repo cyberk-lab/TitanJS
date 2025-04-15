@@ -1,6 +1,6 @@
 import * as BytesUtils from '@ethersproject/bytes';
-import { AuthOptions, ByteAuth, ISignatureWraper } from '@interchainjs/types';
-import { Key } from '@interchainjs/utils';
+import { AuthOptions, ByteAuth, ISignatureWraper } from '@titanjs/types';
+import { Key } from '@titanjs/utils';
 import { secp256k1 } from '@noble/curves/secp256k1';
 import { HDKey } from '@scure/bip32';
 import { HDNodeWallet, Signature as EthSignature, Wallet } from 'ethers';
@@ -69,7 +69,7 @@ export class EthSecp256k1Auth implements ByteAuth<EthSignature> {
  * secp256k1 Signature for Ethereum
  */
 export class EthSecp256k1Signature implements ISignatureWraper<EthSignature> {
-  constructor(public readonly signature: EthSignature) {}
+  constructor(public readonly signature: EthSignature) { }
 
   /**
    * Convert signature to compact format

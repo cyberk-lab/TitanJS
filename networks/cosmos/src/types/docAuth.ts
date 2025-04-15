@@ -5,8 +5,8 @@ import {
   SignDoc,
   SignDocResponse,
   StdSignDoc,
-} from '@interchainjs/types';
-import { Key } from '@interchainjs/utils';
+} from '@titanjs/types';
+import { Key } from '@titanjs/utils';
 
 import { AminoSignResponse, DirectSignResponse, IAminoGenericOfflineSigner, IDirectGenericOfflineSigner, isOfflineAminoSigner, isOfflineDirectSigner, OfflineAminoSigner, OfflineDirectSigner } from './wallet';
 import { CosmosAminoDoc, CosmosDirectDoc } from './signer';
@@ -21,7 +21,7 @@ export class AminoDocAuth extends BaseDocAuth<OfflineAminoSigner | IAminoGeneric
 
   async signDoc(doc: StdSignDoc): Promise<SignDocResponse<StdSignDoc>> {
     let resp;
-    if(isOfflineAminoSigner(this.offlineSigner)) {
+    if (isOfflineAminoSigner(this.offlineSigner)) {
       resp = await this.offlineSigner.signAmino(this.address, doc);
     } else {
       resp = await this.offlineSigner.sign({
@@ -50,7 +50,7 @@ export class AminoDocAuth extends BaseDocAuth<OfflineAminoSigner | IAminoGeneric
   }
 
   static async fromGenericOfflineSigner(offlineSigner: IAminoGenericOfflineSigner) {
-    if(offlineSigner.signMode !== SIGN_MODE.AMINO) {
+    if (offlineSigner.signMode !== SIGN_MODE.AMINO) {
       throw new Error('not an amino general offline signer');
     }
 
@@ -83,7 +83,7 @@ export class DirectDocAuth extends BaseDocAuth<OfflineDirectSigner | IDirectGene
   async signDoc(doc: SignDoc): Promise<SignDocResponse<SignDoc>> {
     // let resp = await this.offlineSigner.signDirect(this.address, doc);
     let resp;
-    if(isOfflineDirectSigner(this.offlineSigner)) {
+    if (isOfflineDirectSigner(this.offlineSigner)) {
       resp = await this.offlineSigner.signDirect(this.address, doc);
     } else {
       resp = await this.offlineSigner.sign({
@@ -113,7 +113,7 @@ export class DirectDocAuth extends BaseDocAuth<OfflineDirectSigner | IDirectGene
   }
 
   static async fromGenericOfflineSigner(offlineSigner: IDirectGenericOfflineSigner) {
-    if(offlineSigner.signMode !== SIGN_MODE.DIRECT) {
+    if (offlineSigner.signMode !== SIGN_MODE.DIRECT) {
       throw new Error('not a direct general offline signer');
     }
 

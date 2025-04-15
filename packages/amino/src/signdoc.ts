@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { toUtf8 } from "@interchainjs/encoding";
-import { Uint53 } from "@interchainjs/math";
+import { toUtf8 } from "@titanjs/encoding";
+import { Uint53 } from "@titanjs/math";
 
 import { Coin } from "./coins";
 

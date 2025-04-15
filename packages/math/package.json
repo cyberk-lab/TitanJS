@@ -1,5 +1,5 @@
 {
-  "name": "@interchainjs/math",
+  "name": "@titanjs/math",
   "version": "1.11.0",
   "description": "Math helpers for blockchain projects",
   "contributors": [

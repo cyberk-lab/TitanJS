@@ -1,4 +1,4 @@
-import { isUint8Array } from "@interchainjs/utils";
+import { isUint8Array } from "@titanjs/utils";
 
 import { Random } from "./random";
 

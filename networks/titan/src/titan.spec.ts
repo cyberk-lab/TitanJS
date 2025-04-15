@@ -4,9 +4,9 @@ import { DirectSigner } from "@titanjs/cosmos/signers/direct";
 import { SigningClient } from "@titanjs/cosmos/signing-client";
 import { AminoGenericOfflineSigner } from "@titanjs/cosmos/types/wallet";
 import { toConverters, toEncoders } from "@titanjs/cosmos/utils";
-// import { MsgSubmitProposal, MsgVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/tx";
+import { MsgSubmitProposal, MsgVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/tx";
 import { TextProposal } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/gov";
-// import { MsgDelegate } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/tx";
+import { MsgDelegate } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/tx";
 import { ConfigContext, generateMnemonic, useChain, useRegistry } from "starshipjs";
 import { defaultSignerOptions } from "./defaults";
 import { EthSecp256k1HDWallet } from "./wallets/ethSecp256k1hd";
@@ -36,14 +36,14 @@ describe('Titan', () => {
         ]);
         const directSigner = new DirectSigner(
             directAuth,
-            toEncoders(TextProposal),
+            toEncoders(MsgDelegate, TextProposal, MsgSubmitProposal, MsgVote),
             rpcEndpoint,
             defaultSignerOptions.Cosmos
         );
         const aminoSigner = new AminoSigner(
             aminoAuth,
-            toEncoders(TextProposal),
-            toConverters(TextProposal),
+            toEncoders(MsgDelegate, TextProposal, MsgSubmitProposal, MsgVote),
+            toConverters(MsgDelegate, TextProposal, MsgSubmitProposal, MsgVote),
             rpcEndpoint,
             defaultSignerOptions.Cosmos
         );

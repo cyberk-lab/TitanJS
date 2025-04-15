@@ -100,27 +100,6 @@ telescope({
     "prototypes": {
       "enableRegistryLoader": false,
       "enableMessageComposer": false,
-      "includes": {
-        "protos": [
-          "cosmos/vesting/v1beta1/vesting.proto",
-          "cosmos/tx/v1beta1/service.proto",
-          "cosmos/tx/signing/v1beta1/signing.proto",
-          "cosmos/tx/v1beta1/tx.proto",
-          "cosmos/tx/v1beta1/service.proto",
-          "ethermint/types/v1/account.proto",
-          "cosmos/auth/v1beta1/auth.proto",
-          "cosmos/auth/v1beta1/query.proto",
-          "cosmos/bank/v1beta1/bank.proto",
-          "cosmos/bank/v1beta1/query.proto",
-          "cosmos/gov/v1beta1/gov.proto",
-          "cosmos/gov/v1beta1/query.proto",
-          "cosmos/staking/v1beta1/staking.proto",
-          "cosmos/staking/v1beta1/query.proto",
-          "cosmos/crypto/secp256k1/keys.proto",
-          "cosmos/crypto/ed25519/keys.proto",
-          "cosmos/crypto/multisig/keys.proto"
-        ]
-      },
       "methods": {
         "fromJSON": false,
         "toJSON": false,

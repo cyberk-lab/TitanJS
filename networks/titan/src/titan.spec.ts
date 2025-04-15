@@ -6,7 +6,7 @@ import { AminoGenericOfflineSigner } from "@titanjs/cosmos/types/wallet";
 import { toConverters, toEncoders } from "@titanjs/cosmos/utils";
 // import { MsgSubmitProposal, MsgVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/tx";
 import { TextProposal } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/gov";
-import { MsgDelegate } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/tx";
+// import { MsgDelegate } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/tx";
 import { ConfigContext, generateMnemonic, useChain, useRegistry } from "starshipjs";
 import { defaultSignerOptions } from "./defaults";
 import { EthSecp256k1HDWallet } from "./wallets/ethSecp256k1hd";
@@ -36,14 +36,14 @@ describe('Titan', () => {
         ]);
         const directSigner = new DirectSigner(
             directAuth,
-            toEncoders(MsgDelegate, TextProposal),
+            toEncoders(TextProposal),
             rpcEndpoint,
             defaultSignerOptions.Cosmos
         );
         const aminoSigner = new AminoSigner(
             aminoAuth,
-            toEncoders(MsgDelegate, TextProposal),
-            toConverters(MsgDelegate, TextProposal),
+            toEncoders(TextProposal),
+            toConverters(TextProposal),
             rpcEndpoint,
             defaultSignerOptions.Cosmos
         );

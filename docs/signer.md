@@ -1,6 +1,6 @@
 # Signer
 
-The main purpose of the `@interchainjs/cosmos`, `@interchainjs/ethereum`, `@interchainjs/injective` is to offer developers a way to have different `Signer` implementations on different types of Blockchains. All of these `Signer`s are implementing [`UniSigner` interface](#unisigner-interface) and extending the same `BaseSigner` class which with `Auth` object being utilized in construction.
+The main purpose of the `@titanjs/cosmos`, `@titanjs/ethereum`, `@titanjs/titan` is to offer developers a way to have different `Signer` implementations on different types of Blockchains. All of these `Signer`s are implementing [`UniSigner` interface](#unisigner-interface) and extending the same `BaseSigner` class which with `Auth` object being utilized in construction.
 
 Class diagram:
 
@@ -123,8 +123,8 @@ graph TD
 ```
 
 ```ts
-import { UniSigner } from "@interchainjs/types";
-import { BaseSigner } from "@interchainjs/types";
+import { UniSigner } from "@titanjs/types";
+import { BaseSigner } from "@titanjs/types";
 ```
 
 Need to note that there are 2 type parameters that indicates 2 types of document involved in signing and broadcasting process for interface `UniSigner`:
@@ -141,13 +141,13 @@ As we know, `Auth` object can be used to sign any piece of binary data (See [det
 ### Usage
 
 ```ts
-import { DirectSigner } from "@interchainjs/cosmos/signers/direct";
-import { toEncoder } from "@interchainjs/cosmos/utils";
-import { Secp256k1Auth } from "@interchainjs/auth/secp256k1";
-import { MsgSend } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/tx";
+import { DirectSigner } from "@titanjs/cosmos/signers/direct";
+import { toEncoder } from "@titanjs/cosmos/utils";
+import { Secp256k1Auth } from "@titanjs/auth/secp256k1";
+import { MsgSend } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/tx";
 import {
   HDPath
-} from '@interchainjs/types';
+} from '@titanjs/types';
 
 
 const [auth] = Secp256k1Auth.fromMnemonic("<MNEMONIC_WORDS>", [
@@ -167,11 +167,11 @@ However, combining with the `Signer` class allows you to sign human-readable mes
 ### Usage
 
 ```ts
-import { DirectSigner } from "@interchainjs/cosmos/signers/direct";
-import { DirectWallet, SignDoc } from "@interchainjs/cosmos/types";
-import { toEncoder } from "@interchainjs/cosmos/utils";
-import { MsgSend } from "@interchainjs/cosmos-types/cosmos/bank/v1beta1/tx";
-import { HDPath } from "@interchainjs/types";
+import { DirectSigner } from "@titanjs/cosmos/signers/direct";
+import { DirectWallet, SignDoc } from "@titanjs/cosmos/types";
+import { toEncoder } from "@titanjs/cosmos/utils";
+import { MsgSend } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/tx";
+import { HDPath } from "@titanjs/types";
 
 const directWallet = Secp256k1HDWallet.fromMnemonic("<MNEMONIC_WORDS>", [
   {
@@ -185,14 +185,14 @@ const directWallet = Secp256k1HDWallet.fromMnemonic("<MNEMONIC_WORDS>", [
 const signer = await DirectSigner.fromWallet(wallet, [toEncoder(MsgSend)], <RPC_ENDPOINT>);
 ```
 
-> Tips: `interchainjs` also provides helper methods to easily construct `Wallet` for each `Signer`. See [details](/docs/wallet.md#easy-to-construct-wallet).
+> Tips: `titanjs` also provides helper methods to easily construct `Wallet` for each `Signer`. See [details](/docs/wallet.md#easy-to-construct-wallet).
 
 ## UniSigner Interface
 
 There are 3 main signing methods in `UniSigner`
 
 ```ts
-/** you can import { UniSigner } from "@interchainjs/types" */
+/** you can import { UniSigner } from "@titanjs/types" */
 export interface UniSigner<SignDoc, Tx> {
   ...
   signArbitrary(data: Uint8Array): IKey;
@@ -221,9 +221,25 @@ export interface UniSigner<SignDoc, Tx> {
 > - **Wallet**: interface for web3 wallets
 > - **WalletAccount**: interface for web3 wallets account
 
+### TitanDirectSigner
+
+- **Class**: `import { DirectSigner } from "@titanjs/titan/signers/direct"`
+- **SignDoc**: TitanDirectDoc
+- **Transaction**: TitanTx
+- **Wallet**: Secp256k1HDWallet
+- **WalletAccount**: TitanAccount
+
+### TitanAminoSigner
+
+- **Class**: `import { AminoSigner } from "@titanjs/titan/signers/amino"`
+- **SignDoc**: TitanAminoDoc
+- **Transaction**: TitanTx
+- **Wallet**: Secp256k1HDWallet
+- **WalletAccount**: TitanAccount
+
 ### CosmosDirectSigner
 
-- **Class**: `import { DirectSigner } from "@interchainjs/cosmos/signers/direct"`
+- **Class**: `import { DirectSigner } from "@titanjs/cosmos/signers/direct"`
 - **SignDoc**: CosmosDirectDoc
 - **Transaction**: CosmosTx
 - **Wallet**: Secp256k1HDWallet
@@ -231,24 +247,8 @@ export interface UniSigner<SignDoc, Tx> {
 
 ### CosmosAminoSigner
 
-- **Class**: `import { AminoSigner } from "@interchainjs/cosmos/signers/amino"`
+- **Class**: `import { AminoSigner } from "@titanjs/cosmos/signers/amino"`
 - **SignDoc**: CosmosAminoDoc
 - **Transaction**: CosmosTx
 - **Wallet**: Secp256k1HDWallet
 - **WalletAccount**: CosmosAccount
-
-### InjectiveDirectSigner
-
-- **Class**: `import { DirectSigner } from "@interchainjs/injective/direct"`
-- **SignDoc**: CosmosDirectDoc
-- **Transaction**: CosmosTx
-- **Wallet**:
-- **WalletAccount**: InjectiveAccount
-
-### InjectiveAminoSigner
-
-- **Class**: `import { AminoSigner } from "@interchainjs/injective/amino"`
-- **SignDoc**: CosmosAminoDoc
-- **Transaction**: CosmosTx
-- **Wallet**:
-- **WalletAccount**: InjectiveAccount

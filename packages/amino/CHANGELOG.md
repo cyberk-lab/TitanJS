@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2025-05-05)
+
+### Bug Fixes
+
+- fail amino sign verify with special chars ([de483c2](https://github.com/cyberk-lab/titanlabjs/commit/de483c24c82a04bab90c921f99f2124e3497641d))
+- fail amino sign verify with special chars ([16198ba](https://github.com/cyberk-lab/titanlabjs/commit/16198bad4675d8f4323892cbd1c6b35a78dad010))
+
+### Features
+
+- **timeout-height:** allow define optional timeout height parameter ([f6d98a6](https://github.com/cyberk-lab/titanlabjs/commit/f6d98a6b0d1f7681f5439c6e78eb0b90d4b45af9))
+- **timeout-height:** use bigint instead long ([f771c52](https://github.com/cyberk-lab/titanlabjs/commit/f771c52c0a0ffed87255114630408224314670e1))
+
 # [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.10.1...@titanlabjs/amino@0.0.1) (2025-04-09)
 
 **Note:** Version bump only for package @titanlabjs/amino

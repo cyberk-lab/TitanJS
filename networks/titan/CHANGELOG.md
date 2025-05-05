@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2025-05-05)
+
+### Bug Fixes
+
+- test ([e555f20](https://github.com/cyberk-lab/titanjs/commit/e555f20a3f27e27fe6a816f32c480dfe2e75bf1e))
+
+### Features
+
+- add titan proto ([60b2d25](https://github.com/cyberk-lab/titanjs/commit/60b2d254cc36a60c1143bf564df7b35f10ba13b9))
+- cosmos-types add more modules ([b3adf7c](https://github.com/cyberk-lab/titanjs/commit/b3adf7c42171c59555fdd39e7112322abf984cc8))
+- rename inj to titan ([f8de9aa](https://github.com/cyberk-lab/titanjs/commit/f8de9aafcd72be5e5795eff9ef33e895076cc6dc))
+
 # [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.10.1...@titanlabjs/injective@0.0.1) (2025-04-09)
 
 **Note:** Version bump only for package @titanlabjs/injective

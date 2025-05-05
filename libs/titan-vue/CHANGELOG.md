@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2025-05-05)
+
+### Features
+
+- add titan proto ([60b2d25](https://github.com/cyberk-lab/titanjs/commit/60b2d254cc36a60c1143bf564df7b35f10ba13b9))
+
 # [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/vue@1.10.1...@titanlabjs/vue@0.0.1) (2025-04-09)
 
 **Note:** Version bump only for package @titanlabjs/vue

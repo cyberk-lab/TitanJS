@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.3 (2025-05-05)
+
+**Note:** Version bump only for package @titanlabjs/utils
+
 # [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/utils@1.10.1...@titanlabjs/utils@0.0.1) (2025-04-09)
 
 **Note:** Version bump only for package @titanlabjs/utils

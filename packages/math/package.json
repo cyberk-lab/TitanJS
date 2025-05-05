@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/math",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Math helpers for blockchain projects",
   "license": "Apache-2.0",
   "main": "index.js",

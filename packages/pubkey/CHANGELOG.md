@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.1...v0.2.2) (2025-05-05)
+
+### Bug Fixes
+
+- wrong version ([d145316](https://github.com/cyberk-lab/titanlabjs/commit/d1453161eecf1269a2360ba2cfb7aa102cce95a0))
+
 ## [0.2.1](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.0...v0.2.1) (2025-05-05)
 
 **Note:** Version bump only for package @titanlabjs/pubkey

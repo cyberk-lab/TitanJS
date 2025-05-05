@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/pubkey",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Pubkey helpers for blockchain projects",
   "license": "Apache-2.0",
   "main": "index.js",
@@ -24,8 +24,8 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@titanlabjs/amino": "^0.2.1",
-    "@titanlabjs/cosmos-types": "^0.2.1",
+    "@titanlabjs/amino": "^0.2.2",
+    "@titanlabjs/cosmos-types": "^0.2.2",
     "@titanlabjs/encoding": "^0.2.1",
     "@titanlabjs/math": "^0.2.1",
     "@titanlabjs/types": "^0.2.1"

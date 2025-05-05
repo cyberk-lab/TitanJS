@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "@titanlabjs/types": "^0.2.3",
-    "@titanlabjs/utils": "^0.2.3"
+    "@titanlabjs/utils": "^0.2.3",
+    "@titanlabjs/math": "^0.2.3"
   },
   "keywords": [
     "cosmos",

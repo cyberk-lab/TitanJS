@@ -1,15 +1,14 @@
 {
-  "name": "@titanjs/ethereum",
-  "version": "1.11.0",
+  "name": "@titanlabjs/ethereum",
+  "version": "0.0.2",
   "description": "Transaction codec and client to communicate with ethereum blockchain",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "author": "Hyperweb <developers@hyperweb.io>",
-  "homepage": "https://github.com/hyperweb-io/interchainjs",
+  "homepage": "https://github.com/cyberk-lab/titanjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs"
+    "url": "https://github.com/cyberk-lab/titanjs"
   },
   "license": "MIT",
   "publishConfig": {
@@ -36,8 +35,8 @@
     "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/hash": "^5.7.0",
     "@ethersproject/transactions": "^5.7.0",
-    "@titanjs/types": "1.11.0",
-    "@titanjs/utils": "1.11.0",
+    "@titanlabjs/types": "0.0.2",
+    "@titanlabjs/utils": "0.0.2",
     "@noble/hashes": "^1.3.1",
     "ethereum-cryptography": "^3.1.0",
     "ethers": "^6.13.4",

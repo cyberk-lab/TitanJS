@@ -1,11 +1,11 @@
-import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { SignMode } from '@titanlabjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
 import {
   AuthInfo,
   Fee,
   SignerInfo,
   TxBody,
   TxRaw,
-} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
+} from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/tx';
 import {
   BaseSigner,
   IKey,
@@ -13,7 +13,7 @@ import {
   ITxBuilder,
   SignDocResponse,
   StdFee,
-} from '@titanjs/types';
+} from '@titanlabjs/types';
 
 import {
   CosmosCreateDocResponse,

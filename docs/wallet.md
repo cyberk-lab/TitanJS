@@ -45,8 +45,8 @@ classDiagram
 Wallet can be constructed using fromMnemonic.
 
 ```ts
-import { Secp256k1HDWallet } from "@interchainjs/cosmos/wallets/secp256k1hd";
-import { HDPath } from "@interchainjs/types";
+import { Secp256k1HDWallet } from "@titanlabjs/cosmos/wallets/secp256k1hd";
+import { HDPath } from "@titanlabjs/types";
 
 // init wallet with two accounts using two hd paths
 const wallet = Secp256k1HDWallet.fromMnemonic(

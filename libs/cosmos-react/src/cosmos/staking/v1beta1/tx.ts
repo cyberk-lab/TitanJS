@@ -5,8 +5,8 @@ import { Timestamp } from "../../../google/protobuf/timestamp";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { GlobalDecoderRegistry } from "../../../registry";
 import { DeepPartial, toTimestamp, fromTimestamp } from "../../../helpers";
-import { encodePubkey, decodePubkey } from "@interchainjs/pubkey";
-import { Decimal } from "@interchainjs/math";
+import { encodePubkey, decodePubkey } from "@titanlabjs/pubkey";
+import { Decimal } from "@titanlabjs/math";
 /** MsgCreateValidator defines a SDK message for creating a new validator. */
 export interface MsgCreateValidator {
   description: Description;
@@ -51,13 +51,13 @@ export interface MsgCreateValidatorAminoMsg {
   value: MsgCreateValidatorAmino;
 }
 /** MsgCreateValidatorResponse defines the Msg/CreateValidator response type. */
-export interface MsgCreateValidatorResponse {}
+export interface MsgCreateValidatorResponse { }
 export interface MsgCreateValidatorResponseProtoMsg {
   typeUrl: "/cosmos.staking.v1beta1.MsgCreateValidatorResponse";
   value: Uint8Array;
 }
 /** MsgCreateValidatorResponse defines the Msg/CreateValidator response type. */
-export interface MsgCreateValidatorResponseAmino {}
+export interface MsgCreateValidatorResponseAmino { }
 export interface MsgCreateValidatorResponseAminoMsg {
   type: "cosmos-sdk/MsgCreateValidatorResponse";
   value: MsgCreateValidatorResponseAmino;
@@ -97,13 +97,13 @@ export interface MsgEditValidatorAminoMsg {
   value: MsgEditValidatorAmino;
 }
 /** MsgEditValidatorResponse defines the Msg/EditValidator response type. */
-export interface MsgEditValidatorResponse {}
+export interface MsgEditValidatorResponse { }
 export interface MsgEditValidatorResponseProtoMsg {
   typeUrl: "/cosmos.staking.v1beta1.MsgEditValidatorResponse";
   value: Uint8Array;
 }
 /** MsgEditValidatorResponse defines the Msg/EditValidator response type. */
-export interface MsgEditValidatorResponseAmino {}
+export interface MsgEditValidatorResponseAmino { }
 export interface MsgEditValidatorResponseAminoMsg {
   type: "cosmos-sdk/MsgEditValidatorResponse";
   value: MsgEditValidatorResponseAmino;
@@ -135,13 +135,13 @@ export interface MsgDelegateAminoMsg {
   value: MsgDelegateAmino;
 }
 /** MsgDelegateResponse defines the Msg/Delegate response type. */
-export interface MsgDelegateResponse {}
+export interface MsgDelegateResponse { }
 export interface MsgDelegateResponseProtoMsg {
   typeUrl: "/cosmos.staking.v1beta1.MsgDelegateResponse";
   value: Uint8Array;
 }
 /** MsgDelegateResponse defines the Msg/Delegate response type. */
-export interface MsgDelegateResponseAmino {}
+export interface MsgDelegateResponseAmino { }
 export interface MsgDelegateResponseAminoMsg {
   type: "cosmos-sdk/MsgDelegateResponse";
   value: MsgDelegateResponseAmino;
@@ -283,7 +283,7 @@ export interface MsgCancelUnbondingDelegationAminoMsg {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface MsgCancelUnbondingDelegationResponse {}
+export interface MsgCancelUnbondingDelegationResponse { }
 export interface MsgCancelUnbondingDelegationResponseProtoMsg {
   typeUrl: "/cosmos.staking.v1beta1.MsgCancelUnbondingDelegationResponse";
   value: Uint8Array;
@@ -293,7 +293,7 @@ export interface MsgCancelUnbondingDelegationResponseProtoMsg {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface MsgCancelUnbondingDelegationResponseAmino {}
+export interface MsgCancelUnbondingDelegationResponseAmino { }
 export interface MsgCancelUnbondingDelegationResponseAminoMsg {
   type: "cosmos-sdk/MsgCancelUnbondingDelegationResponse";
   value: MsgCancelUnbondingDelegationResponseAmino;
@@ -342,7 +342,7 @@ export interface MsgUpdateParamsAminoMsg {
  * 
  * Since: cosmos-sdk 0.47
  */
-export interface MsgUpdateParamsResponse {}
+export interface MsgUpdateParamsResponse { }
 export interface MsgUpdateParamsResponseProtoMsg {
   typeUrl: "/cosmos.staking.v1beta1.MsgUpdateParamsResponse";
   value: Uint8Array;
@@ -353,7 +353,7 @@ export interface MsgUpdateParamsResponseProtoMsg {
  * 
  * Since: cosmos-sdk 0.47
  */
-export interface MsgUpdateParamsResponseAmino {}
+export interface MsgUpdateParamsResponseAmino { }
 export interface MsgUpdateParamsResponseAminoMsg {
   type: "cosmos-sdk/MsgUpdateParamsResponse";
   value: MsgUpdateParamsResponseAmino;
@@ -571,7 +571,7 @@ export const MsgCreateValidatorResponse = {
       value: MsgCreateValidatorResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgEditValidator(): MsgEditValidator {
   return {
@@ -750,7 +750,7 @@ export const MsgEditValidatorResponse = {
       value: MsgEditValidatorResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgDelegate(): MsgDelegate {
   return {
@@ -917,7 +917,7 @@ export const MsgDelegateResponse = {
       value: MsgDelegateResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgBeginRedelegate(): MsgBeginRedelegate {
   return {
@@ -1109,7 +1109,7 @@ export const MsgBeginRedelegateResponse = {
       value: MsgBeginRedelegateResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUndelegate(): MsgUndelegate {
   return {
@@ -1482,7 +1482,7 @@ export const MsgCancelUnbondingDelegationResponse = {
       value: MsgCancelUnbondingDelegationResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateParams(): MsgUpdateParams {
   return {
@@ -1637,5 +1637,5 @@ export const MsgUpdateParamsResponse = {
       value: MsgUpdateParamsResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

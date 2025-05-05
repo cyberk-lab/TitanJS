@@ -1,13 +1,13 @@
-import { BaseAccount } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/auth';
-import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
-import { SimulateResponse } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/service';
+import { BaseAccount } from '@titanlabjs/cosmos-types/cosmos/auth/v1beta1/auth';
+import { SignMode } from '@titanlabjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { SimulateResponse } from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/service';
 import {
   SignDoc,
   SignerInfo,
   TxBody,
   TxRaw,
-} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { Any } from '@titanjs/cosmos-types/google/protobuf/any';
+} from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { Any } from '@titanlabjs/cosmos-types/google/protobuf/any';
 import {
   AccountData,
   BroadcastOptions,
@@ -23,10 +23,10 @@ import {
   IApiClient,
   Auth,
   DeliverTxResponse
-} from '@titanjs/types';
-import { Event } from '@titanjs/types';
-import { AccountBase } from '@titanjs/types/account';
-import { Key } from '@titanjs/utils';
+} from '@titanlabjs/types';
+import { Event } from '@titanlabjs/types';
+import { AccountBase } from '@titanlabjs/types/account';
+import { Key } from '@titanlabjs/utils';
 import { ripemd160 } from '@noble/hashes/ripemd160';
 import { sha256 } from '@noble/hashes/sha256';
 import { AminoSignResponse, DirectSignResponse } from './wallet';

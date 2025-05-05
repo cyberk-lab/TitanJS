@@ -1,4 +1,4 @@
-import { JsonRpcProvider, Wallet, parseEther } from '@titanjs/ethereum';
+import { JsonRpcProvider, Wallet, parseEther } from '@titanlabjs/ethereum';
 
 describe('ETH Transfer Test', () => {
   let provider: JsonRpcProvider;

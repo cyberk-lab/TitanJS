@@ -5,12 +5,12 @@
 */
 
 
-import { HttpEndpoint } from "@interchainjs/types";
+import { HttpEndpoint } from "@titanlabjs/types";
 import { BinaryReader, BinaryWriter } from "./binary";
 import { getRpcClient } from "./extern";
 import { isRpc, Rpc } from "./helpers";
 import { TelescopeGeneratedCodec, DeliverTxResponse, Message, StdFee } from "./types";
-import { toConverters, toEncoders } from "@interchainjs/cosmos/utils";
+import { toConverters, toEncoders } from "@titanlabjs/cosmos/utils";
 
 export interface QueryBuilderOptions<TReq, TRes> {
   encode: (request: TReq, writer?: BinaryWriter) => BinaryWriter
@@ -21,23 +21,23 @@ export interface QueryBuilderOptions<TReq, TRes> {
 }
 
 export function buildQuery<TReq, TRes>(opts: QueryBuilderOptions<TReq, TRes>) {
-    registerDependencies(opts.deps ?? []);
+  registerDependencies(opts.deps ?? []);
 
-    return async (client: EndpointOrRpc, request: TReq) => {
-      let rpc: Rpc | undefined;
+  return async (client: EndpointOrRpc, request: TReq) => {
+    let rpc: Rpc | undefined;
 
-      if(isRpc(client)) {
-        rpc = client;
-      } else {
-        rpc = client ? await getRpcClient(client) : undefined;
-      }
+    if (isRpc(client)) {
+      rpc = client;
+    } else {
+      rpc = client ? await getRpcClient(client) : undefined;
+    }
 
-      if (!rpc) throw new Error("Query Rpc is not initialized");
+    if (!rpc) throw new Error("Query Rpc is not initialized");
 
-      const data = opts.encode(request).finish();
-      const response = await rpc.request(opts.service, opts.method, data);
-      return opts.decode(response);
-    };
+    const data = opts.encode(request).finish();
+    const response = await rpc.request(opts.service, opts.method, data);
+    return opts.decode(response);
+  };
 }
 
 export interface ITxArgs<TMsg> {
@@ -77,7 +77,7 @@ export interface TxBuilderOptions {
 }
 
 export function buildTx<TMsg>(opts: TxBuilderOptions) {
-  if(opts.msg){
+  if (opts.msg) {
     registerDependencies([opts.msg]);
   }
 
@@ -96,13 +96,13 @@ export function buildTx<TMsg>(opts: TxBuilderOptions) {
 
     const data = Array.isArray(message)
       ? message.map(msg => ({
-          typeUrl: opts.msg.typeUrl,
-          value: msg,
-        }))
+        typeUrl: opts.msg.typeUrl,
+        value: msg,
+      }))
       : [{
-          typeUrl: opts.msg.typeUrl,
-          value: message,
-        }];
+        typeUrl: opts.msg.typeUrl,
+        value: message,
+      }];
     return client.signAndBroadcast!(signerAddress, data, fee, memo);
   };
 }
@@ -120,7 +120,7 @@ export interface AminoConverter {
   toAmino: (data: any) => any;
 }
 
-export type EndpointOrRpc = string | HttpEndpoint | Rpc ;
+export type EndpointOrRpc = string | HttpEndpoint | Rpc;
 
 function registerDependencies(deps: TelescopeGeneratedCodec<any, any, any>[]) {
   for (const dep of deps) {

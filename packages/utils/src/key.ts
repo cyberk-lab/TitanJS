@@ -1,4 +1,4 @@
-import { IKey } from '@titanjs/types';
+import { IKey } from '@titanlabjs/types';
 import { bech32 } from 'bech32';
 
 import {

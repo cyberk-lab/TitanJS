@@ -1,4 +1,4 @@
-import { fromHex, toAscii, toUtf8 } from "@titanjs/encoding";
+import { fromHex, toAscii, toUtf8 } from "@titanlabjs/encoding";
 
 import {
   getNodeCrypto,

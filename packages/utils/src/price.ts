@@ -1,4 +1,4 @@
-import { Price } from '@titanjs/types';
+import { Price } from '@titanlabjs/types';
 import Decimal from 'decimal.js';
 
 /**

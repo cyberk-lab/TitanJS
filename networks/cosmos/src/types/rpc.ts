@@ -1,4 +1,4 @@
-import { Event, DeliverTxResponse, Any } from '@titanjs/types';
+import { Event, DeliverTxResponse, Any } from '@titanlabjs/types';
 
 import { CheckTxResponse } from './signer';
 

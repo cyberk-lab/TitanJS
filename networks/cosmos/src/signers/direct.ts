@@ -1,4 +1,4 @@
-import { Auth, HttpEndpoint, TelescopeGeneratedCodec } from '@titanjs/types';
+import { Auth, HttpEndpoint, TelescopeGeneratedCodec } from '@titanlabjs/types';
 
 import { BaseCosmosTxBuilder, CosmosBaseSigner, CosmosDocSigner } from '../base';
 import { BaseCosmosTxBuilderContext } from '../base/builder-context';

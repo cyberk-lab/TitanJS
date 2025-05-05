@@ -4,8 +4,8 @@ import {
   Random,
   xchacha20NonceLength,
   Xchacha20poly1305Ietf,
-} from "@titanjs/crypto";
-import { toAscii } from "@titanjs/encoding";
+} from "@titanlabjs/crypto";
+import { toAscii } from "@titanlabjs/encoding";
 
 /**
  * A fixed salt is chosen to archive a deterministic password to key derivation.

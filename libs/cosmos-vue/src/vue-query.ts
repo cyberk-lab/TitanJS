@@ -23,26 +23,26 @@ import {
   DeliverTxResponse,
 } from './types'
 import {
-    useQuery,
-    useQueryClient,
-    UseQueryOptions,
-    useMutation,
-    UseMutationOptions,
-    QueryKey,
+  useQuery,
+  useQueryClient,
+  UseQueryOptions,
+  useMutation,
+  UseMutationOptions,
+  QueryKey,
 } from '@tanstack/vue-query';
 
-import { HttpEndpoint } from "@interchainjs/types";
+import { HttpEndpoint } from "@titanlabjs/types";
 import { Rpc as ProtobufRpcClient } from "./helpers";
 
-import {Ref} from 'vue'
+import { Ref } from 'vue'
 
 export const DEFAULT_RPC_CLIENT_QUERY_KEY = 'rpcClient';
 export const DEFAULT_RPC_ENDPOINT_QUERY_KEY = 'rpcEndPoint';
 export const DEFAULT_SIGNING_CLIENT_QUERY_KEY = 'signingClient';
 
 export interface CacheResolver {
-    rpcEndpoint?: string | HttpEndpoint;
-    clientQueryKey?: string;
+  rpcEndpoint?: string | HttpEndpoint;
+  clientQueryKey?: string;
 }
 
 export function isCacheResolver(resolver: unknown): resolver is CacheResolver {
@@ -63,9 +63,9 @@ export interface UseRpcClientQuery<TData> extends VueQueryParams<ProtobufRpcClie
 }
 
 export interface UseRpcEndpointQuery<TData> extends VueQueryParams<string | HttpEndpoint, TData> {
-    getter: () => Promise<string | HttpEndpoint>;
-    rpcEndPointKey?: string;
-    extraKey?: string
+  getter: () => Promise<string | HttpEndpoint>;
+  rpcEndPointKey?: string;
+  extraKey?: string
 }
 
 export function useRpcEndpoint<TData = string | HttpEndpoint>({

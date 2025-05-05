@@ -1,6 +1,6 @@
 # Auth
 
-The main purpose of the `@interchainjs/auth` is to offer developers a way to have different wallet algorithm implementations on Blockchain, including `secp256k1`, `ethSecp256k1`, etc. All of these algorithms implementations are exposing the same `Auth` interface which means that `Signer`s can just use these methods without the need to know the underlying implementation for specific algorithms as they are abstracted away.
+The main purpose of the `@titanlabjs/auth` is to offer developers a way to have different wallet algorithm implementations on Blockchain, including `secp256k1`, `ethSecp256k1`, etc. All of these algorithms implementations are exposing the same `Auth` interface which means that `Signer`s can just use these methods without the need to know the underlying implementation for specific algorithms as they are abstracted away.
 
 ```mermaid
 classDiagram
@@ -95,7 +95,7 @@ See [usage example](/docs/signer.md#signer--auth).
 Both `Auth` and `Wallet` are interfaces that contains `sign` method.
 
 ```ts
-/** you can import { Auth, Wallet } from "@interchainjs/types" */
+/** you can import { Auth, Wallet } from "@titanlabjs/types" */
 
 export interface Auth {
   ...,

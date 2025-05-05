@@ -1,18 +1,18 @@
 import {
   CosmosSignArgs,
   DocOptions as CosmosDocOptions,
-} from '@titanjs/cosmos/types';
+} from '@titanlabjs/cosmos/types';
 import {
   CosmosAminoSigner,
   CosmosDirectSigner,
   UniCosmosBaseSigner,
-} from '@titanjs/cosmos/types';
+} from '@titanlabjs/cosmos/types';
 import {
   BaseWalletAccount,
   Eip712Data,
   InjectiveDomain,
   InjectiveEip712Message,
-} from '@titanjs/types';
+} from '@titanlabjs/types';
 
 export type InjectiveDirectSigner = CosmosDirectSigner;
 export type InjectiveAminoSigner = CosmosAminoSigner;

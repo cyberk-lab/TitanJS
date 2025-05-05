@@ -1,9 +1,9 @@
-import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { SignMode } from '@titanlabjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
 import {
   SignDoc,
   TxRaw,
-} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { SignDocResponse } from '@titanjs/types';
+} from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { SignDocResponse } from '@titanlabjs/types';
 
 import {
   BaseCosmosSigBuilder,

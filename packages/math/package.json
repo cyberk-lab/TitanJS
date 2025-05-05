@@ -1,17 +1,14 @@
 {
-  "name": "@titanjs/math",
-  "version": "1.11.0",
+  "name": "@titanlabjs/math",
+  "version": "0.0.2",
   "description": "Math helpers for blockchain projects",
-  "contributors": [
-    "IOV SAS <admin@iov.one>"
-  ],
   "license": "Apache-2.0",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs/tree/main/packages/math"
+    "url": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/math"
   },
   "publishConfig": {
     "access": "public",

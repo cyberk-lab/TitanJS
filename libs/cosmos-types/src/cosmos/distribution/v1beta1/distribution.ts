@@ -1,6 +1,6 @@
 import { DecCoin, Coin } from "../../base/v1beta1/coin";
 import { BinaryReader, BinaryWriter } from "../../../binary";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 import { DeepPartial } from "../../../helpers";
 /** Params defines the set of params for the distribution module. */
 export interface Params {

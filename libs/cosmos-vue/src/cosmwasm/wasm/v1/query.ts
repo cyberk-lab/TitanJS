@@ -2,7 +2,7 @@ import { PageRequest, PageRequestAmino, PageResponse, PageResponseAmino } from "
 import { ContractInfo, ContractInfoAmino, ContractCodeHistoryEntry, ContractCodeHistoryEntryAmino, Model, ModelAmino, AccessConfig, AccessConfigAmino, Params, ParamsAmino } from "./types";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial, bytesFromBase64, base64FromBytes } from "../../../helpers";
-import { toUtf8, fromUtf8 } from "@interchainjs/encoding";
+import { toUtf8, fromUtf8 } from "@titanlabjs/encoding";
 /**
  * QueryContractInfoRequest is the request type for the Query/ContractInfo RPC
  * method
@@ -506,13 +506,13 @@ export interface QueryPinnedCodesResponseAminoMsg {
   value: QueryPinnedCodesResponseAmino;
 }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
-export interface QueryParamsRequest {}
+export interface QueryParamsRequest { }
 export interface QueryParamsRequestProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.QueryParamsRequest";
   value: Uint8Array;
 }
 /** QueryParamsRequest is the request type for the Query/Params RPC method. */
-export interface QueryParamsRequestAmino {}
+export interface QueryParamsRequestAmino { }
 export interface QueryParamsRequestAminoMsg {
   type: "wasm/QueryParamsRequest";
   value: QueryParamsRequestAmino;
@@ -595,7 +595,7 @@ export interface QueryContractsByCreatorResponseAminoMsg {
  * QueryWasmLimitsConfigRequest is the request type for the
  * Query/WasmLimitsConfig RPC method.
  */
-export interface QueryWasmLimitsConfigRequest {}
+export interface QueryWasmLimitsConfigRequest { }
 export interface QueryWasmLimitsConfigRequestProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.QueryWasmLimitsConfigRequest";
   value: Uint8Array;
@@ -604,7 +604,7 @@ export interface QueryWasmLimitsConfigRequestProtoMsg {
  * QueryWasmLimitsConfigRequest is the request type for the
  * Query/WasmLimitsConfig RPC method.
  */
-export interface QueryWasmLimitsConfigRequestAmino {}
+export interface QueryWasmLimitsConfigRequestAmino { }
 export interface QueryWasmLimitsConfigRequestAminoMsg {
   type: "wasm/QueryWasmLimitsConfigRequest";
   value: QueryWasmLimitsConfigRequestAmino;
@@ -774,7 +774,7 @@ export const QueryContractInfoRequest = {
       value: QueryContractInfoRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryContractInfoResponse(): QueryContractInfoResponse {
   return {
@@ -1508,7 +1508,7 @@ export const QueryRawContractStateRequest = {
       value: QueryRawContractStateRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryRawContractStateResponse(): QueryRawContractStateResponse {
   return {
@@ -1585,7 +1585,7 @@ export const QueryRawContractStateResponse = {
       value: QueryRawContractStateResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQuerySmartContractStateRequest(): QuerySmartContractStateRequest {
   return {
@@ -1674,7 +1674,7 @@ export const QuerySmartContractStateRequest = {
       value: QuerySmartContractStateRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQuerySmartContractStateResponse(): QuerySmartContractStateResponse {
   return {
@@ -1751,7 +1751,7 @@ export const QuerySmartContractStateResponse = {
       value: QuerySmartContractStateResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryCodeRequest(): QueryCodeRequest {
   return {
@@ -1828,7 +1828,7 @@ export const QueryCodeRequest = {
       value: QueryCodeRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryCodeInfoRequest(): QueryCodeInfoRequest {
   return {
@@ -1905,7 +1905,7 @@ export const QueryCodeInfoRequest = {
       value: QueryCodeInfoRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryCodeInfoResponse(): QueryCodeInfoResponse {
   return {
@@ -2644,7 +2644,7 @@ export const QueryParamsRequest = {
       value: QueryParamsRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryParamsResponse(): QueryParamsResponse {
   return {
@@ -2971,7 +2971,7 @@ export const QueryWasmLimitsConfigRequest = {
       value: QueryWasmLimitsConfigRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryWasmLimitsConfigResponse(): QueryWasmLimitsConfigResponse {
   return {
@@ -3048,7 +3048,7 @@ export const QueryWasmLimitsConfigResponse = {
       value: QueryWasmLimitsConfigResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryBuildAddressRequest(): QueryBuildAddressRequest {
   return {
@@ -3161,7 +3161,7 @@ export const QueryBuildAddressRequest = {
       value: QueryBuildAddressRequest.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseQueryBuildAddressResponse(): QueryBuildAddressResponse {
   return {
@@ -3238,5 +3238,5 @@ export const QueryBuildAddressResponse = {
       value: QueryBuildAddressResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

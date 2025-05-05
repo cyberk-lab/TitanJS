@@ -1,6 +1,6 @@
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial } from "../../../helpers";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 /**
  * Coin defines a token with a denomination and an amount.
  * 

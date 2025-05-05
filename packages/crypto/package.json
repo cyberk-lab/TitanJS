@@ -1,18 +1,14 @@
 {
-  "name": "@titanjs/crypto",
-  "version": "1.11.0",
+  "name": "@titanlabjs/crypto",
+  "version": "0.0.2",
   "description": "Cryptography resources for blockchain projects",
-  "contributors": [
-    "IOV SAS <admin@iov.one>",
-    "Simon Warta"
-  ],
   "license": "Apache-2.0",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs/tree/main/packages/crypto"
+    "url": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/crypto"
   },
   "publishConfig": {
     "access": "public",
@@ -28,9 +24,9 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@titanjs/encoding": "1.11.0",
-    "@titanjs/math": "1.11.0",
-    "@titanjs/utils": "1.11.0",
+    "@titanlabjs/encoding": "0.0.2",
+    "@titanlabjs/math": "0.0.2",
+    "@titanlabjs/utils": "0.0.2",
     "@noble/hashes": "^1",
     "bn.js": "^5.2.0",
     "elliptic": "^6.5.4",

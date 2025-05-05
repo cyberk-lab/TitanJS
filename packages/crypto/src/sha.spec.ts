@@ -1,4 +1,4 @@
-import { fromHex, toHex } from "@titanjs/encoding";
+import { fromHex, toHex } from "@titanlabjs/encoding";
 
 import { Sha256, sha256 } from "./sha";
 import shaVectors from "./testdata/sha.json";

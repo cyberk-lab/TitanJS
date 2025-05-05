@@ -1,4 +1,4 @@
-import { DeliverTxResponse } from '@titanjs/types';
+import { DeliverTxResponse } from '@titanlabjs/types';
 
 export function isDeliverTxFailure(resp: DeliverTxResponse) {
   return resp.code !== 0;

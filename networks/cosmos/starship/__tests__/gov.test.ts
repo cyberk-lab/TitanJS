@@ -1,42 +1,42 @@
 import './setup.test';
 
 import { Asset } from '@chain-registry/types';
-import { Secp256k1Auth } from '@titanjs/auth/secp256k1';
-import { AminoSigner } from '@titanjs/cosmos/signers/amino';
-import { DirectSigner } from '@titanjs/cosmos/signers/direct';
+import { Secp256k1Auth } from '@titanlabjs/auth/secp256k1';
+import { AminoSigner } from '@titanlabjs/cosmos/signers/amino';
+import { DirectSigner } from '@titanlabjs/cosmos/signers/direct';
 import {
   assertIsDeliverTxSuccess,
   toConverters,
   toEncoders,
-} from '@titanjs/cosmos/utils';
+} from '@titanlabjs/cosmos/utils';
 import {
   ProposalStatus,
   TextProposal,
   VoteOption,
-} from 'interchainjs/cosmos/gov/v1beta1/gov';
+} from 'titanlabjs/cosmos/gov/v1beta1/gov';
 import {
   MsgSubmitProposal,
   MsgVote,
-} from 'interchainjs/cosmos/gov/v1beta1/tx';
+} from 'titanlabjs/cosmos/gov/v1beta1/tx';
 import {
   BondStatus,
   bondStatusToJSON,
-} from 'interchainjs/cosmos/staking/v1beta1/staking';
-import { MsgDelegate } from 'interchainjs/cosmos/staking/v1beta1/tx';
+} from 'titanlabjs/cosmos/staking/v1beta1/staking';
+import { MsgDelegate } from 'titanlabjs/cosmos/staking/v1beta1/tx';
 import {
   HDPath
-} from '@titanjs/types';
-import { fromBase64, toUtf8 } from '@titanjs/utils';
+} from '@titanlabjs/types';
+import { fromBase64, toUtf8 } from '@titanlabjs/utils';
 import { BigNumber } from 'bignumber.js';
-import { getBalance } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
-import { getProposal, getVote } from "@titanjs/cosmos-types/cosmos/gov/v1beta1/query.rpc.func";
-import { getValidators } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
+import { getBalance } from "@titanlabjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
+import { getProposal, getVote } from "@titanlabjs/cosmos-types/cosmos/gov/v1beta1/query.rpc.func";
+import { getValidators } from "@titanlabjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
 import { useChain } from 'starshipjs';
 
 import { generateMnemonic, waitUntil } from '../src';
-import { QueryBalanceRequest, QueryBalanceResponse } from '@titanjs/cosmos-types/cosmos/bank/v1beta1/query';
-import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@titanjs/cosmos-types/cosmos/gov/v1beta1/query';
-import { QueryValidatorsRequest, QueryValidatorsResponse } from '@titanjs/cosmos-types/cosmos/staking/v1beta1/query';
+import { QueryBalanceRequest, QueryBalanceResponse } from '@titanlabjs/cosmos-types/cosmos/bank/v1beta1/query';
+import { QueryProposalRequest, QueryProposalResponse, QueryVoteRequest, QueryVoteResponse } from '@titanlabjs/cosmos-types/cosmos/gov/v1beta1/query';
+import { QueryValidatorsRequest, QueryValidatorsResponse } from '@titanlabjs/cosmos-types/cosmos/staking/v1beta1/query';
 
 const cosmosHdPath = "m/44'/118'/0'/0/0";
 

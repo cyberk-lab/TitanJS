@@ -5,8 +5,8 @@ import {
   SignDoc,
   SignDocResponse,
   StdSignDoc,
-} from '@titanjs/types';
-import { Key } from '@titanjs/utils';
+} from '@titanlabjs/types';
+import { Key } from '@titanlabjs/utils';
 
 import { AminoSignResponse, DirectSignResponse, IAminoGenericOfflineSigner, IDirectGenericOfflineSigner, isOfflineAminoSigner, isOfflineDirectSigner, OfflineAminoSigner, OfflineDirectSigner } from './wallet';
 import { CosmosAminoDoc, CosmosDirectDoc } from './signer';

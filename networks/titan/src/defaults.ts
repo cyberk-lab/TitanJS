@@ -1,27 +1,27 @@
 import {
   defaultAccountParser as parseCosmosAccount,
   defaultSignerConfig as CosmosSignerConfig,
-} from '@titanjs/cosmos/defaults';
+} from '@titanlabjs/cosmos/defaults';
 import {
   EncodedMessage,
   SignerOptions,
   TimeoutHeightOption,
-} from '@titanjs/cosmos/types';
-import { toDecoder } from '@titanjs/cosmos/utils';
-import { BaseAccount } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/auth';
-import { PubKey as Secp256k1PubKey } from '@titanjs/cosmos-types/cosmos/crypto/secp256k1/keys';
-import { EthAccount } from '@titanjs/cosmos-types/ethermint/types/v1/account';
-import { Eip712Doc } from '@titanjs/ethereum/types';
-import { IKey, SignerConfig } from '@titanjs/types';
+} from '@titanlabjs/cosmos/types';
+import { toDecoder } from '@titanlabjs/cosmos/utils';
+import { BaseAccount } from '@titanlabjs/cosmos-types/cosmos/auth/v1beta1/auth';
+import { PubKey as Secp256k1PubKey } from '@titanlabjs/cosmos-types/cosmos/crypto/secp256k1/keys';
+import { EthAccount } from '@titanlabjs/cosmos-types/ethermint/types/v1/account';
+import { Eip712Doc } from '@titanlabjs/ethereum/types';
+import { IKey, SignerConfig } from '@titanlabjs/types';
 
 import { DomainOptions, EthereumChainId } from './types';
 import { bytesToHex as assertBytes } from '@noble/hashes/utils';
 import { keccak_256 } from '@noble/hashes/sha3';
 import { computeAddress } from '@ethersproject/transactions';
-import { Key } from '@titanjs/utils';
+import { Key } from '@titanlabjs/utils';
 import { TitanAccount } from './accounts/titan-account';
-import { WalletOptions } from '@titanjs/cosmos/types/wallet';
-import { EthSecp256k1Auth } from '@titanjs/auth/ethSecp256k1';
+import { WalletOptions } from '@titanlabjs/cosmos/types/wallet';
+import { EthSecp256k1Auth } from '@titanlabjs/auth/ethSecp256k1';
 
 export const defaultPublicKeyConfig: SignerConfig['publicKey'] = {
   isCompressed: CosmosSignerConfig.publicKey.isCompressed,

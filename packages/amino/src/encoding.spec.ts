@@ -1,5 +1,5 @@
-import { Random } from "@titanjs/crypto";
-import { fromBase64, fromBech32, fromHex } from "@titanjs/encoding";
+import { Random } from "@titanlabjs/crypto";
+import { fromBase64, fromBech32, fromHex } from "@titanlabjs/encoding";
 
 import {
   decodeAminoPubkey,

@@ -3,7 +3,7 @@ import {
   Domain,
   Eip712Data,
   UniSigner,
-} from '@titanjs/types';
+} from '@titanlabjs/types';
 import { TransactionRequest, TransactionResponse } from 'ethers';
 
 export type UniEip712Signer

@@ -4,7 +4,7 @@ import { Coin, CoinAmino } from "../../../cosmos/base/v1beta1/coin";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial, bytesFromBase64, base64FromBytes } from "../../../helpers";
 import { GlobalDecoderRegistry } from "../../../registry";
-import { toUtf8, fromUtf8 } from "@interchainjs/encoding";
+import { toUtf8, fromUtf8 } from "@titanlabjs/encoding";
 /**
  * StoreCodeAuthorization defines authorization for wasm code upload.
  * Since: wasmd 0.42
@@ -255,7 +255,7 @@ export interface CombinedLimitAminoMsg {
  * message.
  * Since: wasmd 0.30
  */
-export interface AllowAllMessagesFilter {}
+export interface AllowAllMessagesFilter { }
 export interface AllowAllMessagesFilterProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.AllowAllMessagesFilter";
   value: Uint8Array;
@@ -265,7 +265,7 @@ export interface AllowAllMessagesFilterProtoMsg {
  * message.
  * Since: wasmd 0.30
  */
-export interface AllowAllMessagesFilterAmino {}
+export interface AllowAllMessagesFilterAmino { }
 export interface AllowAllMessagesFilterAminoMsg {
   type: "wasm/AllowAllMessagesFilter";
   value: AllowAllMessagesFilterAmino;

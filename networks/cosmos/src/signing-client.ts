@@ -15,10 +15,10 @@ import {
   OfflineSigner,
 } from './types/wallet';
 import { toConverter, toEncoder } from './utils';
-import { TxBody, TxRaw } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { TxRpc } from '@titanjs/cosmos-types/types';
-import { BroadcastOptions, DeliverTxResponse, HttpEndpoint, SIGN_MODE, StdFee, TelescopeGeneratedCodec } from '@titanjs/types';
-import { fromBase64 } from '@titanjs/utils';
+import { TxBody, TxRaw } from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { TxRpc } from '@titanlabjs/cosmos-types/types';
+import { BroadcastOptions, DeliverTxResponse, HttpEndpoint, SIGN_MODE, StdFee, TelescopeGeneratedCodec } from '@titanlabjs/types';
+import { fromBase64 } from '@titanlabjs/utils';
 
 import {
   Block,

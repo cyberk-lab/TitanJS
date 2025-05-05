@@ -9,7 +9,7 @@
     "googleapis/googleapis/master": ".",
     "protocolbuffers/protobuf/main": "src"
   },
-  "outDir": "protos/interchainjs",
+  "outDir": "protos/titanlabjs",
   "ssh": true,
   "tempRepoDir": "git-modules",
   "targets": [

@@ -1,5 +1,5 @@
-import { AuthOptions, ByteAuth, ISignatureWraper } from '@titanjs/types';
-import { Key } from '@titanjs/utils';
+import { AuthOptions, ByteAuth, ISignatureWraper } from '@titanlabjs/types';
+import { Key } from '@titanlabjs/utils';
 import { RecoveredSignatureType } from '@noble/curves/abstract/weierstrass';
 import { secp256k1 } from '@noble/curves/secp256k1';
 import { HDKey } from '@scure/bip32';

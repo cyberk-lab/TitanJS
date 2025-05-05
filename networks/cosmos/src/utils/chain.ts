@@ -1,5 +1,5 @@
-import { Price } from '@titanjs/types';
-import { getChainById, toPrice } from '@titanjs/utils';
+import { Price } from '@titanlabjs/types';
+import { getChainById, toPrice } from '@titanlabjs/utils';
 import Decimal from 'decimal.js';
 
 import { defaultFeeOptions } from '../defaults';

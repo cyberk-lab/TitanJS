@@ -1,4 +1,4 @@
-import { BaseTxBuilderContext, ITxBuilderContext } from '@titanjs/types';
+import { BaseTxBuilderContext, ITxBuilderContext } from '@titanlabjs/types';
 
 /**
  * Context for the transaction builder.

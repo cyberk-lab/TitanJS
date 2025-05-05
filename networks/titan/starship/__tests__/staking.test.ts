@@ -3,28 +3,28 @@
 import './setup.test';
 
 import { Asset } from '@chain-registry/types';
-import { EthSecp256k1Auth } from '@titanjs/auth/ethSecp256k1';
-import { DirectSigner } from '@titanjs/cosmos/signers/direct';
+import { EthSecp256k1Auth } from '@titanlabjs/auth/ethSecp256k1';
+import { DirectSigner } from '@titanlabjs/cosmos/signers/direct';
 import {
   assertIsDeliverTxSuccess,
   toEncoders,
-} from '@titanjs/cosmos/utils';
+} from '@titanlabjs/cosmos/utils';
 import {
   sleep,
-} from '@titanjs/utils';
+} from '@titanlabjs/utils';
 import {
   BondStatus,
   bondStatusToJSON,
-} from 'interchainjs/cosmos/staking/v1beta1/staking';
-import { MsgDelegate } from 'interchainjs/cosmos/staking/v1beta1/tx';
+} from 'titanlabjs/cosmos/staking/v1beta1/staking';
+import { MsgDelegate } from 'titanlabjs/cosmos/staking/v1beta1/tx';
 import { BigNumber } from 'bignumber.js'; // Using `fromWallet` to construct Signer
 import { useChain } from 'starshipjs';
 
 import { generateMnemonic } from '../src';
-import { getBalance } from "@titanjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
-import { getValidators, getDelegation } from "@titanjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
-import { QueryBalanceRequest, QueryBalanceResponse } from '@titanjs/cosmos-types/cosmos/bank/v1beta1/query';
-import { QueryDelegationRequest, QueryDelegationResponse, QueryValidatorsRequest, QueryValidatorsResponse } from '@titanjs/cosmos-types/cosmos/staking/v1beta1/query';
+import { getBalance } from "@titanlabjs/cosmos-types/cosmos/bank/v1beta1/query.rpc.func";
+import { getValidators, getDelegation } from "@titanlabjs/cosmos-types/cosmos/staking/v1beta1/query.rpc.func";
+import { QueryBalanceRequest, QueryBalanceResponse } from '@titanlabjs/cosmos-types/cosmos/bank/v1beta1/query';
+import { QueryDelegationRequest, QueryDelegationResponse, QueryValidatorsRequest, QueryValidatorsResponse } from '@titanlabjs/cosmos-types/cosmos/staking/v1beta1/query';
 
 const hdPath = "m/44'/60'/0'/0/0";
 

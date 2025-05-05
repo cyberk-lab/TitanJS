@@ -94,7 +94,7 @@ rimraf(join(__dirname, '../libs/titan-react/src'));
 
 // cosmos-types
 telescope({
-  protoDirs: [join(__dirname, '../protos/interchainjs')],
+  protoDirs: [join(__dirname, '../protos/titanlabjs')],
   outPath: join(__dirname, '../libs/cosmos-types/src'),
   options: deepmerge(options.options, {
     "prototypes": {
@@ -137,9 +137,9 @@ telescope({
     process.exit(1);
   });
 
-// interchainjs
+// titanlabjs
 // telescope({
-//   protoDirs: [join(__dirname, '../protos/interchainjs')],
+//   protoDirs: [join(__dirname, '../protos/titanlabjs')],
 //   outPath: join(__dirname, '../libs/cosmos-types/src'),
 //   options: options.options
 // })
@@ -153,7 +153,7 @@ telescope({
 
 // interchain-vue
 telescope({
-  protoDirs: [join(__dirname, '../protos/interchainjs')],
+  protoDirs: [join(__dirname, '../protos/titanlabjs')],
   outPath: join(__dirname, '../libs/cosmos-vue/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
@@ -173,7 +173,7 @@ telescope({
 
 // interchain-react
 telescope({
-  protoDirs: [join(__dirname, '../protos/interchainjs')],
+  protoDirs: [join(__dirname, '../protos/titanlabjs')],
   outPath: join(__dirname, '../libs/cosmos-react/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
@@ -193,7 +193,7 @@ telescope({
 
 // injectivejs
 telescope({
-  protoDirs: [join(__dirname, '../protos/titanjs')],
+  protoDirs: [join(__dirname, '../protos/titanlabjs')],
   outPath: join(__dirname, '../libs/titan-types/src'),
   options: options.options
 })
@@ -207,7 +207,7 @@ telescope({
 
 // injective-vue
 telescope({
-  protoDirs: [join(__dirname, '../protos/titanjs')],
+  protoDirs: [join(__dirname, '../protos/titanlabjs')],
   outPath: join(__dirname, '../libs/titan-vue/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
@@ -227,7 +227,7 @@ telescope({
 
 // injective-react
 telescope({
-  protoDirs: [join(__dirname, '../protos/titanjs')],
+  protoDirs: [join(__dirname, '../protos/titanlabjs')],
   outPath: join(__dirname, '../libs/titan-react/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {

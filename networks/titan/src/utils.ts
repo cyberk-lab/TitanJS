@@ -1,9 +1,9 @@
 import {
   InjectiveDomain,
   SignerConfig,
-} from '@titanjs/types';
-import { Auth } from '@titanjs/types';
-import { fromNumber, toPrefixedHex } from '@titanjs/utils';
+} from '@titanlabjs/types';
+import { Auth } from '@titanlabjs/types';
+import { fromNumber, toPrefixedHex } from '@titanlabjs/utils';
 
 import { defaultPublicKeyConfig } from './defaults';
 import { DomainOptions, InjectiveAccount } from './types';

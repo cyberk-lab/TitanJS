@@ -1,4 +1,4 @@
-import { Slip10RawIndex } from "@titanjs/crypto";
+import { Slip10RawIndex } from "@titanlabjs/crypto";
 
 import { makeCosmoshubPath } from "./paths";
 

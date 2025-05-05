@@ -1,5 +1,5 @@
-import { AccountBase } from '@titanjs/types/account';
-import { Key } from '@titanjs/utils';
+import { AccountBase } from '@titanlabjs/types/account';
+import { Key } from '@titanlabjs/utils';
 import { keccak_256 } from '@noble/hashes/sha3';
 
 /**

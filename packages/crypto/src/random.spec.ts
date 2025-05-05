@@ -1,4 +1,4 @@
-import { isUint8Array } from "@titanjs/utils";
+import { isUint8Array } from "@titanlabjs/utils";
 
 import { Random } from "./random";
 

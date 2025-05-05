@@ -2,7 +2,7 @@ import { AccessConfig, AccessConfigAmino, Params, ParamsAmino } from "./types";
 import { Coin, CoinAmino } from "../../../cosmos/base/v1beta1/coin";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial, bytesFromBase64, base64FromBytes } from "../../../helpers";
-import { fromBase64, toBase64, toUtf8, fromUtf8 } from "@interchainjs/encoding";
+import { fromBase64, toBase64, toUtf8, fromUtf8 } from "@titanlabjs/encoding";
 /** MsgStoreCode submit Wasm code to the system */
 export interface MsgStoreCode {
   /** Sender is the actor that signed the messages */
@@ -332,13 +332,13 @@ export interface MsgUpdateAdminAminoMsg {
   value: MsgUpdateAdminAmino;
 }
 /** MsgUpdateAdminResponse returns empty data */
-export interface MsgUpdateAdminResponse {}
+export interface MsgUpdateAdminResponse { }
 export interface MsgUpdateAdminResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgUpdateAdminResponse";
   value: Uint8Array;
 }
 /** MsgUpdateAdminResponse returns empty data */
-export interface MsgUpdateAdminResponseAmino {}
+export interface MsgUpdateAdminResponseAmino { }
 export interface MsgUpdateAdminResponseAminoMsg {
   type: "wasm/MsgUpdateAdminResponse";
   value: MsgUpdateAdminResponseAmino;
@@ -366,13 +366,13 @@ export interface MsgClearAdminAminoMsg {
   value: MsgClearAdminAmino;
 }
 /** MsgClearAdminResponse returns empty data */
-export interface MsgClearAdminResponse {}
+export interface MsgClearAdminResponse { }
 export interface MsgClearAdminResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgClearAdminResponse";
   value: Uint8Array;
 }
 /** MsgClearAdminResponse returns empty data */
-export interface MsgClearAdminResponseAmino {}
+export interface MsgClearAdminResponseAmino { }
 export interface MsgClearAdminResponseAminoMsg {
   type: "wasm/MsgClearAdminResponse";
   value: MsgClearAdminResponseAmino;
@@ -404,13 +404,13 @@ export interface MsgUpdateInstantiateConfigAminoMsg {
   value: MsgUpdateInstantiateConfigAmino;
 }
 /** MsgUpdateInstantiateConfigResponse returns empty data */
-export interface MsgUpdateInstantiateConfigResponse {}
+export interface MsgUpdateInstantiateConfigResponse { }
 export interface MsgUpdateInstantiateConfigResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgUpdateInstantiateConfigResponse";
   value: Uint8Array;
 }
 /** MsgUpdateInstantiateConfigResponse returns empty data */
-export interface MsgUpdateInstantiateConfigResponseAmino {}
+export interface MsgUpdateInstantiateConfigResponseAmino { }
 export interface MsgUpdateInstantiateConfigResponseAminoMsg {
   type: "wasm/MsgUpdateInstantiateConfigResponse";
   value: MsgUpdateInstantiateConfigResponseAmino;
@@ -459,7 +459,7 @@ export interface MsgUpdateParamsAminoMsg {
  * 
  * Since: 0.40
  */
-export interface MsgUpdateParamsResponse {}
+export interface MsgUpdateParamsResponse { }
 export interface MsgUpdateParamsResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgUpdateParamsResponse";
   value: Uint8Array;
@@ -470,7 +470,7 @@ export interface MsgUpdateParamsResponseProtoMsg {
  * 
  * Since: 0.40
  */
-export interface MsgUpdateParamsResponseAmino {}
+export interface MsgUpdateParamsResponseAmino { }
 export interface MsgUpdateParamsResponseAminoMsg {
   type: "wasm/MsgUpdateParamsResponse";
   value: MsgUpdateParamsResponseAmino;
@@ -573,7 +573,7 @@ export interface MsgPinCodesAminoMsg {
  * 
  * Since: 0.40
  */
-export interface MsgPinCodesResponse {}
+export interface MsgPinCodesResponse { }
 export interface MsgPinCodesResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgPinCodesResponse";
   value: Uint8Array;
@@ -584,7 +584,7 @@ export interface MsgPinCodesResponseProtoMsg {
  * 
  * Since: 0.40
  */
-export interface MsgPinCodesResponseAmino {}
+export interface MsgPinCodesResponseAmino { }
 export interface MsgPinCodesResponseAminoMsg {
   type: "wasm/MsgPinCodesResponse";
   value: MsgPinCodesResponseAmino;
@@ -625,7 +625,7 @@ export interface MsgUnpinCodesAminoMsg {
  * 
  * Since: 0.40
  */
-export interface MsgUnpinCodesResponse {}
+export interface MsgUnpinCodesResponse { }
 export interface MsgUnpinCodesResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgUnpinCodesResponse";
   value: Uint8Array;
@@ -636,7 +636,7 @@ export interface MsgUnpinCodesResponseProtoMsg {
  * 
  * Since: 0.40
  */
-export interface MsgUnpinCodesResponseAmino {}
+export interface MsgUnpinCodesResponseAmino { }
 export interface MsgUnpinCodesResponseAminoMsg {
   type: "wasm/MsgUnpinCodesResponse";
   value: MsgUnpinCodesResponseAmino;
@@ -795,7 +795,7 @@ export interface MsgAddCodeUploadParamsAddressesAminoMsg {
  * MsgAddCodeUploadParamsAddressesResponse defines the response
  * structure for executing a MsgAddCodeUploadParamsAddresses message.
  */
-export interface MsgAddCodeUploadParamsAddressesResponse {}
+export interface MsgAddCodeUploadParamsAddressesResponse { }
 export interface MsgAddCodeUploadParamsAddressesResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgAddCodeUploadParamsAddressesResponse";
   value: Uint8Array;
@@ -804,7 +804,7 @@ export interface MsgAddCodeUploadParamsAddressesResponseProtoMsg {
  * MsgAddCodeUploadParamsAddressesResponse defines the response
  * structure for executing a MsgAddCodeUploadParamsAddresses message.
  */
-export interface MsgAddCodeUploadParamsAddressesResponseAmino {}
+export interface MsgAddCodeUploadParamsAddressesResponseAmino { }
 export interface MsgAddCodeUploadParamsAddressesResponseAminoMsg {
   type: "wasm/MsgAddCodeUploadParamsAddressesResponse";
   value: MsgAddCodeUploadParamsAddressesResponseAmino;
@@ -839,7 +839,7 @@ export interface MsgRemoveCodeUploadParamsAddressesAminoMsg {
  * MsgRemoveCodeUploadParamsAddressesResponse defines the response
  * structure for executing a MsgRemoveCodeUploadParamsAddresses message.
  */
-export interface MsgRemoveCodeUploadParamsAddressesResponse {}
+export interface MsgRemoveCodeUploadParamsAddressesResponse { }
 export interface MsgRemoveCodeUploadParamsAddressesResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgRemoveCodeUploadParamsAddressesResponse";
   value: Uint8Array;
@@ -848,7 +848,7 @@ export interface MsgRemoveCodeUploadParamsAddressesResponseProtoMsg {
  * MsgRemoveCodeUploadParamsAddressesResponse defines the response
  * structure for executing a MsgRemoveCodeUploadParamsAddresses message.
  */
-export interface MsgRemoveCodeUploadParamsAddressesResponseAmino {}
+export interface MsgRemoveCodeUploadParamsAddressesResponseAmino { }
 export interface MsgRemoveCodeUploadParamsAddressesResponseAminoMsg {
   type: "wasm/MsgRemoveCodeUploadParamsAddressesResponse";
   value: MsgRemoveCodeUploadParamsAddressesResponseAmino;
@@ -960,13 +960,13 @@ export interface MsgUpdateContractLabelAminoMsg {
   value: MsgUpdateContractLabelAmino;
 }
 /** MsgUpdateContractLabelResponse returns empty data */
-export interface MsgUpdateContractLabelResponse {}
+export interface MsgUpdateContractLabelResponse { }
 export interface MsgUpdateContractLabelResponseProtoMsg {
   typeUrl: "/cosmwasm.wasm.v1.MsgUpdateContractLabelResponse";
   value: Uint8Array;
 }
 /** MsgUpdateContractLabelResponse returns empty data */
-export interface MsgUpdateContractLabelResponseAmino {}
+export interface MsgUpdateContractLabelResponseAmino { }
 export interface MsgUpdateContractLabelResponseAminoMsg {
   type: "wasm/MsgUpdateContractLabelResponse";
   value: MsgUpdateContractLabelResponseAmino;
@@ -1161,7 +1161,7 @@ export const MsgStoreCodeResponse = {
       value: MsgStoreCodeResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgInstantiateContract(): MsgInstantiateContract {
   return {
@@ -1391,7 +1391,7 @@ export const MsgInstantiateContractResponse = {
       value: MsgInstantiateContractResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgInstantiateContract2(): MsgInstantiateContract2 {
   return {
@@ -1645,7 +1645,7 @@ export const MsgInstantiateContract2Response = {
       value: MsgInstantiateContract2Response.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgExecuteContract(): MsgExecuteContract {
   return {
@@ -1839,7 +1839,7 @@ export const MsgExecuteContractResponse = {
       value: MsgExecuteContractResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgMigrateContract(): MsgMigrateContract {
   return {
@@ -1952,7 +1952,7 @@ export const MsgMigrateContract = {
       value: MsgMigrateContract.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgMigrateContractResponse(): MsgMigrateContractResponse {
   return {
@@ -2029,7 +2029,7 @@ export const MsgMigrateContractResponse = {
       value: MsgMigrateContractResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateAdmin(): MsgUpdateAdmin {
   return {
@@ -2130,7 +2130,7 @@ export const MsgUpdateAdmin = {
       value: MsgUpdateAdmin.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateAdminResponse(): MsgUpdateAdminResponse {
   return {};
@@ -2194,7 +2194,7 @@ export const MsgUpdateAdminResponse = {
       value: MsgUpdateAdminResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgClearAdmin(): MsgClearAdmin {
   return {
@@ -2283,7 +2283,7 @@ export const MsgClearAdmin = {
       value: MsgClearAdmin.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgClearAdminResponse(): MsgClearAdminResponse {
   return {};
@@ -2347,7 +2347,7 @@ export const MsgClearAdminResponse = {
       value: MsgClearAdminResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateInstantiateConfig(): MsgUpdateInstantiateConfig {
   return {
@@ -2514,7 +2514,7 @@ export const MsgUpdateInstantiateConfigResponse = {
       value: MsgUpdateInstantiateConfigResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateParams(): MsgUpdateParams {
   return {
@@ -2669,7 +2669,7 @@ export const MsgUpdateParamsResponse = {
       value: MsgUpdateParamsResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgSudoContract(): MsgSudoContract {
   return {
@@ -2770,7 +2770,7 @@ export const MsgSudoContract = {
       value: MsgSudoContract.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgSudoContractResponse(): MsgSudoContractResponse {
   return {
@@ -2847,7 +2847,7 @@ export const MsgSudoContractResponse = {
       value: MsgSudoContractResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgPinCodes(): MsgPinCodes {
   return {
@@ -2947,7 +2947,7 @@ export const MsgPinCodes = {
       value: MsgPinCodes.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgPinCodesResponse(): MsgPinCodesResponse {
   return {};
@@ -3011,7 +3011,7 @@ export const MsgPinCodesResponse = {
       value: MsgPinCodesResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUnpinCodes(): MsgUnpinCodes {
   return {
@@ -3111,7 +3111,7 @@ export const MsgUnpinCodes = {
       value: MsgUnpinCodes.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUnpinCodesResponse(): MsgUnpinCodesResponse {
   return {};
@@ -3175,7 +3175,7 @@ export const MsgUnpinCodesResponse = {
       value: MsgUnpinCodesResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgStoreAndInstantiateContract(): MsgStoreAndInstantiateContract {
   return {
@@ -3466,7 +3466,7 @@ export const MsgStoreAndInstantiateContractResponse = {
       value: MsgStoreAndInstantiateContractResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgAddCodeUploadParamsAddresses(): MsgAddCodeUploadParamsAddresses {
   return {
@@ -3557,7 +3557,7 @@ export const MsgAddCodeUploadParamsAddresses = {
       value: MsgAddCodeUploadParamsAddresses.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgAddCodeUploadParamsAddressesResponse(): MsgAddCodeUploadParamsAddressesResponse {
   return {};
@@ -3621,7 +3621,7 @@ export const MsgAddCodeUploadParamsAddressesResponse = {
       value: MsgAddCodeUploadParamsAddressesResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgRemoveCodeUploadParamsAddresses(): MsgRemoveCodeUploadParamsAddresses {
   return {
@@ -3712,7 +3712,7 @@ export const MsgRemoveCodeUploadParamsAddresses = {
       value: MsgRemoveCodeUploadParamsAddresses.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgRemoveCodeUploadParamsAddressesResponse(): MsgRemoveCodeUploadParamsAddressesResponse {
   return {};
@@ -3776,7 +3776,7 @@ export const MsgRemoveCodeUploadParamsAddressesResponse = {
       value: MsgRemoveCodeUploadParamsAddressesResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgStoreAndMigrateContract(): MsgStoreAndMigrateContract {
   return {
@@ -4004,7 +4004,7 @@ export const MsgStoreAndMigrateContractResponse = {
       value: MsgStoreAndMigrateContractResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateContractLabel(): MsgUpdateContractLabel {
   return {
@@ -4105,7 +4105,7 @@ export const MsgUpdateContractLabel = {
       value: MsgUpdateContractLabel.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgUpdateContractLabelResponse(): MsgUpdateContractLabelResponse {
   return {};
@@ -4169,5 +4169,5 @@ export const MsgUpdateContractLabelResponse = {
       value: MsgUpdateContractLabelResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

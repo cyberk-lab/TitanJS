@@ -7,8 +7,8 @@ import { ValidatorUpdate, ValidatorUpdateAmino } from "../../../tendermint/abci/
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { GlobalDecoderRegistry } from "../../../registry";
 import { DeepPartial, toTimestamp, fromTimestamp, isSet } from "../../../helpers";
-import { Decimal } from "@interchainjs/math";
-import { encodePubkey, decodePubkey } from "@interchainjs/pubkey";
+import { Decimal } from "@titanlabjs/math";
+import { encodePubkey, decodePubkey } from "@titanlabjs/pubkey";
 /** BondStatus is the status of a validator. */
 export enum BondStatus {
   /** BOND_STATUS_UNSPECIFIED - UNSPECIFIED defines an invalid validator status. */
@@ -944,7 +944,7 @@ export const CommissionRates = {
       value: CommissionRates.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseCommission(): Commission {
   return {
@@ -1160,7 +1160,7 @@ export const Description = {
       value: Description.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseValidator(): Validator {
   return {
@@ -1474,7 +1474,7 @@ export const ValAddresses = {
       value: ValAddresses.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDVPair(): DVPair {
   return {
@@ -1563,7 +1563,7 @@ export const DVPair = {
       value: DVPair.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDVPairs(): DVPairs {
   return {
@@ -1745,7 +1745,7 @@ export const DVVTriplet = {
       value: DVVTriplet.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDVVTriplets(): DVVTriplets {
   return {
@@ -1927,7 +1927,7 @@ export const Delegation = {
       value: Delegation.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseUnbondingDelegation(): UnbondingDelegation {
   return {
@@ -2169,7 +2169,7 @@ export const UnbondingDelegationEntry = {
       value: UnbondingDelegationEntry.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseRedelegationEntry(): RedelegationEntry {
   return {
@@ -2306,7 +2306,7 @@ export const RedelegationEntry = {
       value: RedelegationEntry.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseRedelegation(): Redelegation {
   return {
@@ -2560,7 +2560,7 @@ export const Params = {
       value: Params.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDelegationResponse(): DelegationResponse {
   return {
@@ -2926,7 +2926,7 @@ export const Pool = {
       value: Pool.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseValidatorUpdates(): ValidatorUpdates {
   return {

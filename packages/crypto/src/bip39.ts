@@ -1,4 +1,4 @@
-import { toUtf8 } from "@titanjs/encoding";
+import { toUtf8 } from "@titanlabjs/encoding";
 
 import { pbkdf2Sha512 } from "./pbkdf2";
 import { sha256 } from "./sha";

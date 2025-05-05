@@ -1,6 +1,6 @@
 import { ethers } from 'ethers';
-import { EthereumGenericOfflineSigner, IEthereumGenericOfflineSigner } from "@titanjs/ethereum/types/wallet";
-import { Eip712Signer } from "@titanjs/ethereum/signers/eip712";
+import { EthereumGenericOfflineSigner, IEthereumGenericOfflineSigner } from "@titanlabjs/ethereum/types/wallet";
+import { Eip712Signer } from "@titanlabjs/ethereum/signers/eip712";
 
 const ENDPOINT = 'http://127.0.0.1:8545';
 

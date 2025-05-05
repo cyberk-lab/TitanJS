@@ -3,342 +3,342 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.11.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.10.1...@interchainjs/injective@1.11.0) (2025-04-09)
+# [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.10.1...@titanlabjs/injective@0.0.1) (2025-04-09)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.10.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.10.0...@interchainjs/injective@1.10.1) (2025-04-07)
+## [1.10.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.10.0...@titanlabjs/injective@1.10.1) (2025-04-07)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-# [1.10.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.16...@interchainjs/injective@1.10.0) (2025-03-21)
+# [1.10.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.16...@titanlabjs/injective@1.10.0) (2025-03-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.16](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.15...@interchainjs/injective@1.9.16) (2025-03-18)
+## [1.9.16](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.15...@titanlabjs/injective@1.9.16) (2025-03-18)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.15](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.14...@interchainjs/injective@1.9.15) (2025-03-13)
+## [1.9.15](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.14...@titanlabjs/injective@1.9.15) (2025-03-13)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.14](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.13...@interchainjs/injective@1.9.14) (2025-03-03)
+## [1.9.14](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.13...@titanlabjs/injective@1.9.14) (2025-03-03)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.13](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.12...@interchainjs/injective@1.9.13) (2025-02-21)
+## [1.9.13](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.12...@titanlabjs/injective@1.9.13) (2025-02-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.12](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.11...@interchainjs/injective@1.9.12) (2025-02-17)
+## [1.9.12](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.11...@titanlabjs/injective@1.9.12) (2025-02-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.11](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.10...@interchainjs/injective@1.9.11) (2025-02-14)
+## [1.9.11](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.10...@titanlabjs/injective@1.9.11) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.10](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.9...@interchainjs/injective@1.9.10) (2025-02-14)
+## [1.9.10](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.9...@titanlabjs/injective@1.9.10) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.9](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.8...@interchainjs/injective@1.9.9) (2025-02-14)
+## [1.9.9](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.8...@titanlabjs/injective@1.9.9) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.8](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.7...@interchainjs/injective@1.9.8) (2025-02-14)
+## [1.9.8](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.7...@titanlabjs/injective@1.9.8) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.6...@interchainjs/injective@1.9.7) (2025-02-14)
+## [1.9.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.6...@titanlabjs/injective@1.9.7) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.6](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.5...@interchainjs/injective@1.9.6) (2025-02-14)
+## [1.9.6](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.5...@titanlabjs/injective@1.9.6) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.5](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.4...@interchainjs/injective@1.9.5) (2025-02-14)
+## [1.9.5](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.4...@titanlabjs/injective@1.9.5) (2025-02-14)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.4](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.3...@interchainjs/injective@1.9.4) (2025-02-12)
+## [1.9.4](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.3...@titanlabjs/injective@1.9.4) (2025-02-12)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.3](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.2...@interchainjs/injective@1.9.3) (2025-02-07)
+## [1.9.3](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.2...@titanlabjs/injective@1.9.3) (2025-02-07)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.2](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.1...@interchainjs/injective@1.9.2) (2025-01-29)
+## [1.9.2](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.1...@titanlabjs/injective@1.9.2) (2025-01-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.9.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.9.0...@interchainjs/injective@1.9.1) (2025-01-29)
+## [1.9.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.9.0...@titanlabjs/injective@1.9.1) (2025-01-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-# [1.9.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.8.4...@interchainjs/injective@1.9.0) (2025-01-28)
+# [1.9.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.8.4...@titanlabjs/injective@1.9.0) (2025-01-28)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.8.4](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.8.3...@interchainjs/injective@1.8.4) (2025-01-28)
+## [1.8.4](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.8.3...@titanlabjs/injective@1.8.4) (2025-01-28)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.8.3](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.8.2...@interchainjs/injective@1.8.3) (2025-01-27)
+## [1.8.3](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.8.2...@titanlabjs/injective@1.8.3) (2025-01-27)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.8.2](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.8.1...@interchainjs/injective@1.8.2) (2025-01-27)
+## [1.8.2](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.8.1...@titanlabjs/injective@1.8.2) (2025-01-27)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.8.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.8.0...@interchainjs/injective@1.8.1) (2025-01-27)
+## [1.8.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.8.0...@titanlabjs/injective@1.8.1) (2025-01-27)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-# [1.8.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.8...@interchainjs/injective@1.8.0) (2025-01-27)
+# [1.8.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.8...@titanlabjs/injective@1.8.0) (2025-01-27)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.8](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.7...@interchainjs/injective@1.7.8) (2025-01-26)
+## [1.7.8](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.7...@titanlabjs/injective@1.7.8) (2025-01-26)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.7...@interchainjs/injective@1.7.7) (2025-01-26)
+## [1.7.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.7...@titanlabjs/injective@1.7.7) (2025-01-26)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.6...@interchainjs/injective@1.7.7) (2025-01-26)
+## [1.7.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.6...@titanlabjs/injective@1.7.7) (2025-01-26)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.6](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.5...@interchainjs/injective@1.7.6) (2025-01-22)
+## [1.7.6](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.5...@titanlabjs/injective@1.7.6) (2025-01-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.5](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.3...@interchainjs/injective@1.7.5) (2025-01-22)
+## [1.7.5](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.3...@titanlabjs/injective@1.7.5) (2025-01-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.3](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.2...@interchainjs/injective@1.7.3) (2025-01-22)
+## [1.7.3](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.2...@titanlabjs/injective@1.7.3) (2025-01-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.2](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.1...@interchainjs/injective@1.7.2) (2025-01-15)
+## [1.7.2](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.1...@titanlabjs/injective@1.7.2) (2025-01-15)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.7.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.7.0...@interchainjs/injective@1.7.1) (2025-01-13)
+## [1.7.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.7.0...@titanlabjs/injective@1.7.1) (2025-01-13)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-# [1.7.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.6.5...@interchainjs/injective@1.7.0) (2025-01-13)
+# [1.7.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.6.5...@titanlabjs/injective@1.7.0) (2025-01-13)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.6.5](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.6.4...@interchainjs/injective@1.6.5) (2024-12-26)
+## [1.6.5](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.6.4...@titanlabjs/injective@1.6.5) (2024-12-26)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.6.4](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.6.3...@interchainjs/injective@1.6.4) (2024-12-25)
+## [1.6.4](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.6.3...@titanlabjs/injective@1.6.4) (2024-12-25)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.6.3](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.6.2...@interchainjs/injective@1.6.3) (2024-12-17)
+## [1.6.3](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.6.2...@titanlabjs/injective@1.6.3) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.6.2](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.6.1...@interchainjs/injective@1.6.2) (2024-12-17)
+## [1.6.2](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.6.1...@titanlabjs/injective@1.6.2) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [1.6.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@1.6.0...@interchainjs/injective@1.6.1) (2024-12-17)
+## [1.6.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@1.6.0...@titanlabjs/injective@1.6.1) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-# [1.6.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.41...@interchainjs/injective@1.6.0) (2024-12-17)
+# [1.6.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.41...@titanlabjs/injective@1.6.0) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.41](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.40...@interchainjs/injective@0.0.1-beta.41) (2024-12-17)
+## [0.0.1-beta.41](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.40...@titanlabjs/injective@0.0.1-beta.41) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.40](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.40...@interchainjs/injective@0.0.1-beta.40) (2024-12-17)
+## [0.0.1-beta.40](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.40...@titanlabjs/injective@0.0.1-beta.40) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.40](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.36...@interchainjs/injective@0.0.1-beta.40) (2024-12-17)
+## [0.0.1-beta.40](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.36...@titanlabjs/injective@0.0.1-beta.40) (2024-12-17)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.36](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.35...@interchainjs/injective@0.0.1-beta.36) (2024-11-04)
+## [0.0.1-beta.36](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.35...@titanlabjs/injective@0.0.1-beta.36) (2024-11-04)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.35](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.34...@interchainjs/injective@0.0.1-beta.35) (2024-11-04)
+## [0.0.1-beta.35](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.34...@titanlabjs/injective@0.0.1-beta.35) (2024-11-04)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.34](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.33...@interchainjs/injective@0.0.1-beta.34) (2024-11-01)
+## [0.0.1-beta.34](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.33...@titanlabjs/injective@0.0.1-beta.34) (2024-11-01)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.33](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-alpha.33...@interchainjs/injective@0.0.1-beta.33) (2024-11-01)
+## [0.0.1-beta.33](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-alpha.33...@titanlabjs/injective@0.0.1-beta.33) (2024-11-01)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-alpha.33](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-alpha.32...@interchainjs/injective@0.0.1-alpha.33) (2024-11-01)
+## [0.0.1-alpha.33](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-alpha.32...@titanlabjs/injective@0.0.1-alpha.33) (2024-11-01)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-alpha.32](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-alpha.31...@interchainjs/injective@0.0.1-alpha.32) (2024-11-01)
+## [0.0.1-alpha.32](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-alpha.31...@titanlabjs/injective@0.0.1-alpha.32) (2024-11-01)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-alpha.31](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-alpha.30...@interchainjs/injective@0.0.1-alpha.31) (2024-10-30)
+## [0.0.1-alpha.31](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-alpha.30...@titanlabjs/injective@0.0.1-alpha.31) (2024-10-30)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-alpha.30](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.29...@interchainjs/injective@0.0.1-alpha.30) (2024-10-30)
+## [0.0.1-alpha.30](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.29...@titanlabjs/injective@0.0.1-alpha.30) (2024-10-30)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.29](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.28...@interchainjs/injective@0.0.1-beta.29) (2024-10-25)
+## [0.0.1-beta.29](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.28...@titanlabjs/injective@0.0.1-beta.29) (2024-10-25)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.28](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.27...@interchainjs/injective@0.0.1-beta.28) (2024-10-25)
+## [0.0.1-beta.28](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.27...@titanlabjs/injective@0.0.1-beta.28) (2024-10-25)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.27](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.26...@interchainjs/injective@0.0.1-beta.27) (2024-10-25)
+## [0.0.1-beta.27](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.26...@titanlabjs/injective@0.0.1-beta.27) (2024-10-25)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.26](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.25...@interchainjs/injective@0.0.1-beta.26) (2024-10-23)
+## [0.0.1-beta.26](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.25...@titanlabjs/injective@0.0.1-beta.26) (2024-10-23)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.25](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.24...@interchainjs/injective@0.0.1-beta.25) (2024-10-22)
+## [0.0.1-beta.25](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.24...@titanlabjs/injective@0.0.1-beta.25) (2024-10-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.24](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.23...@interchainjs/injective@0.0.1-beta.24) (2024-10-22)
+## [0.0.1-beta.24](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.23...@titanlabjs/injective@0.0.1-beta.24) (2024-10-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.23](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.22...@interchainjs/injective@0.0.1-beta.23) (2024-10-22)
+## [0.0.1-beta.23](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.22...@titanlabjs/injective@0.0.1-beta.23) (2024-10-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.22](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.21...@interchainjs/injective@0.0.1-beta.22) (2024-10-22)
+## [0.0.1-beta.22](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.21...@titanlabjs/injective@0.0.1-beta.22) (2024-10-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.21](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.20...@interchainjs/injective@0.0.1-beta.21) (2024-10-22)
+## [0.0.1-beta.21](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.20...@titanlabjs/injective@0.0.1-beta.21) (2024-10-22)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.20](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.19...@interchainjs/injective@0.0.1-beta.20) (2024-10-21)
+## [0.0.1-beta.20](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.19...@titanlabjs/injective@0.0.1-beta.20) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.19](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.18...@interchainjs/injective@0.0.1-beta.19) (2024-10-21)
+## [0.0.1-beta.19](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.18...@titanlabjs/injective@0.0.1-beta.19) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.18](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.17...@interchainjs/injective@0.0.1-beta.18) (2024-10-21)
+## [0.0.1-beta.18](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.17...@titanlabjs/injective@0.0.1-beta.18) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.17](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.16...@interchainjs/injective@0.0.1-beta.17) (2024-10-21)
+## [0.0.1-beta.17](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.16...@titanlabjs/injective@0.0.1-beta.17) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.16](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.15...@interchainjs/injective@0.0.1-beta.16) (2024-10-21)
+## [0.0.1-beta.16](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.15...@titanlabjs/injective@0.0.1-beta.16) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.15](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.14...@interchainjs/injective@0.0.1-beta.15) (2024-10-21)
+## [0.0.1-beta.15](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.14...@titanlabjs/injective@0.0.1-beta.15) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.14](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.13...@interchainjs/injective@0.0.1-beta.14) (2024-10-21)
+## [0.0.1-beta.14](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.13...@titanlabjs/injective@0.0.1-beta.14) (2024-10-21)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.13](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.12...@interchainjs/injective@0.0.1-beta.13) (2024-09-13)
+## [0.0.1-beta.13](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.12...@titanlabjs/injective@0.0.1-beta.13) (2024-09-13)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.12](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.2...@interchainjs/injective@0.0.1-beta.12) (2024-09-10)
+## [0.0.1-beta.12](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.2...@titanlabjs/injective@0.0.1-beta.12) (2024-09-10)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.11](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.10...@interchainjs/ethermint@0.0.1-beta.11) (2024-08-30)
+## [0.0.1-beta.11](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.10...@titanlabjs/ethermint@0.0.1-beta.11) (2024-08-30)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.10](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.9...@interchainjs/ethermint@0.0.1-beta.10) (2024-08-27)
+## [0.0.1-beta.10](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.9...@titanlabjs/ethermint@0.0.1-beta.10) (2024-08-27)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.9](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.8...@interchainjs/ethermint@0.0.1-beta.9) (2024-08-26)
+## [0.0.1-beta.9](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.8...@titanlabjs/ethermint@0.0.1-beta.9) (2024-08-26)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.8](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.7...@interchainjs/ethermint@0.0.1-beta.8) (2024-08-21)
+## [0.0.1-beta.8](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.7...@titanlabjs/ethermint@0.0.1-beta.8) (2024-08-21)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.6...@interchainjs/ethermint@0.0.1-beta.7) (2024-08-19)
+## [0.0.1-beta.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.6...@titanlabjs/ethermint@0.0.1-beta.7) (2024-08-19)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.6](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.5...@interchainjs/ethermint@0.0.1-beta.6) (2024-08-14)
+## [0.0.1-beta.6](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.5...@titanlabjs/ethermint@0.0.1-beta.6) (2024-08-14)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.5](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.4...@interchainjs/ethermint@0.0.1-beta.5) (2024-08-14)
+## [0.0.1-beta.5](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.4...@titanlabjs/ethermint@0.0.1-beta.5) (2024-08-14)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.4](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/ethermint@0.0.1-beta.3...@interchainjs/ethermint@0.0.1-beta.4) (2024-08-13)
+## [0.0.1-beta.4](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/ethermint@0.0.1-beta.3...@titanlabjs/ethermint@0.0.1-beta.4) (2024-08-13)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
 ## 0.0.1-beta.3 (2024-08-13)
 
-**Note:** Version bump only for package @interchainjs/ethermint
+**Note:** Version bump only for package @titanlabjs/ethermint
 
-## [0.0.1-beta.2](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.1...@interchainjs/injective@0.0.1-beta.2) (2024-06-07)
+## [0.0.1-beta.2](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.1...@titanlabjs/injective@0.0.1-beta.2) (2024-06-07)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1-beta.0...@interchainjs/injective@0.0.1-beta.1) (2024-04-29)
+## [0.0.1-beta.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1-beta.0...@titanlabjs/injective@0.0.1-beta.1) (2024-04-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1-beta.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1...@interchainjs/injective@0.0.1-beta.0) (2024-04-29)
+## [0.0.1-beta.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1...@titanlabjs/injective@0.0.1-beta.0) (2024-04-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1...@interchainjs/injective@0.0.1) (2024-04-29)
+## [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1...@titanlabjs/injective@0.0.1) (2024-04-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.1...@interchainjs/injective@0.0.1) (2024-04-29)
+## [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.1...@titanlabjs/injective@0.0.1) (2024-04-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
-## [0.0.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/injective@0.0.5...@interchainjs/injective@0.0.1) (2024-04-29)
+## [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/injective@0.0.5...@titanlabjs/injective@0.0.1) (2024-04-29)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective
 
 ## 0.0.5 (2024-04-02)
 
-**Note:** Version bump only for package @interchainjs/injective
+**Note:** Version bump only for package @titanlabjs/injective

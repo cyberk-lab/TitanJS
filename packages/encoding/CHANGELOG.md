@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2025-05-05)
+
+### Bug Fixes
+
+- clean up rfc3339 function ([a3e1391](https://github.com/cyberk-lab/titanlabjs/commit/a3e13914c7573aea799dd6636bffdcb1d815726c))
+- Ensure RFC dates between years 0001 and 0099 are parsed correctly ([b3c5ff3](https://github.com/cyberk-lab/titanlabjs/commit/b3c5ff3ff842b1ab43712ced8b21912e486b6897))
+- simplify rfc339 function ([625655b](https://github.com/cyberk-lab/titanlabjs/commit/625655b7ef27aba65ef3bfb9bef9f22b5fd4989c))
+
 ## 0.0.3 (2025-05-05)
 
 ### Bug Fixes

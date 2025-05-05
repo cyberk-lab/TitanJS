@@ -4,7 +4,7 @@
   "npmClient": "yarn",
   "npmClientArgs": ["--no-lockfile"],
   "packages": ["packages/*", "networks/*", "libs/*"],
-  "version": "independent",
+  "version": "0.2.0",
   "registry": "https://registry.npmjs.org",
   "useWorkspaces": true,
   "command": {

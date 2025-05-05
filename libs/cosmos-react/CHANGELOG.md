@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2025-05-05)
+
+### Features
+
+- naming ([3e9c231](https://github.com/cyberk-lab/titanlabjs/commit/3e9c23196f2450d1e4f66bb5fbfda15f49ffa05a))
+
 # 0.1.0 (2025-05-05)
 
 ### Features

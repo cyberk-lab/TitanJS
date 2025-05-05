@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2025-05-05)
+
+### Features
+
+- add titan proto ([60b2d25](https://github.com/cyberk-lab/titanjs/commit/60b2d254cc36a60c1143bf564df7b35f10ba13b9))
+
 # 0.1.0 (2025-05-05)
 
 ### Features

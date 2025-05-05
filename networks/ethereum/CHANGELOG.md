@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2025-05-05)
+
+### Bug Fixes
+
+- bug about nonce=0 ([cb7d732](https://github.com/cyberk-lab/titanjs/commit/cb7d732e9db3f849a7614330270cc3fd7e38ee51))
+- bug of estimateGas ([c5aff4d](https://github.com/cyberk-lab/titanjs/commit/c5aff4d2156d01bae96b13c7bf461692d29ae402))
+- rlp: non-canonical integer (leading zero bytes) for \*big.Int, decoding into (types.DynamicFeeTx).V ([2e8432f](https://github.com/cyberk-lab/titanjs/commit/2e8432f8a7514d809b4b9da81dfd94def7b7ab46))
+
 ## 0.0.3 (2025-05-05)
 
 ### Bug Fixes

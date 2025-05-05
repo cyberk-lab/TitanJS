@@ -6,6 +6,7 @@
   "packages": ["packages/*", "networks/*", "libs/*"],
   "version": "independent",
   "registry": "https://registry.npmjs.org",
+  "useWorkspaces": true,
   "command": {
     "create": {
       "homepage": "https://github.com/cyberk-lab/titanlabjs",
@@ -13,7 +14,7 @@
       "access": "restricted"
     },
     "publish": {
-      "allowBranch": "main",
+      "allowBranch": "first-publish",
       "message": "chore(release): publish"
     }
   }

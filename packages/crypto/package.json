@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/crypto",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Cryptography resources for blockchain projects",
   "license": "Apache-2.0",
   "main": "index.js",
@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@noble/hashes": "^1",
-    "@titanlabjs/encoding": "^0.2.1",
-    "@titanlabjs/math": "^0.2.1",
-    "@titanlabjs/utils": "^0.2.2",
+    "@titanlabjs/encoding": "^0.2.3",
+    "@titanlabjs/math": "^0.2.3",
+    "@titanlabjs/utils": "^0.2.3",
     "bn.js": "^5.2.0",
     "elliptic": "^6.5.4",
     "libsodium-wrappers-sumo": "^0.7.11"
@@ -35,5 +35,6 @@
   "devDependencies": {
     "@types/elliptic": "^6.4.18",
     "@types/libsodium-wrappers-sumo": "^0.7.8"
-  }
+  },
+  "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

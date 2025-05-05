@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/titan-vue",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "titan-vue is a JavaScript library providing vue hooks for interacting with Cosmos SDK based blockchains.",
   "main": "index.js",
   "module": "esm/index.js",
@@ -25,12 +25,12 @@
   },
   "dependencies": {
     "@noble/hashes": "^1.3.1",
-    "@titanlabjs/cosmos": "^0.2.2",
-    "@titanlabjs/cosmos-types": "^0.2.2",
-    "@titanlabjs/encoding": "^0.2.1",
-    "@titanlabjs/pubkey": "^0.2.2",
-    "@titanlabjs/types": "^0.2.1",
-    "@titanlabjs/utils": "^0.2.2",
+    "@titanlabjs/cosmos": "^0.2.3",
+    "@titanlabjs/cosmos-types": "^0.2.3",
+    "@titanlabjs/encoding": "^0.2.3",
+    "@titanlabjs/pubkey": "^0.2.3",
+    "@titanlabjs/types": "^0.2.3",
+    "@titanlabjs/utils": "^0.2.3",
     "decimal.js": "^10.4.3"
   },
   "devDependencies": {
@@ -47,5 +47,6 @@
     "transaction",
     "cosmjs",
     "wallet"
-  ]
+  ],
+  "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

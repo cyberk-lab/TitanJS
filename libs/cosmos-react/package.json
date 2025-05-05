@@ -29,7 +29,7 @@
     "@titanlabjs/cosmos-types": "^0.2.1",
     "@titanlabjs/encoding": "^0.2.1",
     "@titanlabjs/pubkey": "^0.2.1",
-    "@titanlabjs/types": "0.0.2",
+    "@titanlabjs/types": "^0.2.1",
     "@titanlabjs/utils": "^0.2.1",
     "decimal.js": "^10.4.3"
   },

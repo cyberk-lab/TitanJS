@@ -94,7 +94,7 @@ rimraf(join(__dirname, '../libs/titan-react/src'));
 
 // cosmos-types
 telescope({
-  protoDirs: [join(__dirname, '../protos/titanlabjs')],
+  protoDirs: [join(__dirname, '../protos/interchainjs')],
   outPath: join(__dirname, '../libs/cosmos-types/src'),
   options: deepmerge(options.options, {
     "prototypes": {
@@ -153,7 +153,7 @@ telescope({
 
 // interchain-vue
 telescope({
-  protoDirs: [join(__dirname, '../protos/titanlabjs')],
+  protoDirs: [join(__dirname, '../protos/interchainjs')],
   outPath: join(__dirname, '../libs/cosmos-vue/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {
@@ -173,7 +173,7 @@ telescope({
 
 // interchain-react
 telescope({
-  protoDirs: [join(__dirname, '../protos/titanlabjs')],
+  protoDirs: [join(__dirname, '../protos/interchainjs')],
   outPath: join(__dirname, '../libs/cosmos-react/src'),
   options: deepmerge(options.options, {
     "helperFunctions": {

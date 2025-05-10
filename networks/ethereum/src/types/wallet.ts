@@ -1,4 +1,4 @@
-import { IGenericOfflineSigner, SIGN_MODE } from "@titanjs/types";
+import { IGenericOfflineSigner, SIGN_MODE } from "@titanlabjs/types";
 import { Transaction, TransactionRequest, Signer as ethersOfflineSigner } from "ethers";
 
 export interface IEthereumGenericOfflineSigner extends IGenericOfflineSigner<string, unknown, string, TransactionRequest, string> {

@@ -2,7 +2,7 @@ import { Any, AnyProtoMsg, AnyAmino } from "../../../google/protobuf/any";
 import { isSet, DeepPartial, bytesFromBase64, base64FromBytes } from "../../../helpers";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { GlobalDecoderRegistry } from "../../../registry";
-import { toUtf8, fromUtf8 } from "@interchainjs/encoding";
+import { toUtf8, fromUtf8 } from "@titanlabjs/encoding";
 /** AccessType permission types */
 export enum AccessType {
   /** ACCESS_TYPE_UNSPECIFIED - AccessTypeUnspecified placeholder for empty value */
@@ -387,7 +387,7 @@ export const AccessTypeParam = {
       value: AccessTypeParam.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseAccessConfig(): AccessConfig {
   return {
@@ -478,7 +478,7 @@ export const AccessConfig = {
       value: AccessConfig.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseParams(): Params {
   return {
@@ -821,7 +821,7 @@ export const ContractInfo = {
       value: ContractInfo.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseContractCodeHistoryEntry(): ContractCodeHistoryEntry {
   return {
@@ -1025,7 +1025,7 @@ export const AbsoluteTxPosition = {
       value: AbsoluteTxPosition.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseModel(): Model {
   return {
@@ -1114,5 +1114,5 @@ export const Model = {
       value: Model.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

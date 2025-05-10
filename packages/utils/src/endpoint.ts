@@ -1,4 +1,4 @@
-import { HttpEndpoint } from '@titanjs/types';
+import { HttpEndpoint } from '@titanlabjs/types';
 
 export function toHttpEndpoint(endpoint: string | HttpEndpoint): HttpEndpoint {
   if (typeof endpoint === 'string') {

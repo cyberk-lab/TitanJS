@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { fromBase64 } from "@titanjs/encoding";
-import { Any } from "@titanjs/cosmos-types/google/protobuf/any";
+import { fromBase64 } from "@titanlabjs/encoding";
+import { Any } from "@titanlabjs/cosmos-types/google/protobuf/any";
 
 import { decodePubkey, encodePubkey } from "./pubkey";
 

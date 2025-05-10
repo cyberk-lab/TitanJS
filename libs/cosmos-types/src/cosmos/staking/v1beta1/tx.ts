@@ -4,7 +4,7 @@ import { Coin } from "../../base/v1beta1/coin";
 import { Timestamp } from "../../../google/protobuf/timestamp";
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial, toTimestamp, fromTimestamp } from "../../../helpers";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 /** MsgCreateValidator defines a SDK message for creating a new validator. */
 export interface MsgCreateValidator {
   description: Description;
@@ -22,7 +22,7 @@ export interface MsgCreateValidator {
   value: Coin;
 }
 /** MsgCreateValidatorResponse defines the Msg/CreateValidator response type. */
-export interface MsgCreateValidatorResponse {}
+export interface MsgCreateValidatorResponse { }
 /** MsgEditValidator defines a SDK message for editing an existing validator. */
 export interface MsgEditValidator {
   description: Description;
@@ -37,7 +37,7 @@ export interface MsgEditValidator {
   minSelfDelegation: string;
 }
 /** MsgEditValidatorResponse defines the Msg/EditValidator response type. */
-export interface MsgEditValidatorResponse {}
+export interface MsgEditValidatorResponse { }
 /**
  * MsgDelegate defines a SDK message for performing a delegation of coins
  * from a delegator to a validator.
@@ -48,7 +48,7 @@ export interface MsgDelegate {
   amount: Coin;
 }
 /** MsgDelegateResponse defines the Msg/Delegate response type. */
-export interface MsgDelegateResponse {}
+export interface MsgDelegateResponse { }
 /**
  * MsgBeginRedelegate defines a SDK message for performing a redelegation
  * of coins from a delegator and source validator to a destination validator.
@@ -100,7 +100,7 @@ export interface MsgCancelUnbondingDelegation {
  * 
  * Since: cosmos-sdk 0.46
  */
-export interface MsgCancelUnbondingDelegationResponse {}
+export interface MsgCancelUnbondingDelegationResponse { }
 /**
  * MsgUpdateParams is the Msg/UpdateParams request type.
  * 
@@ -122,7 +122,7 @@ export interface MsgUpdateParams {
  * 
  * Since: cosmos-sdk 0.47
  */
-export interface MsgUpdateParamsResponse {}
+export interface MsgUpdateParamsResponse { }
 function createBaseMsgCreateValidator(): MsgCreateValidator {
   return {
     description: Description.fromPartial({}),

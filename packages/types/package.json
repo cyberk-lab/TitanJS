@@ -1,14 +1,13 @@
 {
-  "name": "@titanjs/types",
-  "version": "1.11.0",
+  "name": "@titanlabjs/types",
+  "version": "0.2.4",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "author": "Hyperweb <developers@hyperweb.io>",
-  "homepage": "https://github.com/hyperweb-io/interchainjs",
+  "homepage": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/types",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs"
+    "url": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/types"
   },
   "license": "MIT",
   "publishConfig": {

@@ -1,4 +1,4 @@
-import { fromHex } from "@titanjs/encoding";
+import { fromHex } from "@titanlabjs/encoding";
 
 import {
   HdPath,

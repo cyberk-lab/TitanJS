@@ -1,8 +1,8 @@
 
 
-import { AuthInfo, Fee, SignerInfo } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { TelescopeGeneratedType } from '@titanjs/types';
-import { assertEmpty } from '@titanjs/utils';
+import { AuthInfo, Fee, SignerInfo } from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { TelescopeGeneratedType } from '@titanlabjs/types';
+import { assertEmpty } from '@titanlabjs/utils';
 
 import { Decoder, Encoder } from '../types';
 

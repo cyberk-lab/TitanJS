@@ -1,5 +1,5 @@
-import { Secp256k1Auth } from '@titanjs/auth/secp256k1';
-import { AccountData, AddrDerivation, Auth, SignerConfig, SIGN_MODE, IGenericOfflineSignArgs, IDocSigner } from '@titanjs/types';
+import { Secp256k1Auth } from '@titanlabjs/auth/secp256k1';
+import { AccountData, AddrDerivation, Auth, SignerConfig, SIGN_MODE, IGenericOfflineSignArgs, IDocSigner } from '@titanlabjs/types';
 
 import { AminoDocSigner } from '../signers/amino';
 import { defaultSignerConfig } from '../defaults';

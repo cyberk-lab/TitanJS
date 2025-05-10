@@ -1,17 +1,14 @@
 {
-  "name": "@titanjs/pubkey",
-  "version": "1.11.0",
+  "name": "@titanlabjs/pubkey",
+  "version": "0.2.4",
   "description": "Pubkey helpers for blockchain projects",
-  "contributors": [
-    "IOV SAS <admin@iov.one>"
-  ],
   "license": "Apache-2.0",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs/tree/main/packages/pubkey"
+    "url": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/pubkey"
   },
   "publishConfig": {
     "access": "public",
@@ -27,10 +24,11 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@titanjs/amino": "1.11.0",
-    "@titanjs/cosmos-types": "1.11.0",
-    "@titanjs/encoding": "1.11.0",
-    "@titanjs/math": "1.11.0",
-    "@titanjs/types": "1.11.0"
-  }
+    "@titanlabjs/amino": "^0.2.4",
+    "@titanlabjs/cosmos-types": "^0.2.4",
+    "@titanlabjs/encoding": "^0.2.4",
+    "@titanlabjs/math": "^0.2.4",
+    "@titanlabjs/types": "^0.2.4"
+  },
+  "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

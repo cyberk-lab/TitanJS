@@ -1,5 +1,5 @@
-import { fromHex, toAscii } from "@titanjs/encoding";
-import { Uint32, Uint53 } from "@titanjs/math";
+import { fromHex, toAscii } from "@titanlabjs/encoding";
+import { Uint32, Uint53 } from "@titanlabjs/math";
 import BN from "bn.js";
 import elliptic from "elliptic";
 
@@ -55,7 +55,7 @@ export class Slip10RawIndex extends Uint32 {
  * This can be constructed via string parsing:
  *
  * ```ts
- * import { stringToPath } from "@titanjs/crypto";
+ * import { stringToPath } from "@titanlabjs/crypto";
  *
  * const path = stringToPath("m/0'/1/2'/2/1000000000");
  * ```
@@ -63,7 +63,7 @@ export class Slip10RawIndex extends Uint32 {
  * or manually:
  *
  * ```ts
- * import { HdPath, Slip10RawIndex } from "@titanjs/crypto";
+ * import { HdPath, Slip10RawIndex } from "@titanlabjs/crypto";
  *
  * // m/0'/1/2'/2/1000000000
  * const path: HdPath = [

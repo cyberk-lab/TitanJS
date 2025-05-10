@@ -1,15 +1,14 @@
 {
-  "name": "titan-react",
-  "version": "1.11.0",
+  "name": "@titanlabjs/titan-react",
+  "version": "0.2.4",
   "description": "titan-react is a JavaScript library providing react query hooks for interacting with Cosmos SDK based blockchains.",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "author": "Hyperweb <developers@hyperweb.io>",
-  "homepage": "https://github.com/hyperweb-io/interchainjs",
+  "homepage": "https://github.com/cyberk-lab/titanjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs"
+    "url": "https://github.com/cyberk-lab/titanjs"
   },
   "license": "MIT",
   "publishConfig": {
@@ -25,13 +24,13 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@titanjs/cosmos": "1.11.0",
-    "@titanjs/cosmos-types": "1.11.0",
-    "@titanjs/encoding": "1.11.0",
-    "@titanjs/pubkey": "1.11.0",
-    "@titanjs/types": "1.11.0",
-    "@titanjs/utils": "1.11.0",
     "@noble/hashes": "^1.3.1",
+    "@titanlabjs/cosmos": "^0.2.4",
+    "@titanlabjs/cosmos-types": "^0.2.4",
+    "@titanlabjs/encoding": "^0.2.4",
+    "@titanlabjs/pubkey": "^0.2.4",
+    "@titanlabjs/types": "^0.2.4",
+    "@titanlabjs/utils": "^0.2.4",
     "decimal.js": "^10.4.3"
   },
   "devDependencies": {
@@ -46,5 +45,6 @@
     "transaction",
     "cosmjs",
     "wallet"
-  ]
+  ],
+  "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

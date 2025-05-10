@@ -3,49 +3,77 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.11.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.10.1...@interchainjs/encoding@1.11.0) (2025-04-09)
+## [0.2.4](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.3...v0.2.4) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-## [1.10.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.10.0...@interchainjs/encoding@1.10.1) (2025-04-07)
+## [0.2.3](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.2...v0.2.3) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-# [1.10.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.16...@interchainjs/encoding@1.10.0) (2025-03-21)
+## [0.2.1](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.0...v0.2.1) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-## [1.9.16](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.15...@interchainjs/encoding@1.9.16) (2025-03-18)
+# 0.2.0 (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/encoding
+### Bug Fixes
 
-## [1.9.15](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.14...@interchainjs/encoding@1.9.15) (2025-03-13)
+- clean up rfc3339 function ([a3e1391](https://github.com/cyberk-lab/titanlabjs/commit/a3e13914c7573aea799dd6636bffdcb1d815726c))
+- Ensure RFC dates between years 0001 and 0099 are parsed correctly ([b3c5ff3](https://github.com/cyberk-lab/titanlabjs/commit/b3c5ff3ff842b1ab43712ced8b21912e486b6897))
+- simplify rfc339 function ([625655b](https://github.com/cyberk-lab/titanlabjs/commit/625655b7ef27aba65ef3bfb9bef9f22b5fd4989c))
 
-**Note:** Version bump only for package @interchainjs/encoding
+## 0.0.3 (2025-05-05)
 
-## [1.9.14](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.13...@interchainjs/encoding@1.9.14) (2025-03-03)
+### Bug Fixes
 
-**Note:** Version bump only for package @interchainjs/encoding
+- clean up rfc3339 function ([a3e1391](https://github.com/cyberk-lab/titanlabjs/commit/a3e13914c7573aea799dd6636bffdcb1d815726c))
+- Ensure RFC dates between years 0001 and 0099 are parsed correctly ([b3c5ff3](https://github.com/cyberk-lab/titanlabjs/commit/b3c5ff3ff842b1ab43712ced8b21912e486b6897))
+- simplify rfc339 function ([625655b](https://github.com/cyberk-lab/titanlabjs/commit/625655b7ef27aba65ef3bfb9bef9f22b5fd4989c))
 
-## [1.9.13](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.12...@interchainjs/encoding@1.9.13) (2025-02-21)
+# [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.10.1...@titanlabjs/encoding@0.0.1) (2025-04-09)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-## [1.9.12](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.11...@interchainjs/encoding@1.9.12) (2025-02-17)
+## [1.10.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.10.0...@titanlabjs/encoding@1.10.1) (2025-04-07)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-## [1.9.11](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.7...@interchainjs/encoding@1.9.11) (2025-02-14)
+# [1.10.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.16...@titanlabjs/encoding@1.10.0) (2025-03-21)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-## [1.9.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.6...@interchainjs/encoding@1.9.7) (2025-02-14)
+## [1.9.16](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.15...@titanlabjs/encoding@1.9.16) (2025-03-18)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
 
-## [1.9.6](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/encoding@1.9.5...@interchainjs/encoding@1.9.6) (2025-02-14)
+## [1.9.15](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.14...@titanlabjs/encoding@1.9.15) (2025-03-13)
 
-**Note:** Version bump only for package @interchainjs/encoding
+**Note:** Version bump only for package @titanlabjs/encoding
+
+## [1.9.14](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.13...@titanlabjs/encoding@1.9.14) (2025-03-03)
+
+**Note:** Version bump only for package @titanlabjs/encoding
+
+## [1.9.13](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.12...@titanlabjs/encoding@1.9.13) (2025-02-21)
+
+**Note:** Version bump only for package @titanlabjs/encoding
+
+## [1.9.12](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.11...@titanlabjs/encoding@1.9.12) (2025-02-17)
+
+**Note:** Version bump only for package @titanlabjs/encoding
+
+## [1.9.11](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.7...@titanlabjs/encoding@1.9.11) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/encoding
+
+## [1.9.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.6...@titanlabjs/encoding@1.9.7) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/encoding
+
+## [1.9.6](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/encoding@1.9.5...@titanlabjs/encoding@1.9.6) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/encoding
 
 ## 1.9.5 (2025-02-14)
 
@@ -61,9 +89,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- clean up rfc3339 function ([a3e1391](https://github.com/hyperweb-io/interchainjs/commit/a3e13914c7573aea799dd6636bffdcb1d815726c))
-- Ensure RFC dates between years 0001 and 0099 are parsed correctly ([b3c5ff3](https://github.com/hyperweb-io/interchainjs/commit/b3c5ff3ff842b1ab43712ced8b21912e486b6897))
-- simplify rfc339 function ([625655b](https://github.com/hyperweb-io/interchainjs/commit/625655b7ef27aba65ef3bfb9bef9f22b5fd4989c))
+- clean up rfc3339 function ([a3e1391](https://github.com/hyperweb-io/titanlabjs/commit/a3e13914c7573aea799dd6636bffdcb1d815726c))
+- Ensure RFC dates between years 0001 and 0099 are parsed correctly ([b3c5ff3](https://github.com/hyperweb-io/titanlabjs/commit/b3c5ff3ff842b1ab43712ced8b21912e486b6897))
+- simplify rfc339 function ([625655b](https://github.com/hyperweb-io/titanlabjs/commit/625655b7ef27aba65ef3bfb9bef9f22b5fd4989c))
 
 # 0.32.0 (2023-11-23)
 

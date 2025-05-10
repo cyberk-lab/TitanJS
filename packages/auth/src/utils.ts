@@ -1,4 +1,4 @@
-import { fromUtf8 } from '@titanjs/utils';
+import { fromUtf8 } from '@titanlabjs/utils';
 import { pbkdf2 } from '@noble/hashes/pbkdf2';
 import { sha512 } from '@noble/hashes/sha512';
 

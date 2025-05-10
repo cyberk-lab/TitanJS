@@ -1,4 +1,4 @@
-import { AccountData, Auth, AuthOptions, IGenericOfflineSignArgs, IGenericOfflineSigner, SIGN_MODE, SignerConfig } from '@titanjs/types';
+import { AccountData, Auth, AuthOptions, IGenericOfflineSignArgs, IGenericOfflineSigner, SIGN_MODE, SignerConfig } from '@titanlabjs/types';
 
 import { CosmosAminoDoc, CosmosDirectDoc } from './signer';
 

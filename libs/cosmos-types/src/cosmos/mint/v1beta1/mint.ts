@@ -1,5 +1,5 @@
 import { BinaryReader, BinaryWriter } from "../../../binary";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 import { DeepPartial } from "../../../helpers";
 /** Minter represents the minting state. */
 export interface Minter {

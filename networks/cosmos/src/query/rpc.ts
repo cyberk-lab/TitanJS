@@ -1,16 +1,16 @@
-import { BaseAccount } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/auth';
-import { SignMode } from '@titanjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
-import { getAccount } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/query.rpc.func';
-import { getSimulate } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/service.rpc.func';
+import { BaseAccount } from '@titanlabjs/cosmos-types/cosmos/auth/v1beta1/auth';
+import { SignMode } from '@titanlabjs/cosmos-types/cosmos/tx/signing/v1beta1/signing';
+import { getAccount } from '@titanlabjs/cosmos-types/cosmos/auth/v1beta1/query.rpc.func';
+import { getSimulate } from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/service.rpc.func';
 import {
   Fee,
   SignerInfo,
   Tx,
   TxBody,
   TxRaw,
-} from '@titanjs/cosmos-types/cosmos/tx/v1beta1/tx';
-import { BroadcastMode, BroadcastOptions, HttpEndpoint, DeliverTxResponse, Event, TxRpc } from '@titanjs/types';
-import { fromBase64, isEmpty, toHttpEndpoint } from '@titanjs/utils';
+} from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/tx';
+import { BroadcastMode, BroadcastOptions, HttpEndpoint, DeliverTxResponse, Event, TxRpc } from '@titanlabjs/types';
+import { fromBase64, isEmpty, toHttpEndpoint } from '@titanlabjs/utils';
 
 import { defaultAccountParser, defaultBroadcastOptions } from '../defaults';
 import {
@@ -27,11 +27,11 @@ import {
   TxResponse,
 } from '../types/rpc';
 import { constructAuthInfo } from '../utils/direct';
-import { broadcast, createQueryRpc, getPrefix, sleep } from '@titanjs/utils';
+import { broadcast, createQueryRpc, getPrefix, sleep } from '@titanlabjs/utils';
 import { isBaseAccount } from '../utils';
-import { QueryAccountRequest, QueryAccountResponse } from '@titanjs/cosmos-types/cosmos/auth/v1beta1/query';
-import { SimulateRequest, SimulateResponse } from '@titanjs/cosmos-types/cosmos/tx/v1beta1/service';
-import { TxMsgData } from '@titanjs/cosmos-types/cosmos/base/abci/v1beta1/abci';
+import { QueryAccountRequest, QueryAccountResponse } from '@titanlabjs/cosmos-types/cosmos/auth/v1beta1/query';
+import { SimulateRequest, SimulateResponse } from '@titanlabjs/cosmos-types/cosmos/tx/v1beta1/service';
+import { TxMsgData } from '@titanlabjs/cosmos-types/cosmos/base/abci/v1beta1/abci';
 
 /**
  * client for cosmos rpc

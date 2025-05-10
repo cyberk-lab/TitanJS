@@ -7,7 +7,7 @@
 import { IBinaryReader, IBinaryWriter } from "./binary";
 import { Any } from "./google/protobuf/any";
 
-import { HttpEndpoint } from "@interchainjs/types";
+import { HttpEndpoint } from "@titanlabjs/types";
 
 export type ProtoMsg = Omit<Any, "typeUrl"> & { typeUrl: any };
 

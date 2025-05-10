@@ -5,10 +5,10 @@
 */
 
 
-import { HttpEndpoint } from "@interchainjs/types";
+import { HttpEndpoint } from "@titanlabjs/types";
 import {
-  createQueryRpc,
-} from '@interchainjs/utils';
+    createQueryRpc,
+} from '@titanlabjs/utils';
 import { Rpc } from "./helpers";
 
 const _rpcClients: Record<string, Rpc> = {};
@@ -34,5 +34,5 @@ export const getRpcClient = async (rpcEndpoint: string | HttpEndpoint) => {
 }
 
 export const createRpcClient = async (rpcEndpoint: string | HttpEndpoint) => {
-  return createQueryRpc(rpcEndpoint)
+    return createQueryRpc(rpcEndpoint)
 }

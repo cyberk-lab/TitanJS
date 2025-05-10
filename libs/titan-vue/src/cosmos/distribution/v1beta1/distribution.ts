@@ -1,6 +1,6 @@
 import { DecCoin, DecCoinAmino, Coin, CoinAmino } from "../../base/v1beta1/coin";
 import { BinaryReader, BinaryWriter } from "../../../binary";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 import { DeepPartial } from "../../../helpers";
 import { GlobalDecoderRegistry } from "../../../registry";
 /** Params defines the set of params for the distribution module. */
@@ -460,7 +460,7 @@ export const Params = {
       value: Params.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseValidatorHistoricalRewards(): ValidatorHistoricalRewards {
   return {
@@ -897,7 +897,7 @@ export const ValidatorSlashEvent = {
       value: ValidatorSlashEvent.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseValidatorSlashEvents(): ValidatorSlashEvents {
   return {
@@ -1279,7 +1279,7 @@ export const DelegatorStartingInfo = {
       value: DelegatorStartingInfo.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDelegationDelegatorReward(): DelegationDelegatorReward {
   return {

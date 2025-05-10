@@ -1,14 +1,13 @@
 {
-  "name": "@titanjs/titan",
-  "version": "1.11.0",
+  "name": "@titanlabjs/titan",
+  "version": "0.2.4",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "author": "Hyperweb <developers@hyperweb.io>",
-  "homepage": "https://github.com/hyperweb-io/interchainjs",
+  "homepage": "https://github.com/cyberk-lab/titanjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs"
+    "url": "https://github.com/cyberk-lab/titanjs"
   },
   "license": "MIT",
   "publishConfig": {
@@ -33,13 +32,13 @@
   },
   "dependencies": {
     "@ethersproject/transactions": "^5.7.0",
-    "@titanjs/auth": "1.11.0",
-    "@titanjs/cosmos": "1.11.0",
-    "@titanjs/cosmos-types": "1.11.0",
-    "@titanjs/ethereum": "1.11.0",
-    "@titanjs/types": "1.11.0",
-    "@titanjs/utils": "1.11.0",
     "@noble/hashes": "^1.3.1",
+    "@titanlabjs/auth": "^0.2.4",
+    "@titanlabjs/cosmos": "^0.2.4",
+    "@titanlabjs/cosmos-types": "^0.2.4",
+    "@titanlabjs/ethereum": "^0.2.4",
+    "@titanlabjs/types": "^0.2.4",
+    "@titanlabjs/utils": "^0.2.4",
     "decimal.js": "^10.4.3"
   },
   "keywords": [
@@ -49,5 +48,5 @@
     "bech32": "^2.0.0",
     "dotenv": "^16.4.5"
   },
-  "gitHead": "361d2e1c7f1fa9eba2c0495543604b0375958bda"
+  "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

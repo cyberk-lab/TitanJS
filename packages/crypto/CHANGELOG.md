@@ -3,49 +3,73 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.11.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.10.1...@interchainjs/crypto@1.11.0) (2025-04-09)
+## [0.2.4](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.3...v0.2.4) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.10.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.10.0...@interchainjs/crypto@1.10.1) (2025-04-07)
+## [0.2.3](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.2...v0.2.3) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-# [1.10.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.16...@interchainjs/crypto@1.10.0) (2025-03-21)
+## [0.2.2](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.1...v0.2.2) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.16](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.15...@interchainjs/crypto@1.9.16) (2025-03-18)
+## [0.2.1](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.0...v0.2.1) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.15](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.14...@interchainjs/crypto@1.9.15) (2025-03-13)
+# 0.2.0 (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.14](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.13...@interchainjs/crypto@1.9.14) (2025-03-03)
+## 0.0.3 (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.13](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.12...@interchainjs/crypto@1.9.13) (2025-02-21)
+# [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.10.1...@titanlabjs/crypto@0.0.1) (2025-04-09)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.12](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.11...@interchainjs/crypto@1.9.12) (2025-02-17)
+## [1.10.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.10.0...@titanlabjs/crypto@1.10.1) (2025-04-07)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.11](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.7...@interchainjs/crypto@1.9.11) (2025-02-14)
+# [1.10.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.16...@titanlabjs/crypto@1.10.0) (2025-03-21)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.6...@interchainjs/crypto@1.9.7) (2025-02-14)
+## [1.9.16](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.15...@titanlabjs/crypto@1.9.16) (2025-03-18)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
 
-## [1.9.6](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/crypto@1.9.5...@interchainjs/crypto@1.9.6) (2025-02-14)
+## [1.9.15](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.14...@titanlabjs/crypto@1.9.15) (2025-03-13)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto
+
+## [1.9.14](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.13...@titanlabjs/crypto@1.9.14) (2025-03-03)
+
+**Note:** Version bump only for package @titanlabjs/crypto
+
+## [1.9.13](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.12...@titanlabjs/crypto@1.9.13) (2025-02-21)
+
+**Note:** Version bump only for package @titanlabjs/crypto
+
+## [1.9.12](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.11...@titanlabjs/crypto@1.9.12) (2025-02-17)
+
+**Note:** Version bump only for package @titanlabjs/crypto
+
+## [1.9.11](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.7...@titanlabjs/crypto@1.9.11) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/crypto
+
+## [1.9.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.6...@titanlabjs/crypto@1.9.7) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/crypto
+
+## [1.9.6](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/crypto@1.9.5...@titanlabjs/crypto@1.9.6) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/crypto
 
 ## 1.9.5 (2025-02-14)
 
@@ -255,4 +279,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 0.20.0 (2020-06-10)
 
-**Note:** Version bump only for package @interchainjs/crypto
+**Note:** Version bump only for package @titanlabjs/crypto

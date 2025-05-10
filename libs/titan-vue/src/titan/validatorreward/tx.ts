@@ -1,6 +1,6 @@
 import { Coin, CoinAmino } from "../../cosmos/base/v1beta1/coin";
 import { BinaryReader, BinaryWriter } from "../../binary";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 import { DeepPartial } from "../../helpers";
 /** MsgSetRate allow authority config `rate` */
 export interface MsgSetRate {
@@ -21,13 +21,13 @@ export interface MsgSetRateAminoMsg {
   value: MsgSetRateAmino;
 }
 /** MsgSetRateResponse defines the Msg/SetRate response type. */
-export interface MsgSetRateResponse {}
+export interface MsgSetRateResponse { }
 export interface MsgSetRateResponseProtoMsg {
   typeUrl: "/titan.validatorreward.MsgSetRateResponse";
   value: Uint8Array;
 }
 /** MsgSetRateResponse defines the Msg/SetRate response type. */
-export interface MsgSetRateResponseAmino {}
+export interface MsgSetRateResponseAmino { }
 export interface MsgSetRateResponseAminoMsg {
   type: "/titan.validatorreward.MsgSetRateResponse";
   value: MsgSetRateResponseAmino;
@@ -51,13 +51,13 @@ export interface MsgSetAuthorityAminoMsg {
   value: MsgSetAuthorityAmino;
 }
 /** MsgSetAuthorityResponse defines the Msg/SetAuthority response type. */
-export interface MsgSetAuthorityResponse {}
+export interface MsgSetAuthorityResponse { }
 export interface MsgSetAuthorityResponseProtoMsg {
   typeUrl: "/titan.validatorreward.MsgSetAuthorityResponse";
   value: Uint8Array;
 }
 /** MsgSetAuthorityResponse defines the Msg/SetAuthority response type. */
-export interface MsgSetAuthorityResponseAmino {}
+export interface MsgSetAuthorityResponseAmino { }
 export interface MsgSetAuthorityResponseAminoMsg {
   type: "/titan.validatorreward.MsgSetAuthorityResponse";
   value: MsgSetAuthorityResponseAmino;
@@ -83,13 +83,13 @@ export interface MsgFundRewardPoolAminoMsg {
   value: MsgFundRewardPoolAmino;
 }
 /** MsgFundRewardPoolResponse defines the Msg/FundRewardPool response type. */
-export interface MsgFundRewardPoolResponse {}
+export interface MsgFundRewardPoolResponse { }
 export interface MsgFundRewardPoolResponseProtoMsg {
   typeUrl: "/titan.validatorreward.MsgFundRewardPoolResponse";
   value: Uint8Array;
 }
 /** MsgFundRewardPoolResponse defines the Msg/FundRewardPool response type. */
-export interface MsgFundRewardPoolResponseAmino {}
+export interface MsgFundRewardPoolResponseAmino { }
 export interface MsgFundRewardPoolResponseAminoMsg {
   type: "/titan.validatorreward.MsgFundRewardPoolResponse";
   value: MsgFundRewardPoolResponseAmino;
@@ -174,7 +174,7 @@ export const MsgSetRate = {
       value: MsgSetRate.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgSetRateResponse(): MsgSetRateResponse {
   return {};
@@ -231,7 +231,7 @@ export const MsgSetRateResponse = {
       value: MsgSetRateResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgSetAuthority(): MsgSetAuthority {
   return {
@@ -313,7 +313,7 @@ export const MsgSetAuthority = {
       value: MsgSetAuthority.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgSetAuthorityResponse(): MsgSetAuthorityResponse {
   return {};
@@ -370,7 +370,7 @@ export const MsgSetAuthorityResponse = {
       value: MsgSetAuthorityResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseMsgFundRewardPool(): MsgFundRewardPool {
   return {
@@ -513,5 +513,5 @@ export const MsgFundRewardPoolResponse = {
       value: MsgFundRewardPoolResponse.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

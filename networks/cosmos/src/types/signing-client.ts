@@ -1,6 +1,6 @@
 import { AminoConverter, Message, SignerOptions } from '../types/signer';
-import { BroadcastOptions, Price } from '@titanjs/types';
-import { Event, TelescopeGeneratedType } from '@titanjs/types';
+import { BroadcastOptions, Price } from '@titanlabjs/types';
+import { Event, TelescopeGeneratedType } from '@titanlabjs/types';
 
 export type EncodeObject = Message;
 

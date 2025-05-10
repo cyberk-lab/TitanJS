@@ -1,5 +1,5 @@
-import { toHex } from "@titanjs/encoding";
-import { Uint53 } from "@titanjs/math";
+import { toHex } from "@titanlabjs/encoding";
+import { Uint53 } from "@titanlabjs/math";
 
 import { pubkeyToRawAddress } from "./addresses";
 import { MultisigThresholdPubkey, SinglePubkey } from "./pubkeys";

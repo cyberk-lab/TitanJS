@@ -1,14 +1,13 @@
 {
-  "name": "@titanjs/utils",
-  "version": "1.11.0",
-  "author": "Hyperweb <developers@hyperweb.io>",
+  "name": "@titanlabjs/utils",
+  "version": "0.2.4",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
-  "homepage": "https://github.com/hyperweb-io/interchainjs",
+  "homepage": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/utils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperweb-io/interchainjs"
+    "url": "https://github.com/cyberk-lab/titanlabjs/tree/main/packages/utils"
   },
   "license": "MIT",
   "publishConfig": {
@@ -25,7 +24,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@titanjs/types": "1.11.0",
+    "@titanlabjs/types": "^0.2.4",
     "bech32": "^2.0.0",
     "decimal.js": "^10.4.3"
   },
@@ -36,5 +35,6 @@
   "peerDependencies": {
     "@chain-registry/v2": "1.71.71",
     "@chain-registry/v2-types": "0.53.72"
-  }
+  },
+  "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

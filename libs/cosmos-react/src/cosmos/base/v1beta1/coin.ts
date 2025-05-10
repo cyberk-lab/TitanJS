@@ -1,6 +1,6 @@
 import { BinaryReader, BinaryWriter } from "../../../binary";
 import { DeepPartial } from "../../../helpers";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 /**
  * Coin defines a token with a denomination and an amount.
  * 
@@ -188,7 +188,7 @@ export const Coin = {
       value: Coin.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDecCoin(): DecCoin {
   return {
@@ -277,7 +277,7 @@ export const DecCoin = {
       value: DecCoin.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseIntProto(): IntProto {
   return {
@@ -354,7 +354,7 @@ export const IntProto = {
       value: IntProto.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };
 function createBaseDecProto(): DecProto {
   return {
@@ -431,5 +431,5 @@ export const DecProto = {
       value: DecProto.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

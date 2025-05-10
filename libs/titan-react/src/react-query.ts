@@ -5,7 +5,7 @@
 */
 
 
-  import { getRpcClient } from './extern'
+import { getRpcClient } from './extern'
 import {
   isRpc,
   Rpc,
@@ -21,15 +21,15 @@ import {
   DeliverTxResponse,
 } from './types'
 import {
-    useQuery,
-    useQueryClient,
-    UseQueryOptions,
-    useMutation,
-    UseMutationOptions,
-    QueryKey,
+  useQuery,
+  useQueryClient,
+  UseQueryOptions,
+  useMutation,
+  UseMutationOptions,
+  QueryKey,
 } from '@tanstack/react-query';
 
-import { HttpEndpoint } from "@interchainjs/types";
+import { HttpEndpoint } from "@titanlabjs/types";
 import { Rpc as ProtobufRpcClient } from "./helpers";
 
 export const DEFAULT_RPC_CLIENT_QUERY_KEY = 'rpcClient';
@@ -37,62 +37,62 @@ export const DEFAULT_RPC_ENDPOINT_QUERY_KEY = 'rpcEndPoint';
 export const DEFAULT_SIGNING_CLIENT_QUERY_KEY = 'signingClient';
 
 export interface CacheResolver {
-    rpcEndpoint?: string | HttpEndpoint;
-    clientQueryKey?: string;
+  rpcEndpoint?: string | HttpEndpoint;
+  clientQueryKey?: string;
 }
 
-export function isCacheResolver(resolver: unknown) : resolver is CacheResolver {
-    return resolver !== null && resolver !== undefined && (resolver as CacheResolver).rpcEndpoint !== undefined && (resolver as CacheResolver).clientQueryKey !== undefined;
+export function isCacheResolver(resolver: unknown): resolver is CacheResolver {
+  return resolver !== null && resolver !== undefined && (resolver as CacheResolver).rpcEndpoint !== undefined && (resolver as CacheResolver).clientQueryKey !== undefined;
 }
 
 export interface ReactQueryParams<TResponse, TData = TResponse> {
-    options?: UseQueryOptions<TResponse, Error, TData>;
+  options?: UseQueryOptions<TResponse, Error, TData>;
 }
 
 export interface UseRpcClientQuery<TData> extends ReactQueryParams<ProtobufRpcClient, TData> {
-    clientResolver?: CacheResolver;
+  clientResolver?: CacheResolver;
 }
 
 
 export interface UseRpcEndpointQuery<TData> extends ReactQueryParams<string | HttpEndpoint, TData> {
-    getter: () => Promise<string | HttpEndpoint>;
-    rpcEndPointKey?: string;
+  getter: () => Promise<string | HttpEndpoint>;
+  rpcEndPointKey?: string;
 }
 
 export const useRpcEndpoint = <TData = string | HttpEndpoint>({
-    getter,
-    options,
-    rpcEndPointKey,
+  getter,
+  options,
+  rpcEndPointKey,
 }: UseRpcEndpointQuery<TData>) => {
-    const key = rpcEndPointKey || DEFAULT_RPC_ENDPOINT_QUERY_KEY;
-    return useQuery<string | HttpEndpoint, Error, TData>([key, getter], async () => {
-        return await getter();
-    }, options);
+  const key = rpcEndPointKey || DEFAULT_RPC_ENDPOINT_QUERY_KEY;
+  return useQuery<string | HttpEndpoint, Error, TData>([key, getter], async () => {
+    return await getter();
+  }, options);
 };
 
 export const useRpcClient = <TData = ProtobufRpcClient>({
-    options,
-    clientResolver
+  options,
+  clientResolver
 }: UseRpcClientQuery<TData>) => {
-    const queryClient = useQueryClient({
-      context: options?.context
-    });
+  const queryClient = useQueryClient({
+    context: options?.context
+  });
 
-    const key = clientResolver?.clientQueryKey || DEFAULT_RPC_CLIENT_QUERY_KEY;
-    return useQuery<ProtobufRpcClient, Error, TData>([key, clientResolver?.rpcEndpoint], async () => {
-      if(!clientResolver?.rpcEndpoint) {
-        throw new Error('rpcEndpoint is required');
-      }
+  const key = clientResolver?.clientQueryKey || DEFAULT_RPC_CLIENT_QUERY_KEY;
+  return useQuery<ProtobufRpcClient, Error, TData>([key, clientResolver?.rpcEndpoint], async () => {
+    if (!clientResolver?.rpcEndpoint) {
+      throw new Error('rpcEndpoint is required');
+    }
 
-      const client = await getRpcClient(clientResolver.rpcEndpoint);
-      if(!client) {
-          throw new Error('Failed to connect to rpc client');
-      }
+    const client = await getRpcClient(clientResolver.rpcEndpoint);
+    if (!client) {
+      throw new Error('Failed to connect to rpc client');
+    }
 
-      queryClient.setQueryData([key], client);
+    queryClient.setQueryData([key], client);
 
-      return client;
-    }, options);
+    return client;
+  }, options);
 };
 
 const getRpcClientFromCache = (
@@ -123,7 +123,7 @@ export function buildUseQuery<TReq, TRes>(opts: UseQueryBuilderOptions<TReq, TRe
 
     let rpcResolver: EndpointOrRpc | undefined;
 
-    if(isRpc(clientResolver)) {
+    if (isRpc(clientResolver)) {
       rpcResolver = clientResolver;
     } else {
       const key = isCacheResolver(clientResolver)
@@ -184,7 +184,7 @@ export function buildUseMutation<TMsg, TError>(opts: UseMutationBuilderOptions<T
 
     let signingClientResolver: ISigningClient | undefined;
 
-    if(isISigningClient(clientResolver)) {
+    if (isISigningClient(clientResolver)) {
       signingClientResolver = clientResolver;
     } else {
       // For both CacheResolver and other cases, try to get from cache first

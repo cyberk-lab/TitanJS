@@ -1,5 +1,5 @@
 import { BinaryReader, BinaryWriter } from "../../binary";
-import { Decimal } from "@interchainjs/math";
+import { Decimal } from "@titanlabjs/math";
 import { DeepPartial } from "../../helpers";
 /** Params defines the parameters for the module. */
 export interface Params {
@@ -99,5 +99,5 @@ export const Params = {
       value: Params.encode(message).finish()
     };
   },
-  registerTypeUrl() {}
+  registerTypeUrl() { }
 };

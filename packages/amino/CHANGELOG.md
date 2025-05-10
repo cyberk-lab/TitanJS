@@ -3,61 +3,101 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.11.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.10.1...@interchainjs/amino@1.11.0) (2025-04-09)
+## [0.2.4](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.3...v0.2.4) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.10.1](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.10.0...@interchainjs/amino@1.10.1) (2025-04-07)
+## [0.2.3](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.2...v0.2.3) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-# [1.10.0](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.16...@interchainjs/amino@1.10.0) (2025-03-21)
+## [0.2.2](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.1...v0.2.2) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.9.16](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.15...@interchainjs/amino@1.9.16) (2025-03-18)
+## [0.2.1](https://github.com/cyberk-lab/titanlabjs/compare/v0.2.0...v0.2.1) (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.9.15](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.14...@interchainjs/amino@1.9.15) (2025-03-13)
+# 0.2.0 (2025-05-05)
 
-**Note:** Version bump only for package @interchainjs/amino
+### Bug Fixes
 
-## [1.9.14](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.13...@interchainjs/amino@1.9.14) (2025-03-03)
+- fail amino sign verify with special chars ([de483c2](https://github.com/cyberk-lab/titanlabjs/commit/de483c24c82a04bab90c921f99f2124e3497641d))
+- fail amino sign verify with special chars ([16198ba](https://github.com/cyberk-lab/titanlabjs/commit/16198bad4675d8f4323892cbd1c6b35a78dad010))
 
-**Note:** Version bump only for package @interchainjs/amino
+### Features
 
-## [1.9.13](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.12...@interchainjs/amino@1.9.13) (2025-02-21)
+- **timeout-height:** allow define optional timeout height parameter ([f6d98a6](https://github.com/cyberk-lab/titanlabjs/commit/f6d98a6b0d1f7681f5439c6e78eb0b90d4b45af9))
+- **timeout-height:** use bigint instead long ([f771c52](https://github.com/cyberk-lab/titanlabjs/commit/f771c52c0a0ffed87255114630408224314670e1))
 
-**Note:** Version bump only for package @interchainjs/amino
+# 0.1.0 (2025-05-05)
 
-## [1.9.12](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.11...@interchainjs/amino@1.9.12) (2025-02-17)
+### Bug Fixes
 
-**Note:** Version bump only for package @interchainjs/amino
+- fail amino sign verify with special chars ([de483c2](https://github.com/cyberk-lab/titanlabjs/commit/de483c24c82a04bab90c921f99f2124e3497641d))
+- fail amino sign verify with special chars ([16198ba](https://github.com/cyberk-lab/titanlabjs/commit/16198bad4675d8f4323892cbd1c6b35a78dad010))
 
-## [1.9.11](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.10...@interchainjs/amino@1.9.11) (2025-02-14)
+### Features
 
-**Note:** Version bump only for package @interchainjs/amino
+- **timeout-height:** allow define optional timeout height parameter ([f6d98a6](https://github.com/cyberk-lab/titanlabjs/commit/f6d98a6b0d1f7681f5439c6e78eb0b90d4b45af9))
+- **timeout-height:** use bigint instead long ([f771c52](https://github.com/cyberk-lab/titanlabjs/commit/f771c52c0a0ffed87255114630408224314670e1))
 
-## [1.9.10](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.9...@interchainjs/amino@1.9.10) (2025-02-14)
+# [0.0.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.10.1...@titanlabjs/amino@0.0.1) (2025-04-09)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.9.9](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.8...@interchainjs/amino@1.9.9) (2025-02-14)
+## [1.10.1](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.10.0...@titanlabjs/amino@1.10.1) (2025-04-07)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.9.8](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.7...@interchainjs/amino@1.9.8) (2025-02-14)
+# [1.10.0](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.16...@titanlabjs/amino@1.10.0) (2025-03-21)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.9.7](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.6...@interchainjs/amino@1.9.7) (2025-02-14)
+## [1.9.16](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.15...@titanlabjs/amino@1.9.16) (2025-03-18)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
 
-## [1.9.6](https://github.com/hyperweb-io/interchainjs/compare/@interchainjs/amino@1.9.5...@interchainjs/amino@1.9.6) (2025-02-14)
+## [1.9.15](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.14...@titanlabjs/amino@1.9.15) (2025-03-13)
 
-**Note:** Version bump only for package @interchainjs/amino
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.14](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.13...@titanlabjs/amino@1.9.14) (2025-03-03)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.13](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.12...@titanlabjs/amino@1.9.13) (2025-02-21)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.12](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.11...@titanlabjs/amino@1.9.12) (2025-02-17)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.11](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.10...@titanlabjs/amino@1.9.11) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.10](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.9...@titanlabjs/amino@1.9.10) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.9](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.8...@titanlabjs/amino@1.9.9) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.8](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.7...@titanlabjs/amino@1.9.8) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.7](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.6...@titanlabjs/amino@1.9.7) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/amino
+
+## [1.9.6](https://github.com/hyperweb-io/titanlabjs/compare/@titanlabjs/amino@1.9.5...@titanlabjs/amino@1.9.6) (2025-02-14)
+
+**Note:** Version bump only for package @titanlabjs/amino
 
 ## 1.9.5 (2025-02-14)
 

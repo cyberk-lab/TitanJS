@@ -1,10 +1,9 @@
 {
   "lerna": "6",
-  "conventionalCommits": true,
   "npmClient": "yarn",
   "npmClientArgs": ["--no-lockfile"],
   "packages": ["packages/*", "networks/*", "libs/*"],
-  "version": "0.2.4",
+  "version": "0.2.6-alpha.0",
   "registry": "https://registry.npmjs.org",
   "useWorkspaces": true,
   "command": {
@@ -14,7 +13,7 @@
       "access": "restricted"
     },
     "publish": {
-      "allowBranch": "first-publish",
+      "allowBranch": "fix-signdoc",
       "message": "chore(release): publish"
     }
   }

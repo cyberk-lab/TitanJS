@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/amino",
-  "version": "0.2.6-alpha.0",
+  "version": "0.2.7-alpha.0",
   "description": "Helpers for Amino based signing.",
   "license": "Apache-2.0",
   "main": "index.js",
@@ -25,10 +25,10 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@titanlabjs/crypto": "^0.2.6-alpha.0",
-    "@titanlabjs/encoding": "^0.2.6-alpha.0",
-    "@titanlabjs/math": "^0.2.6-alpha.0",
-    "@titanlabjs/utils": "^0.2.6-alpha.0"
+    "@titanlabjs/crypto": "^0.2.7-alpha.0",
+    "@titanlabjs/encoding": "^0.2.7-alpha.0",
+    "@titanlabjs/math": "^0.2.7-alpha.0",
+    "@titanlabjs/utils": "^0.2.7-alpha.0"
   },
   "gitHead": "ad0a800c792875ed832953b52d4f7bdc71616915"
 }

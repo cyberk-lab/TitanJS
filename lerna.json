@@ -3,7 +3,7 @@
   "npmClient": "yarn",
   "npmClientArgs": ["--no-lockfile"],
   "packages": ["packages/*", "networks/*", "libs/*"],
-  "version": "0.2.6-alpha.0",
+  "version": "0.2.7-alpha.0",
   "registry": "https://registry.npmjs.org",
   "useWorkspaces": true,
   "command": {

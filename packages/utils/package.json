@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/utils",
-  "version": "0.2.6-alpha.0",
+  "version": "0.2.7-alpha.0",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
@@ -24,7 +24,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@titanlabjs/types": "^0.2.6-alpha.0",
+    "@titanlabjs/types": "^0.2.7-alpha.0",
     "bech32": "^2.0.0",
     "decimal.js": "^10.4.3"
   },

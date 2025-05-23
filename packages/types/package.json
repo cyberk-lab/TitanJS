@@ -1,6 +1,6 @@
 {
   "name": "@titanlabjs/types",
-  "version": "0.2.6-alpha.0",
+  "version": "0.2.7-alpha.0",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",

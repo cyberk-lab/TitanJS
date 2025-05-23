@@ -55,9 +55,12 @@ export class DirectTxBuilder extends BaseCosmosTxBuilder<CosmosDirectDoc> {
   }
 
   async syncSignedDoc(txRaw: TxRaw, signResp: SignDocResponse<CosmosDirectDoc>): Promise<TxRaw> {
+    // bodyBytes and authInfoBytes in signResp are in base64 format
+    // We need to use Uint8Array, therefore we use txRaw.bodyBytes and txRaw.authInfoBytes
+    // instead of signResp.signDoc.bodyBytes and signResp.signDoc.authInfoBytes
     return {
-      bodyBytes: signResp.signDoc.bodyBytes,
-      authInfoBytes: signResp.signDoc.authInfoBytes,
+      bodyBytes: txRaw.bodyBytes,
+      authInfoBytes: txRaw.authInfoBytes,
       signatures: [signResp.signature.value],
     };
   }
